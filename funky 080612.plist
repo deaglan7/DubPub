@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>pubAddress</key>
+		<string>40 Dawson Street, Dublin 2</string>
+		<key>pubBlurb</key>
+		<string>Coolest cafe en the south bank, the bar sports an art deco theme, a french hotel lift and a glass atrium. The decor alone warrants a visit, while the extensive menu is one of the finest in the town. Late licence on weekends, with mid week cocktails all for €5.</string>
+		<key>pubLat</key>
+		<string>53.340636</string>
+		<key>pubLong</key>
+		<string>-6.258645</string>
+		<key>pubName</key>
+		<string>Café En Seine</string>
+		<key>pubPhoto</key>
+		<string>cafe-en-seine-footer-logo.png</string>
+	</dict>
+	<dict>
+		<key>pubAddress</key>
+		<string>33 Parliament Street, Dublin  2</string>
+		<key>pubBlurb</key>
+		<string>The Front Lounge traditionally marked the upper end of the Temple Bar strip, but now as the area has expanded over the years, the location has become more accessible. The Front Lounge offers a carefully blended mix of laid back intelligent music, sophisticated decor, a cosmopolitan atmosphere which attracts an urbanite crowd.</string>
+		<key>pubLat</key>
+		<string>53.344537</string>
+		<key>pubLong</key>
+		<string>-6.267496</string>
+		<key>pubName</key>
+		<string>Front Lounge</string>
+		<key>pubPhoto</key>
+		<string>frontlounge.png</string>
+	</dict>
+	<dict>
+		<key>pubAddress</key>
+		<string>South Great Georges Street, Dublin 2</string>
+		<key>pubBlurb</key>
+		<string>Hogan&apos;s is a lively pub playing alternative music to a burgeoning crowd of hipsters and generation Xs. The basement offers a genuine club atmosphere, and upstairs is a lively pub. Late opening all weekend.</string>
+		<key>pubLat</key>
+		<string>53.341911</string>
+		<key>pubLong</key>
+		<string>-6.264836</string>
+		<key>pubName</key>
+		<string>Hogan&apos;s</string>
+		<key>pubPhoto</key>
+		<string>hogansnight.jpg</string>
+	</dict>
+	<dict>
+		<key>pubAddress</key>
+		<string>Harbourmaster Place, IFSC, Dublin 1</string>
+		<key>pubBlurb</key>
+		<string>One of the best nights out north of the river, The Vaults offers a stylish subterranean haven for party-goers. Offering a wide selection of beers and cocktails, it’s the place to be at the IFSC. </string>
+		<key>pubLat</key>
+		<string>53.351339</string>
+		<key>pubLong</key>
+		<string>-6.248991</string>
+		<key>pubName</key>
+		<string>The Vaults</string>
+		<key>pubPhoto</key>
+		<string>thevaults.JPG</string>
+	</dict>
+	<dict>
+		<key>pubAddress</key>
+		<string>79 Queen Street, Dublin 7</string>
+		<key>pubBlurb</key>
+		<string>Apart from the great selection of beers - including the exclusive locally brewed Revolution Red - Dice Bar serve up some of the best tunes in town, with a regular display from Dublin&apos;s best and funkiest DJs. Vive la Revolution! </string>
+		<key>pubLat</key>
+		<string>53.347272</string>
+		<key>pubLong</key>
+		<string>-6.280265</string>
+		<key>pubName</key>
+		<string>Dice Bar</string>
+		<key>pubPhoto</key>
+		<string>dicebar.jpg</string>
+	</dict>
+	<dict>
+		<key>pubAddress</key>
+		<string>16 Fade Street, Dublin 2</string>
+		<key>pubBlurb</key>
+		<string>One of the more recent addiions to the urbanite scene, the Market Bar has a spacious open-air feel, and a full selection of beers and wines from various corners of the globe. A tapas restaurant during the day, which transforms seamlessly into a fine drinking emporium from 9pm.</string>
+		<key>pubLat</key>
+		<string>53.342026</string>
+		<key>pubLong</key>
+		<string>-6.263763</string>
+		<key>pubName</key>
+		<string>Market Bar</string>
+		<key>pubPhoto</key>
+		<string>market.png</string>
+	</dict>
+	<dict>
+		<key>pubAddress</key>
+		<string>Old Harcourt Station, Dublin 2</string>
+		<key>pubBlurb</key>
+		<string>Craw Daddy is strictly speaking a club venue, but the adjacent Chocolate Bar is open pre and post events. Situated under an old railway hub, Crawdaddy offers a venue to many counterculture heroes, and so attracts a discerning crowd.</string>
+		<key>pubLat</key>
+		<string>53.333948</string>
+		<key>pubLong</key>
+		<string>-6.262588</string>
+		<key>pubName</key>
+		<string>Craw Daddy</string>
+		<key>pubPhoto</key>
+		<string>crawdaddy.png</string>
+	</dict>
+	<dict>
+		<key>pubAddress</key>
+		<string>11 South Great George&apos;s Street, Dublin 2</string>
+		<key>pubBlurb</key>
+		<string>Rí Rá is the club downstairs from one of the best pubs in the city, The Globe. Upstairs the pub is a great meeting spot during the early evening, with a fine selection of music, drink and occasional visual treats. The club never fails to disappoint, and is always able to pull in the crowds. Arrive early on weekends.</string>
+		<key>pubLat</key>
+		<string>53.343404</string>
+		<key>pubLong</key>
+		<string>-6.264251</string>
+		<key>pubName</key>
+		<string>The Globe</string>
+		<key>pubPhoto</key>
+		<string>globe.jpg</string>
+	</dict>
+	<dict>
+		<key>pubAddress</key>
+		<string>41 Lower Stephen Street, Dublin 2</string>
+		<key>pubBlurb</key>
+		<string>Traditional pub character, decorated in old memorabilia and wooden benches, with lots of cosy corners and snugs downstairs, and a spacious bar upstairs. A wide variety of music keeps the crowd entertained and attentive barstaff mean the weekend crowds aren&apos;t a problem. </string>
+		<key>pubLat</key>
+		<string>53.341251</string>
+		<key>pubLong</key>
+		<string>-6.263859</string>
+		<key>pubName</key>
+		<string>Hairy Lemon</string>
+		<key>pubPhoto</key>
+		<string>hairy-lemon-pub.jpg</string>
+	</dict>
+</array>
+</plist>

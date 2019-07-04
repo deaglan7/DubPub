@@ -1,0 +1,4 @@
+/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/Classes/navigation.m: In function '-[navigation viewDidLoad]':
+/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/Classes/navigation.m:173: warning: unused variable 'timer'
+/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/Classes/navigation.m: In function '-[navigation locationManager:didUpdateToLocation:fromLocation:]':
+/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/Classes/navigation.m:413: warning: unused variable 'bearing'

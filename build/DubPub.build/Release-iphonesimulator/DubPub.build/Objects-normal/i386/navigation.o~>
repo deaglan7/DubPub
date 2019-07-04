@@ -1,0 +1,7 @@
+/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/Classes/navigation.m: In function '-[navigation viewDidLoad]':
+/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/Classes/navigation.m:169: warning: unused variable 'timer'
+/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/Classes/navigation.m: At top level:
+/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/Classes/navigation.m:532: warning: property 'bearingPointer' requires method '-bearingPointer' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/Classes/navigation.m:532: warning: property 'bearingPointer' requires the method 'setBearingPointer:' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/Classes/navigation.m:532: warning: property 'bearingView' requires method '-bearingView' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/Classes/navigation.m:532: warning: property 'bearingView' requires the method 'setBearingView:' to be defined - use @synthesize, @dynamic or provide a method implementation

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>pubAddress</key>
+		<string>78/79 Grafton Street, Dublin 2</string>
+		<key>pubBlurb</key>
+		<string>In the heart of Dublin’s shopping district of Grafton Street is Bewley’s Cafe, a glorious piece of Dublin legend. Although ‘cafe’ is no longer an appropriate term – having opened in 1927 as a tea and coffee emporium, it is Bewley’s exciting all day food menu that now draws in the crowds. With a wide variety of breakfast options, pizzas, pastas and salads – not to mention the gorgeous desserts and of course the coffee – you will be spoilt for choice. Recent addition of a dedicated Theatre Space on the second floor, with one-act performances at lunchtime, and live music in the evening. Service is fast and efficient, and beer and wine are available – perfect for Dub Pubbers! Open till 11pm on weekend nights and 10pm on weeknights.</string>
+		<key>pubLat</key>
+		<string>53.341661</string>
+		<key>pubLong</key>
+		<string>-6.260268</string>
+		<key>pubName</key>
+		<string>Bewley&apos;s Cafe</string>
+		<key>pubPhoto</key>
+		<string>bewleys.jpg</string>
+	</dict>
+	<dict>
+		<key>pubAddress</key>
+		<string>8 South Anne St, Dublin 2</string>
+		<key>pubBlurb</key>
+		<string>Just off Grafton Street and still in the popular going out area of Dublin is Gotham Cafe – a busy and vibrant restaurant, famed as much for its food as its excellent customer service. The menu ranges from salads, steaks and pizzas to more wholesome main courses in the evenings, typically within a EUR 15 to 20 price range. The emphasis is on no-fuss, reliable and tasty options in a relaxed, neighbourhood-style setting. Ideal for filling up before a big night out! Last orders at 10pm from Sunday to Tuesday and at 11pm from Wednesday to Saturday.</string>
+		<key>pubLat</key>
+		<string>53.341184</string>
+		<key>pubLong</key>
+		<string>-6.259579</string>
+		<key>pubName</key>
+		<string>Gotham Cafe</string>
+		<key>pubPhoto</key>
+		<string>gotham.jpg</string>
+	</dict>
+	<dict>
+		<key>pubAddress</key>
+		<string>20-21 Temple Bar, Dublin 2</string>
+		<key>pubBlurb</key>
+		<string>What is Boxty you wonder to yourself? Like so many wonderful things unique to Ireland, it’s potato-based – a potato-based dumpling in fact, which Gallagher’s serve with a variety of delicious sauces, resulting in one of the most thoroughly satisfying dining options in Dublin. If you fancy something other than boxty but something just as hearty, they also serve salads, pancakes, stews and grills – along with several vegetarian options. Open all day, Gallagher’s can get very busy - it is one of the most touristy dining spots in Dublin. Open till 11pm most nights.</string>
+		<key>pubLat</key>
+		<string>53.34569</string>
+		<key>pubLong</key>
+		<string>-6.262165</string>
+		<key>pubName</key>
+		<string>Gallagher&apos;s Boxty House</string>
+		<key>pubPhoto</key>
+		<string>Gallaghers_Boxty_House.JPG</string>
+	</dict>
+	<dict>
+		<key>pubAddress</key>
+		<string>2 Werburgh Street, Dublin 8</string>
+		<key>pubBlurb</key>
+		<string>Generally agreed to serve the best fish and chips in Ireland, Burdock’s is a Dublin institution. While it is off the beaten track, it’s well worth the walk, as you will be rewarded with a very memorable Dublin meal. Ignore the burgers and chicken options and just stick to the fish –always delivered fresh every morning and never frozen, it is served in the traditional way in sheets of paper. The batter is light and crispy and the chips golden and fluffy. Vegetarians – think twice, as the fish is cooked in animal fat. Fish lovers – rejoice!</string>
+		<key>pubLat</key>
+		<string>53.343038</string>
+		<key>pubLong</key>
+		<string>-6.27001</string>
+		<key>pubName</key>
+		<string>Burdock&apos;s</string>
+		<key>pubPhoto</key>
+		<string>burdocks.jpg</string>
+	</dict>
+	<dict>
+		<key>pubAddress</key>
+		<string>19 Camden Street Lower, Dublin 2</string>
+		<key>pubBlurb</key>
+		<string>Camden Street’s buzzing nightlife has an excellent partner in Green Nineteen – a funky, stylish eaterie brimming with great food and a fun atmosphere. The no nonsense food menu offers plenty of familiar, home-style comfort food options, with classics such as corned beef and pot roast chicken, created with unusual twists and plenty of passion. The beer and cocktail menu means you can get started early – it’s the ideal stepping stone for your big night out in Dublin. Plus they serve brunch on Sunday – just the antidote you need after your big night out in Dublin!</string>
+		<key>pubLat</key>
+		<string>53.335095</string>
+		<key>pubLong</key>
+		<string>-6.264992</string>
+		<key>pubName</key>
+		<string>Green Nineteen</string>
+		<key>pubPhoto</key>
+		<string>green-nineteen.jpg</string>
+	</dict>
+</array>
+</plist>

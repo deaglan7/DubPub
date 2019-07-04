@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>pubAddress</key>
+		<string>2 Aungier Street, Dublin 2</string>
+		<key>pubBlurb</key>
+		<string>The Capitol is an ideal place to see out an evening any night of the week, with free admission, an extensive cocktail menu and friendly bouncers. </string>
+		<key>pubLat</key>
+		<string>53.341386</string>
+		<key>pubLong</key>
+		<string>-6.265393</string>
+		<key>pubName</key>
+		<string>Capitol Bar</string>
+		<key>pubPhoto</key>
+		<string>capitol.png</string>
+	</dict>
+	<dict>
+		<key>pubAddress</key>
+		<string>9 Williams Street South, Dublin 2</string>
+		<key>pubBlurb</key>
+		<string>Dakota is a spacious pub, with summer streetside seating, classy music and a wide selection of food available. Late opening on weekends.</string>
+		<key>pubLat</key>
+		<string>53.342494</string>
+		<key>pubLong</key>
+		<string>-6.262347</string>
+		<key>pubName</key>
+		<string>Dakota</string>
+		<key>pubPhoto</key>
+		<string>dakota.jpg</string>
+	</dict>
+	<dict>
+		<key>pubAddress</key>
+		<string>3 Fade Street, Dublin 2</string>
+		<key>pubBlurb</key>
+		<string>The secret&apos;s out, but it doesn&apos;t spoil the intrigue. This is one for those that don&apos;t mind tight spaces, as the pub is small and the demand is large. The front is unassuming, but inside there are sumptious couches to enjoy (if you can get one), and a large smoking section out back. A professional bar staff, a lively urban crowd, and an odd snail as a logo.</string>
+		<key>pubLat</key>
+		<string>53.341993</string>
+		<key>pubLong</key>
+		<string>-6.263666</string>
+		<key>pubName</key>
+		<string>The Bar With No Name</string>
+		<key>pubPhoto</key>
+		<string>l.jpg</string>
+	</dict>
+	<dict>
+		<key>pubAddress</key>
+		<string>30 Bachelors Walk, Dublin 1</string>
+		<key>pubBlurb</key>
+		<string>Located right on the banks of the Liffey, this place should definitely not be judged by its exterior appearance. The interior is striking, if a little cosy, with low vaulted ceilings and a bridge over the basement floor. Seating can be hard to come by, but the friendly atmosphere should more than make up for it.</string>
+		<key>pubLat</key>
+		<string>53.347400</string>
+		<key>pubLong</key>
+		<string>-6.260287</string>
+		<key>pubName</key>
+		<string>Panama</string>
+		<key>pubPhoto</key>
+		<string>panama.png</string>
+	</dict>
+	<dict>
+		<key>pubAddress</key>
+		<string>18 Camden Street Lower, Dublin 2</string>
+		<key>pubBlurb</key>
+		<string>The name says it all - Here. This is one of those cosmopolitan gems that make the Dublin pub scene so memorable. The decor is very much low key, the selection of local brews very well considered, and the weekend DJ selections ensure a lively energetic night out. Don&apos;t expect a lot of personal space on a weekend, but you&apos;ll be part of a great atmosphere! Also hosts a comedy club on a Wednesday.</string>
+		<key>pubLat</key>
+		<string>53.336351</string>
+		<key>pubLong</key>
+		<string>-6.265265</string>
+		<key>pubName</key>
+		<string>Anseo</string>
+		<key>pubPhoto</key>
+		<string>anseo.png</string>
+	</dict>
+	<dict>
+		<key>pubAddress</key>
+		<string>81 Dame Street, Dublin 2</string>
+		<key>pubBlurb</key>
+		<string>The Oak looks an innocent little pub from the street, but once you get inside and downstairs you&apos;ll find a hopping night spot, full of a mish-mash of happy people dancing and singing to a wide variety of (mostly) indie anthems. Be warned, Metallica may be dropped towards the end of the night.</string>
+		<key>pubLat</key>
+		<string>53.344211</string>
+		<key>pubLong</key>
+		<string>-6.266938</string>
+		<key>pubName</key>
+		<string>The Oak</string>
+		<key>pubPhoto</key>
+		<string>theoak.png</string>
+	</dict>
+	<dict>
+		<key>pubAddress</key>
+		<string>31 Wexford Street, Dublin 2</string>
+		<key>pubBlurb</key>
+		<string>Solas is new, funky and fresh. A genuine example of an authentic modern Irish pub, this is a prime example of why people come from across the continent to sample Dublin&apos;s night life. See the light.</string>
+		<key>pubLat</key>
+		<string>53.337030</string>
+		<key>pubLong</key>
+		<string>-6.265758</string>
+		<key>pubName</key>
+		<string>Solas</string>
+		<key>pubPhoto</key>
+		<string>solas.png</string>
+	</dict>
+	<dict>
+		<key>pubAddress</key>
+		<string>52 South William Street, Dublin 2</string>
+		<key>pubBlurb</key>
+		<string>South William has probably the best dancing teddybear logo of any pub in the city. The pub itself is funky, fresh, popular, cosy and always trying something new. It is the place to go for a more sophisticated late night, but it draws a big crowd into a small space, so don&apos;t leave it too late!</string>
+		<key>pubLat</key>
+		<string>53.341713</string>
+		<key>pubLong</key>
+		<string>-6.262958</string>
+		<key>pubName</key>
+		<string>South William</string>
+		<key>pubPhoto</key>
+		<string>southwilliam.png</string>
+	</dict>
+	<dict>
+		<key>pubAddress</key>
+		<string>36 Lower Ormond Quay, Dublin 1</string>
+		<key>pubBlurb</key>
+		<string>Zanzibar is located on the northern side of the Ha&apos;Penny Bridge. A superpub with plush velvet seating, eastern artwork, two levels and food, cocktails and classic movies on big screens over the bar. The music is loud and interesting, the atmosphere busy and a unique look.</string>
+		<key>pubLat</key>
+		<string>53.346568</string>
+		<key>pubLong</key>
+		<string>-6.263666</string>
+		<key>pubName</key>
+		<string>Zanzibar</string>
+		<key>pubPhoto</key>
+		<string>zanzibar.png</string>
+	</dict>
+	<dict>
+		<key>pubAddress</key>
+		<string>47 Nassau Street, Dublin 2</string>
+		<key>pubBlurb</key>
+		<string>The PorterHouse Central is a sister pub of the original PorterHouse in Temple Bar. Central offers the same unique range of beers brewed by the company, with occasional guest beers as well. Unlike the original, Central offers wide-open spaces, all on the same floor, which means the atmosphere is more charged once the music picks up. DJs and late openings all weekend. </string>
+		<key>pubLat</key>
+		<string>53.343083</string>
+		<key>pubLong</key>
+		<string>-6.258881</string>
+		<key>pubName</key>
+		<string>PorterHouse Central</string>
+		<key>pubPhoto</key>
+		<string>portercentral</string>
+	</dict>
+</array>
+</plist>

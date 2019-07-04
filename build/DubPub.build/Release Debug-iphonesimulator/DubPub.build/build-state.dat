@@ -1,0 +1,1511 @@
+TDubPub
+v7
+r1
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+c000000004CC122A000000000001D6CE0
+t1287725728
+s1928416
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
+c000000004CC12294000000000000046B
+t1287725716
+s1131
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004CC127E80000000000074190
+t1287727080
+s475536
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
+c000000004CC127DD00000000000001D0
+t1287727069
+s464
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MKMapView.h
+c000000004CC1294D000000000000243D
+t1287727437
+s9277
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.h
+c000000004CC1294D00000000000002FE
+t1287727437
+s766
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/PrivateFrameworks/MapKit.framework/MapKit
+c00000000000000000000000000000000
+t2
+s0
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/Availability.h
+c000000004CB3FA080000000000001ADD
+t1286863368
+s6877
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/../../../../../Desktop/nantmap.png
+c000000004D208BF80000000000051A46
+t1293978616
+s334406
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/../../../../../Downloads/bigmap.png
+c000000004D559539000000000004DDDF
+t1297454393
+s318943
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/Classes/../FrontPage.h
+c000000004C65B29E00000000000002D4
+t1281733278
+s724
+i<UIKit/UIKit.h>
+i"PubCategoryViewController.h"
+i"PubDetailViewController.h"
+i"PubCategoryViewController.h"
+i"navigation.h"
+i"CellsViewController.h"
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/Classes/../FrontPage.m
+c000000004D59AA5E0000000000001237
+t1297721950
+s4663
+i"FrontPage.h"
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/Classes/../PubCategoryViewController.h
+c000000004C226F380000000000000201
+t1277325112
+s513
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+i"PersonListViewController.h"
+i"PubCategoryViewController.h"
+i"SecondLevelViewController.h"
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/Classes/../PubCategoryViewController.m
+c000000004C5312FF0000000000001A67
+t1280512767
+s6759
+i"PubCategoryViewController.h"
+i"SecondLevelViewController.h"
+i"PersonListViewController.h"
+i"PubDetailViewController.h"
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/Classes/CellsViewController.h
+c000000004D7A56710000000000000555
+t1299863153
+s1365
+i<UIKit/UIKit.h>
+i<CoreLocation/CoreLocation.h>
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/Classes/CellsViewController.m
+c000000004D813DEB00000000000050C2
+t1300315627
+s20674
+i"CellsViewController.h"
+i"CustomCell.h"
+i"PubDetailViewController.h"
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/Classes/CellsViewController.xib
+c000000004C65910F0000000000001C84
+t1281724687
+s7300
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/Classes/CustomCell.h
+c000000004C8D0406000000000000021D
+t1284310022
+s541
+i<UIKit/UIKit.h>
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/Classes/CustomCell.m
+c000000004C8D042E000000000000030A
+t1284310062
+s778
+i"CustomCell.h"
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/Classes/CustomCell.xib
+c000000004C65B6FF0000000000002FE8
+t1281734399
+s12264
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/Classes/DubPubAppDelegate.h
+c000000004CF2C461000000000000066F
+t1290978401
+s1647
+i"PersonListViewController.h"
+i"PubDetailViewController.h"
+i"PubCategoryViewController.h"
+i"SecondLevelViewController.h"
+i"FrontPage.h"
+i"navigation.h"
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/Classes/DubPubAppDelegate.m
+c000000004D7D04800000000000001736
+t1300038784
+s5942
+i"DubPubAppDelegate.h"
+i"PubCategoryViewController.h"
+i"PersonListViewController.h"
+i"PubDetailViewController.h"
+i"SecondLevelViewController.h"
+i"FrontPage.h"
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/Classes/PersonListViewController.h
+c000000004C655B1C0000000000000BEE
+t1281710876
+s3054
+i<UIKit/UIKit.h>
+i"PubDetailViewController.h"
+i"SecondLevelViewController.h"
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/Classes/PersonListViewController.m
+c000000004C69960700000000000012F9
+t1281988103
+s4857
+i"PersonListViewController.h"
+i"PubDetailViewController.h"
+i"DubPubAppDelegate.h"
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/Classes/PersonListViewController.xib
+c000000004C6561C4000000000000CB4E
+t1281712580
+s52046
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/Classes/PubDetailViewController.h
+c000000004D657DE500000000000004D6
+t1298496997
+s1238
+i<UIKit/UIKit.h>
+i"SecondLevelViewController.h"
+i"navigation.h"
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/Classes/PubDetailViewController.m
+c000000004D7277540000000000000A6F
+t1299347284
+s2671
+i"PubDetailViewController.h"
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/Classes/PubDetailViewController.xib
+c000000004D7277C700000000000070B9
+t1299347399
+s28857
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/Classes/SecondLevelViewController.h
+c000000004C4F444B000000000000017A
+t1280263243
+s378
+i<Foundation/Foundation.h>
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/Classes/SecondLevelViewController.m
+c000000004C4DEC4000000000000000FF
+t1280175168
+s255
+i"SecondLevelViewController.h"
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/Classes/navigation.h
+c000000004D7D447000000000000008F7
+t1300055152
+s2295
+i<UIKit/UIKit.h>
+i<CoreLocation/CoreLocation.h>
+i<MapKit/MapKit.h>
+i<Mapkit/MKMapView.h>
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/Classes/navigation.m
+c000000004D8387FB0000000000005268
+t1300465659
+s21096
+i"navigation.h"
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/Classes/navigation.xib
+c000000004D642FF400000000000068A4
+t1298411508
+s26788
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/DubPub.xcdatamodel
+c000000004B487DF10000000000000088
+t1263042033
+s136
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/DubPub_Prefix.pch
+c000000004B487DF10000000000000160
+t1263042033
+s352
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/FD000063.png
+c000000004C2251280000000000083036
+t1277317416
+s536630
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/FrontPage.h
+c000000004C65B29E00000000000002D4
+t1281733278
+s724
+i<UIKit/UIKit.h>
+i"PubCategoryViewController.h"
+i"PubDetailViewController.h"
+i"PubCategoryViewController.h"
+i"navigation.h"
+i"CellsViewController.h"
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/FrontPage.xib
+c000000004C59C56400000000000040B0
+t1280951652
+s16560
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/MainWindow.xib
+c000000004CEFE4470000000000006333
+t1290789959
+s25395
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/PubCategoryViewController.h
+c000000004C226F380000000000000201
+t1277325112
+s513
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+i"PersonListViewController.h"
+i"PubCategoryViewController.h"
+i"SecondLevelViewController.h"
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/PubCategoryViewController.xib
+c000000004C4C83DB0000000000001EF6
+t1280082907
+s7926
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/bruxelles.jpg
+c000000004B48944A00000000000015C4
+t1263047754
+s5572
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/DubPub.build/Release Debug-iphonesimulator/DubPub.build/Objects-normal/i386/CellsViewController.o
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/DubPub.build/Release Debug-iphonesimulator/DubPub.build/Objects-normal/i386/CustomCell.o
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/DubPub.build/Release Debug-iphonesimulator/DubPub.build/Objects-normal/i386/DubPub.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/DubPub.build/Release Debug-iphonesimulator/DubPub.build/Objects-normal/i386/DubPubAppDelegate.o
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/DubPub.build/Release Debug-iphonesimulator/DubPub.build/Objects-normal/i386/FrontPage.o
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/DubPub.build/Release Debug-iphonesimulator/DubPub.build/Objects-normal/i386/PersonListViewController.o
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/DubPub.build/Release Debug-iphonesimulator/DubPub.build/Objects-normal/i386/PubCategoryViewController.o
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/DubPub.build/Release Debug-iphonesimulator/DubPub.build/Objects-normal/i386/PubDetailViewController.o
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/DubPub.build/Release Debug-iphonesimulator/DubPub.build/Objects-normal/i386/SecondLevelViewController.o
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/DubPub.build/Release Debug-iphonesimulator/DubPub.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/DubPub.build/Release Debug-iphonesimulator/DubPub.build/Objects-normal/i386/navigation.o
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app.dSYM
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/CellsViewController.nib
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/CustomCell.nib
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/DubPub
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/DubPub.mom
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/Dublin Irish Beer Pubs: 10Best English Pub Reviews.html
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/Dublin Pubs, The Definitive Guide - dublinpubscene.com.html
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/Dublin.info - Irish Traditional Music Dublin.html
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/FD000063.png
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/FrontPage.nib
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/Info.plist
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/InternationalBarStreetShot.png
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/MainWindow.nib
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/PersonListViewController.nib
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/PkgInfo
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/PubCategoryViewController.nib
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/PubDetailViewController.nib
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/Pubs in Dublin - Dublin Pubs.html
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/anseo.png
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/aulddubliner.png
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/bigmap.png
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/blacklion.jpg
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/bleeding horse.png
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/bootandshoe.jpg
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/bowlinggreen.jpg
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/brazen head.png
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/brogans.png
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/bruxelles.jpg
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/cafe-en-seine-footer-logo.png
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/capitol.png
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/cobblestone.png
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/crawdaddylogo.gif
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/cur2051.png
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/curshaws.jpg
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/dakotalogo.png
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/dametavern.png
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/devitts.png
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/eamonndoran.png
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/fitzsimons.png
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/foggydew.png
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/frankryans-front-cropped.png
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/frankryans.png
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/frontlounge.png
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/funky.plist
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/gogartys.png
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/grandsocial.png
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/hairy-lemon-pub.jpg
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/handels.png
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/hapenny.png
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/hogans.png
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/jjsmyths.png
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/kehoes.png
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/latebar.plist
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/livemusic.plist
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/logo.png
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/long hall.png
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/malbank.jpg
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/map.png
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/market.png
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/mcdaids.png
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/mezz.png
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/nakatcha.jpg
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/nantmap.png
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/nantpub.plist
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/navigation.nib
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/nextbtn.png
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/oddfellows.jpg
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/odonoghues.png
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/oheas.png
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/oneills.png
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/palace.png
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/panama.png
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/phlogo.png
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/portercentral.png
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/porterhouse.png
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/pravda.png
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/pubList.rtf
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/qbar.png
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/quietpints.plist
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/residence.jpg
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/rifleman.jpg
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/riralogo.jpg
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/skd188088sdc.png
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/solas.png
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/southwilliam.png
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/sugarclub.png
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/sugarclub_2.png
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/tbmc.png
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/templebar.png
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/theduke.png
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/thevillage.png
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/tradmusic.plist
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/turkshead.png
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/union.jpg
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/voodoo.png
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/whelans.png
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/wifi.plist
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/wifilogo.png
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/zanzibar.png
+t2
+s0
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/crawdaddylogo.gif
+c000000004B4891AF0000000000000471
+t1263047087
+s1137
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/cur2051.png
+c000000004D123F1500000000000003A5
+t1293041429
+s933
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/funky.plist
+c000000004D6AEE660000000000001923
+t1298853478
+s6435
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/hairy-lemon-pub.jpg
+c000000004B48951C0000000000003E66
+t1263047964
+s15974
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/latebar.plist
+c000000004D724F5600000000000015B4
+t1299337046
+s5556
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/livemusic.plist
+c000000004D6A5FB400000000000016EE
+t1298816948
+s5870
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/main.m
+c000000004B487DF10000000000000163
+t1263042033
+s355
+i<UIKit/UIKit.h>
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/map.png
+c000000004CE0120B00000000000A3063
+t1289753099
+s667747
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/nantpub.plist
+c000000004D20B26D00000000000017DA
+t1293988461
+s6106
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/nextbtn.png
+c000000004CE7BF9300000000000003AF
+t1290256275
+s943
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/pub lists/Dublin Irish Beer Pubs: 10Best English Pub Reviews.html
+c000000004C58829A000000000001000E
+t1280869018
+s65550
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/pub lists/Dublin Pubs, The Definitive Guide - dublinpubscene.com.html
+c000000004C5883D300000000000056A7
+t1280869331
+s22183
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/pub lists/Dublin.info - Irish Traditional Music Dublin.html
+c000000004C5882100000000000003DA6
+t1280868880
+s15782
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/pub lists/Pubs in Dublin - Dublin Pubs.html
+c000000004C5885AC0000000000006045
+t1280869804
+s24645
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/pub lists/pubList.rtf
+c000000004C72DFB500000000000005D4
+t1282596789
+s1492
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/pub lists/pubs/cool pubs/cafe-en-seine-footer-logo.png
+c000000004C6C3EE100000000000009BC
+t1282162401
+s2492
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/pub lists/pubs/cool pubs/frontlounge.png
+c000000004C72E3A50000000000005412
+t1282597797
+s21522
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/pub lists/pubs/cool pubs/hogans.png
+c000000004C6C40060000000000003137
+t1282162694
+s12599
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/pub lists/pubs/cool pubs/logo.png
+c000000004C72E3A50000000000001B6C
+t1282597797
+s7020
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/pub lists/pubs/cool pubs/market.png
+c000000004C72E3A5000000000001EE94
+t1282597797
+s126612
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/pub lists/pubs/cool pubs/zanzibar.png
+c000000004C72E3A5000000000000EB22
+t1282597797
+s60194
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/pub lists/pubs/late bars/capitol.png
+c000000004C72E3A700000000000309DC
+t1282597799
+s199132
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/pub lists/pubs/late bars/dakotalogo.png
+c000000004C72E3A70000000000000955
+t1282597799
+s2389
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/pub lists/pubs/late bars/handels.png
+c000000004C72E3A700000000000454B5
+t1282597799
+s283829
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/pub lists/pubs/late bars/kehoes.png
+c000000004D724263000000000001F60D
+t1299333731
+s128525
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/pub lists/pubs/late bars/panama.png
+c000000004C72E3A80000000000016294
+t1282597800
+s90772
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/pub lists/pubs/late bars/portercentral.png
+c000000004D723A450000000000046F91
+t1299331653
+s290705
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/pub lists/pubs/late bars/porterhouse.png
+c000000004C72E3A50000000000011A5D
+t1282597797
+s72285
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/pub lists/pubs/late bars/qbar.png
+c000000004C72E3A7000000000000A850
+t1282597799
+s43088
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/pub lists/pubs/late bars/solas.png
+c000000004C72E3A7000000000000C700
+t1282597799
+s50944
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/pub lists/pubs/late bars/southwilliam.png
+c000000004C72E3A70000000000008CED
+t1282597799
+s36077
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/pub lists/pubs/late bars/turkshead.png
+c000000004C72E3A7000000000004A39D
+t1282597799
+s304029
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/pub lists/pubs/late bars/voodoo.png
+c000000004C72E3A70000000000036B54
+t1282597799
+s224084
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/pub lists/pubs/live music/InternationalBarStreetShot.png
+c000000004C72E3A60000000000069F46
+t1282597798
+s433990
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/pub lists/pubs/live music/anseo.png
+c000000004C72E3A6000000000000EE4A
+t1282597798
+s61002
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/pub lists/pubs/live music/eamonndoran.png
+c000000004C72E3A6000000000000DC4F
+t1282597798
+s56399
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/pub lists/pubs/live music/foggydew.png
+c000000004C72E3A60000000000016B78
+t1282597798
+s93048
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/pub lists/pubs/live music/grandsocial.png
+c000000004D6A5C6600000000000012D7
+t1298816102
+s4823
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/pub lists/pubs/live music/jjsmyths.png
+c000000004C72E3A600000000000068D9
+t1282597798
+s26841
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/pub lists/pubs/live music/mezz.png
+c000000004C72E3A6000000000000322D
+t1282597798
+s12845
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/pub lists/pubs/live music/pravda.png
+c000000004C72E3A60000000000008A2C
+t1282597798
+s35372
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/pub lists/pubs/live music/sugarclub.png
+c000000004C72E3A6000000000000086B
+t1282597798
+s2155
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/pub lists/pubs/live music/sugarclub_2.png
+c000000004C72E3A6000000000000D135
+t1282597798
+s53557
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/pub lists/pubs/live music/tbmc.png
+c000000004C72E3A600000000000009DE
+t1282597798
+s2526
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/pub lists/pubs/live music/templebar.png
+c000000004D6A547F0000000000011EB8
+t1298814079
+s73400
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/pub lists/pubs/live music/thevillage.png
+c000000004C72E3A60000000000003209
+t1282597798
+s12809
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/pub lists/pubs/nantwich/blacklion.jpg
+c000000004D208F2E0000000000002522
+t1293979438
+s9506
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/pub lists/pubs/nantwich/bootandshoe.jpg
+c000000004D2095D30000000000002657
+t1293981139
+s9815
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/pub lists/pubs/nantwich/bowlinggreen.jpg
+c000000004D2093BD00000000000029DA
+t1293980605
+s10714
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/pub lists/pubs/nantwich/curshaws.jpg
+c000000004D2098F6000000000006D599
+t1293981942
+s447897
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/pub lists/pubs/nantwich/malbank.jpg
+c000000004D209DB80000000000003F6C
+t1293983160
+s16236
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/pub lists/pubs/nantwich/nakatcha.jpg
+c000000004D20976B0000000000004AC3
+t1293981547
+s19139
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/pub lists/pubs/nantwich/oddfellows.jpg
+c000000004D2091000000000000001293
+t1293979904
+s4755
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/pub lists/pubs/nantwich/residence.jpg
+c000000004D2091A30000000000001F04
+t1293980067
+s7940
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/pub lists/pubs/nantwich/rifleman.jpg
+c000000004D20A0890000000000002CAF
+t1293983881
+s11439
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/pub lists/pubs/nantwich/union.jpg
+c000000004D209F6A000000000001310A
+t1293983594
+s78090
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/pub lists/pubs/quiet pints/bleeding horse.png
+c000000004C72E3A6000000000000A057
+t1282597798
+s41047
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/pub lists/pubs/quiet pints/brogans.png
+c000000004C72E3A60000000000005B8A
+t1282597798
+s23434
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/pub lists/pubs/quiet pints/dametavern.png
+c000000004C72E3A60000000000015A07
+t1282597798
+s88583
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/pub lists/pubs/quiet pints/hapenny.png
+c000000004C72E3A7000000000001820D
+t1282597799
+s98829
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/pub lists/pubs/quiet pints/long hall.png
+c000000004C72E3A60000000000009572
+t1282597798
+s38258
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/pub lists/pubs/quiet pints/mcdaids.png
+c000000004C72E3A700000000000192CC
+t1282597799
+s103116
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/pub lists/pubs/quiet pints/oneills.png
+c000000004C72E3A60000000000019C9D
+t1282597798
+s105629
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/pub lists/pubs/quiet pints/palace.png
+c000000004C72E3A6000000000001D453
+t1282597798
+s119891
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/pub lists/pubs/quiet pints/phlogo.png
+c000000004C72E3A60000000000002262
+t1282597798
+s8802
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/pub lists/pubs/quiet pints/theduke.png
+c000000004C72E3A600000000000175B7
+t1282597798
+s95671
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/pub lists/pubs/trad pubs/aulddubliner.png
+c000000004C72E3A5000000000001900F
+t1282597797
+s102415
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/pub lists/pubs/trad pubs/brazen head.png
+c000000004C72E3A50000000000006D23
+t1282597797
+s27939
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/pub lists/pubs/trad pubs/cobblestone.png
+c000000004C72E3A50000000000004B9F
+t1282597797
+s19359
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/pub lists/pubs/trad pubs/devitts.png
+c000000004C72E3A5000000000000EEF6
+t1282597797
+s61174
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/pub lists/pubs/trad pubs/fitzsimons.png
+c000000004C72E3A500000000000089B7
+t1282597797
+s35255
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/pub lists/pubs/trad pubs/frankryans-front-cropped.png
+c000000004C6C4353000000000000323E
+t1282163539
+s12862
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/pub lists/pubs/trad pubs/frankryans.png
+c000000004C72E3A5000000000001257C
+t1282597797
+s75132
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/pub lists/pubs/trad pubs/gogartys.png
+c000000004C72E3A5000000000000E43E
+t1282597797
+s58430
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/pub lists/pubs/trad pubs/odonoghues.png
+c000000004C72E3A50000000000011268
+t1282597797
+s70248
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/pub lists/pubs/trad pubs/oheas.png
+c000000004C72E3A5000000000000F608
+t1282597797
+s62984
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/pub lists/pubs/trad pubs/whelans.png
+c000000004C72E3A5000000000000DD51
+t1282597797
+s56657
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/quietpints.plist
+c000000004D6AD6B400000000000017DE
+t1298847412
+s6110
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/riralogo.jpg
+c000000004B489130000000000000A4FF
+t1263046960
+s42239
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/skd188088sdc.png
+c000000004C22505300000000000596AD
+t1277317203
+s366253
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/tradmusic.plist
+c000000004D62E53200000000000016EE
+t1298326834
+s5870
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/wifi.plist
+c000000004D7805020000000000001D1D
+t1299711234
+s7453
+
+N/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/wifilogo.png
+c000000004D725E230000000000002A37
+t1299340835
+s10807
+
+N/var/folders/Ay/Aye8hkhGGver3EEirk4jvk+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/DubPub_Prefix-cpinzetbnwcehwhbzvtfssmhjevn/DubPub_Prefix.pch.gch
+t2
+s0
+
+NDubPub-Info.plist
+c000000004B487DF1000000000000038D
+t1263042033
+s909
+
+CCompileC "build/DubPub.build/Release Debug-iphonesimulator/DubPub.build/Objects-normal/i386/CellsViewController.o" "/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/Classes/CellsViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/DubPub.build/Release Debug-iphonesimulator/DubPub.build/Objects-normal/i386/CustomCell.o" "/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/Classes/CustomCell.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/DubPub.build/Release Debug-iphonesimulator/DubPub.build/Objects-normal/i386/DubPubAppDelegate.o" "/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/Classes/DubPubAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/DubPub.build/Release Debug-iphonesimulator/DubPub.build/Objects-normal/i386/FrontPage.o" "/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/Classes/../FrontPage.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/DubPub.build/Release Debug-iphonesimulator/DubPub.build/Objects-normal/i386/PersonListViewController.o" "/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/Classes/PersonListViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/DubPub.build/Release Debug-iphonesimulator/DubPub.build/Objects-normal/i386/PubCategoryViewController.o" "/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/Classes/../PubCategoryViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/DubPub.build/Release Debug-iphonesimulator/DubPub.build/Objects-normal/i386/PubDetailViewController.o" "/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/Classes/PubDetailViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/DubPub.build/Release Debug-iphonesimulator/DubPub.build/Objects-normal/i386/SecondLevelViewController.o" "/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/Classes/SecondLevelViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/DubPub.build/Release Debug-iphonesimulator/DubPub.build/Objects-normal/i386/main.o" "/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/DubPub.build/Release Debug-iphonesimulator/DubPub.build/Objects-normal/i386/navigation.o" "/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/Classes/navigation.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileXIB "/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/Classes/CellsViewController.xib"
+r0
+
+CCompileXIB "/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/Classes/CustomCell.xib"
+r0
+
+CCompileXIB "/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/Classes/PersonListViewController.xib"
+r0
+
+CCompileXIB "/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/Classes/PubDetailViewController.xib"
+r0
+
+CCompileXIB "/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/Classes/navigation.xib"
+r0
+
+CCompileXIB "/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/FrontPage.xib"
+r0
+
+CCompileXIB "/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/MainWindow.xib"
+r0
+
+CCompileXIB "/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/PubCategoryViewController.xib"
+r0
+
+CCopyPlistFile "/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/funky.plist" funky.plist
+r0
+
+CCopyPlistFile "/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/latebar.plist" latebar.plist
+r0
+
+CCopyPlistFile "/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/livemusic.plist" livemusic.plist
+r0
+
+CCopyPlistFile "/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/nantpub.plist" nantpub.plist
+r0
+
+CCopyPlistFile "/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/quietpints.plist" quietpints.plist
+r0
+
+CCopyPlistFile "/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/tradmusic.plist" tradmusic.plist
+r0
+
+CCopyPlistFile "/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/wifi.plist" wifi.plist
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/Dublin Irish Beer Pubs: 10Best English Pub Reviews.html" "pub lists/Dublin Irish Beer Pubs: 10Best English Pub Reviews.html"
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/Dublin Pubs, The Definitive Guide - dublinpubscene.com.html" "pub lists/Dublin Pubs, The Definitive Guide - dublinpubscene.com.html"
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/Dublin.info - Irish Traditional Music Dublin.html" "pub lists/Dublin.info - Irish Traditional Music Dublin.html"
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/FD000063.png" FD000063.png
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/InternationalBarStreetShot.png" "pub lists/pubs/live music/InternationalBarStreetShot.png"
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/Pubs in Dublin - Dublin Pubs.html" "pub lists/Pubs in Dublin - Dublin Pubs.html"
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/anseo.png" "pub lists/pubs/live music/anseo.png"
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/aulddubliner.png" "pub lists/pubs/trad pubs/aulddubliner.png"
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/bigmap.png" ../../../../../Downloads/bigmap.png
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/blacklion.jpg" "pub lists/pubs/nantwich/blacklion.jpg"
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/bleeding horse.png" "pub lists/pubs/quiet pints/bleeding horse.png"
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/bootandshoe.jpg" "pub lists/pubs/nantwich/bootandshoe.jpg"
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/bowlinggreen.jpg" "pub lists/pubs/nantwich/bowlinggreen.jpg"
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/brazen head.png" "pub lists/pubs/trad pubs/brazen head.png"
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/brogans.png" "pub lists/pubs/quiet pints/brogans.png"
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/bruxelles.jpg" bruxelles.jpg
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/cafe-en-seine-footer-logo.png" "pub lists/pubs/cool pubs/cafe-en-seine-footer-logo.png"
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/capitol.png" "pub lists/pubs/late bars/capitol.png"
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/cobblestone.png" "pub lists/pubs/trad pubs/cobblestone.png"
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/crawdaddylogo.gif" crawdaddylogo.gif
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/cur2051.png" cur2051.png
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/curshaws.jpg" "pub lists/pubs/nantwich/curshaws.jpg"
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/dakotalogo.png" "pub lists/pubs/late bars/dakotalogo.png"
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/dametavern.png" "pub lists/pubs/quiet pints/dametavern.png"
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/devitts.png" "pub lists/pubs/trad pubs/devitts.png"
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/eamonndoran.png" "pub lists/pubs/live music/eamonndoran.png"
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/fitzsimons.png" "pub lists/pubs/trad pubs/fitzsimons.png"
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/foggydew.png" "pub lists/pubs/live music/foggydew.png"
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/frankryans-front-cropped.png" "pub lists/pubs/trad pubs/frankryans-front-cropped.png"
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/frankryans.png" "pub lists/pubs/trad pubs/frankryans.png"
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/frontlounge.png" "pub lists/pubs/cool pubs/frontlounge.png"
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/gogartys.png" "pub lists/pubs/trad pubs/gogartys.png"
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/grandsocial.png" "pub lists/pubs/live music/grandsocial.png"
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/hairy-lemon-pub.jpg" hairy-lemon-pub.jpg
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/handels.png" "pub lists/pubs/late bars/handels.png"
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/hapenny.png" "pub lists/pubs/quiet pints/hapenny.png"
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/hogans.png" "pub lists/pubs/cool pubs/hogans.png"
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/jjsmyths.png" "pub lists/pubs/live music/jjsmyths.png"
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/kehoes.png" "pub lists/pubs/late bars/kehoes.png"
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/logo.png" "pub lists/pubs/cool pubs/logo.png"
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/long hall.png" "pub lists/pubs/quiet pints/long hall.png"
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/malbank.jpg" "pub lists/pubs/nantwich/malbank.jpg"
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/map.png" map.png
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/market.png" "pub lists/pubs/cool pubs/market.png"
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/mcdaids.png" "pub lists/pubs/quiet pints/mcdaids.png"
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/mezz.png" "pub lists/pubs/live music/mezz.png"
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/nakatcha.jpg" "pub lists/pubs/nantwich/nakatcha.jpg"
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/nantmap.png" ../../../../../Desktop/nantmap.png
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/nextbtn.png" nextbtn.png
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/oddfellows.jpg" "pub lists/pubs/nantwich/oddfellows.jpg"
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/odonoghues.png" "pub lists/pubs/trad pubs/odonoghues.png"
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/oheas.png" "pub lists/pubs/trad pubs/oheas.png"
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/oneills.png" "pub lists/pubs/quiet pints/oneills.png"
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/palace.png" "pub lists/pubs/quiet pints/palace.png"
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/panama.png" "pub lists/pubs/late bars/panama.png"
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/phlogo.png" "pub lists/pubs/quiet pints/phlogo.png"
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/portercentral.png" "pub lists/pubs/late bars/portercentral.png"
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/porterhouse.png" "pub lists/pubs/late bars/porterhouse.png"
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/pravda.png" "pub lists/pubs/live music/pravda.png"
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/pubList.rtf" "pub lists/pubList.rtf"
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/qbar.png" "pub lists/pubs/late bars/qbar.png"
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/residence.jpg" "pub lists/pubs/nantwich/residence.jpg"
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/rifleman.jpg" "pub lists/pubs/nantwich/rifleman.jpg"
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/riralogo.jpg" riralogo.jpg
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/skd188088sdc.png" skd188088sdc.png
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/solas.png" "pub lists/pubs/late bars/solas.png"
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/southwilliam.png" "pub lists/pubs/late bars/southwilliam.png"
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/sugarclub.png" "pub lists/pubs/live music/sugarclub.png"
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/sugarclub_2.png" "pub lists/pubs/live music/sugarclub_2.png"
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/tbmc.png" "pub lists/pubs/live music/tbmc.png"
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/templebar.png" "pub lists/pubs/live music/templebar.png"
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/theduke.png" "pub lists/pubs/quiet pints/theduke.png"
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/thevillage.png" "pub lists/pubs/live music/thevillage.png"
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/turkshead.png" "pub lists/pubs/late bars/turkshead.png"
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/union.jpg" "pub lists/pubs/nantwich/union.jpg"
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/voodoo.png" "pub lists/pubs/late bars/voodoo.png"
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/whelans.png" "pub lists/pubs/trad pubs/whelans.png"
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/wifilogo.png" wifilogo.png
+r0
+
+CCpResource "build/Release Debug-iphonesimulator/DubPub.app/zanzibar.png" "pub lists/pubs/cool pubs/zanzibar.png"
+r0
+
+CDataModelCompile "/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/DubPub.mom" "/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/DubPub.xcdatamodel"
+r0
+
+CGenerateDSYMFile "/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app.dSYM" "/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/DubPub"
+r0
+
+CLd "/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/DubPub" normal i386
+r0
+
+CProcessInfoPlistFile "/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app/Info.plist" DubPub-Info.plist
+r0
+
+CProcessPCH /var/folders/Ay/Aye8hkhGGver3EEirk4jvk+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/DubPub_Prefix-cpinzetbnwcehwhbzvtfssmhjevn/DubPub_Prefix.pch.gch DubPub_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CTouch "/Users/deag/Documents/Grinds dot ie/iPhone Development/stanford iphone/DubPub/build/Release Debug-iphonesimulator/DubPub.app"
+r0
+

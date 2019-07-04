@@ -1,0 +1,3037 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en">
+<head>
+<base href="http://www.iphonedevsdk.com/forum/" /><!--[if IE]></base><![endif]-->
+	<link rel="canonical" href="http://www.iphonedevsdk.com/forum/iphone-sdk-development/45633-unique-text-randomization.html" />
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta name="generator" content="vBulletin 3.8.0" />
+
+<meta name="keywords" content="Unique,text,randomization, Unique text randomization, iphone, iphone sdk, iphone developer, iphone developer program, iphone sdk, iphone dev sdk, vbulletin,jelsoft,forum,bbs,discussion,bulletin board, iphone development jobs, iphone books, iphone developer jobs" />
+<meta name="description" content="I'm just beginning iPhone development and I'm working on an app that will display text randomly without any repeats. So far I have the random part" />
+
+
+<!-- CSS Stylesheet -->
+<style type="text/css" id="vbulletin_css">
+/**
+* vBulletin 3.8.0 CSS
+* Style: 'iPhoneDevSDK.com'; Style ID: 3
+*/
+body
+{
+	background: #FFF url(http://www.iphonedevsdk.com/forum/sdk/misc/sdkbg.png) repeat-x top left;
+	color: #000000;
+	font: 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+}
+a:link, body_alink
+{
+	color: #000;
+	text-decoration: none;
+}
+a:visited, body_avisited
+{
+	color: #000;
+	text-decoration: none;
+}
+a:hover, a:active, body_ahover
+{
+	color: #233c6d;
+	text-decoration: underline;
+}
+.page
+{
+	background: #f5f5f5;
+	color: #000000;
+}
+td, th, p, li
+{
+	font: 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.tborder
+{
+	background: #d4d4d4;
+	color: #000000;
+}
+.tcat
+{
+	background: #869BBF url(http://www.iphonedevsdk.com/forum/sdk/misc/catbg.png) repeat-x top left;
+	color: #FFFFFF;
+	font: bold 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.tcat a:link, .tcat_alink
+{
+	color: #ffffff;
+	text-decoration: none;
+}
+.tcat a:visited, .tcat_avisited
+{
+	color: #ffffff;
+	text-decoration: none;
+}
+.tcat a:hover, .tcat a:active, .tcat_ahover
+{
+	color: #e1eafd;
+	text-decoration: underline;
+}
+.thead
+{
+	background: #e4e4e5 url(http://www.iphonedevsdk.com/forum/sdk/misc/thead.png) repeat-x top left;
+	color: #000;
+	font: 11px tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.thead a:link, .thead_alink
+{
+	color: #000;
+}
+.thead a:visited, .thead_avisited
+{
+	color: #000;
+}
+.thead a:hover, .thead a:active, .thead_ahover
+{
+	color: #000;
+	text-decoration: none;
+}
+.tfoot
+{
+	background: #FFF url(http://www.iphonedevsdk.com/forum/sdk/misc/tfoot.gif) repeat-x top left;
+	color: #FFF;
+}
+.tfoot a:link, .tfoot_alink
+{
+	color: #FFF;
+}
+.tfoot a:visited, .tfoot_avisited
+{
+	color: #FFF;
+}
+.tfoot a:hover, .tfoot a:active, .tfoot_ahover
+{
+	color: #e1eafd;
+}
+.alt1, .alt1Active
+{
+	background: #efefef;
+	color: #000000;
+	border-bottom:1px solid #FFF;
+}
+.alt1 a:link, .alt1_alink, .alt1Active a:link, .alt1Active_alink
+{
+	color: #22229C;
+}
+.alt1 a:visited, .alt1_avisited, .alt1Active a:visited, .alt1Active_avisited
+{
+	color: #22229C;
+}
+.alt1 a:hover, .alt1 a:active, .alt1_ahover, .alt1Active a:hover, .alt1Active a:active, .alt1Active_ahover
+{
+	color: #FF4400;
+}
+.alt2, .alt2Active
+{
+	background: #eaebed;
+	color: #000000;
+	border-bottom:1px solid #FFF;
+}
+.alt2 a:link, .alt2_alink, .alt2Active a:link, .alt2Active_alink
+{
+	color: #22229C;
+}
+.alt2 a:visited, .alt2_avisited, .alt2Active a:visited, .alt2Active_avisited
+{
+	color: #22229C;
+}
+.alt2 a:hover, .alt2 a:active, .alt2_ahover, .alt2Active a:hover, .alt2Active a:active, .alt2Active_ahover
+{
+	color: #FF4400;
+}
+.inlinemod
+{
+	background: #FFFFCC;
+	color: #000000;
+}
+.wysiwyg
+{
+	background: #F5F5FF;
+	color: #000000;
+	font: 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	margin: 5px 10px 10px 10px;
+	padding: 0px;
+}
+.wysiwyg a:link, .wysiwyg_alink
+{
+	color: #22229C;
+}
+.wysiwyg a:visited, .wysiwyg_avisited
+{
+	color: #22229C;
+}
+.wysiwyg a:hover, .wysiwyg a:active, .wysiwyg_ahover
+{
+	color: #FF4400;
+}
+textarea, .bginput
+{
+	font: 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.bginput option, .bginput optgroup
+{
+	font-size: 10pt;
+	font-family: verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.button
+{
+	font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+select
+{
+	font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+option, optgroup
+{
+	font-size: 11px;
+	font-family: verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.smallfont
+{
+	font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.time
+{
+	color: #666686;
+}
+.navbar
+{
+	font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.highlight
+{
+	color: #FF0000;
+	font-weight: bold;
+}
+.fjsel
+{
+	background: #3E5C92;
+	color: #E0E0F6;
+}
+.fjdpth0
+{
+	background: #F7F7F7;
+	color: #000000;
+}
+.panel
+{
+	background: #E4E7F5 url(images/gradients/gradient_panel.gif) repeat-x top left;
+	color: #000000;
+	padding: 10px;
+	border: 2px outset;
+}
+.panelsurround
+{
+	background: #D1D4E0 url(images/gradients/gradient_panelsurround.gif) repeat-x top left;
+	color: #000000;
+}
+legend
+{
+	color: #22229C;
+	font: 11px tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.vbmenu_control
+{
+	background: #869BBF url(http://www.iphonedevsdk.com/forum/sdk/misc/catbg.png) repeat-x top left;
+	color: #FFFFFF;
+	font: bold 11px tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	padding: 3px 6px 3px 6px;
+	white-space: nowrap;
+}
+.vbmenu_control a:link, .vbmenu_control_alink
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.vbmenu_control a:visited, .vbmenu_control_avisited
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.vbmenu_control a:hover, .vbmenu_control a:active, .vbmenu_control_ahover
+{
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+.vbmenu_popup
+{
+	background: #FFFFFF;
+	color: #000000;
+	border: 1px solid #0B198C;
+}
+.vbmenu_option
+{
+	background: #eaebed;
+	color: #000000;
+	font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	white-space: nowrap;
+	cursor: pointer;
+}
+.vbmenu_option a:link, .vbmenu_option_alink
+{
+	color: #22229C;
+	text-decoration: none;
+}
+.vbmenu_option a:visited, .vbmenu_option_avisited
+{
+	color: #22229C;
+	text-decoration: none;
+}
+.vbmenu_option a:hover, .vbmenu_option a:active, .vbmenu_option_ahover
+{
+	color: #000;
+	text-decoration: none;
+}
+.vbmenu_hilite
+{
+	background: #FFF;
+	color: #000;
+	font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	white-space: nowrap;
+	cursor: pointer;
+}
+.vbmenu_hilite a:link, .vbmenu_hilite_alink
+{
+	color: #000;
+	text-decoration: none;
+}
+.vbmenu_hilite a:visited, .vbmenu_hilite_avisited
+{
+	color: #000;
+	text-decoration: none;
+}
+.vbmenu_hilite a:hover, .vbmenu_hilite a:active, .vbmenu_hilite_ahover
+{
+	color: #000;
+	text-decoration: none;
+}
+/* ***** styling for 'big' usernames on postbit etc. ***** */
+.bigusername { font-size: 14pt; }
+
+/* ***** small padding on 'thead' elements ***** */
+td.thead, th.thead, div.thead { padding: 4px; }
+
+/* ***** basic styles for multi-page nav elements */
+.pagenav a { text-decoration: none; }
+.pagenav td { padding: 2px 4px 2px 4px; }
+
+/* ***** de-emphasized text */
+.shade, a.shade:link, a.shade:visited { color: #777777; text-decoration: none; }
+a.shade:active, a.shade:hover { color: #FF4400; text-decoration: underline; }
+.tcat .shade, .thead .shade, .tfoot .shade { color: #DDDDDD; }
+
+/* ***** define margin and font-size for elements inside panels ***** */
+.fieldset { margin-bottom: 6px; }
+.fieldset, .fieldset td, .fieldset p, .fieldset li { font-size: 11px; }
+.logo {
+	height:128px;
+        width:629px;
+	border:0;
+        padding:0;
+        float:left;
+overflow: hidden;
+}
+
+
+.nbg {
+	background:transparent url(http://www.iphonedevsdk.com/forum/sdk/misc/nbg.png) repeat-x top left;
+	height:41px;
+	width:95%;
+        margin-left:auto;
+        margin-right:auto;
+        margin-bottom:10px;
+       
+}
+
+.apbg {
+	background:transparent url(http://www.iphonedevsdk.com/forum/sdk/misc/apbg.gif) repeat-x top left;
+	height:22px;
+	width:95%;
+        margin-left:auto;
+        margin-right:auto;
+}
+
+.whitext, a.whitext:link, a.whitext:visited { font-size:14px; color: #000000; text-decoration: none; font-weight:bold; margin-right:15px; margin-left:10px; font-family:lucida sans;}
+a.whitext:active, a.whitext:hover { font-size:14px; color: #27498d; text-decoration: none; font-weight:bold; margin-right:15px; margin-left:10px; font-family:lucida sans; }
+
+.appleft {
+	background:transparent url(http://www.iphonedevsdk.com/forum/sdk/misc/appleft.png);
+	height:123px;
+        width:12px;
+	border:0;
+        padding:0;
+        float:left;
+}
+
+.appright {
+	background:transparent url(http://www.iphonedevsdk.com/forum/sdk/misc/appright.png);
+	height:123px;
+        width:12px;
+	border:0;
+        padding:0;
+        float:right;
+}
+
+.appbg {
+	background:transparent url(http://www.iphonedevsdk.com/forum/sdk/misc/appbg.png);
+	/*height:123px;*/
+        width:95%;
+        margin-left:auto;
+        margin-right:auto;
+	border:0;
+        padding:0;
+}
+
+.adtext, .adtext a:link, .adtext a:visited, .adtext a:active, .adtext a:hover { font-size:10px; color: #FFFFFF; text-decoration: none;}
+</style>
+<link rel="stylesheet" type="text/css" href="http://www.iphonedevsdk.com/forum/clientscript/vbulletin_important.css?v=380" />
+
+
+<!-- / CSS Stylesheet -->
+
+<script type="text/javascript" src="http://www.iphonedevsdk.com/forum/clientscript/yui/yahoo-dom-event/yahoo-dom-event.js?v=380"></script>
+<script type="text/javascript" src="http://www.iphonedevsdk.com/forum/clientscript/yui/connection/connection-min.js?v=380"></script>
+<script type="text/javascript">
+<!--
+var SESSIONURL = "";
+var SECURITYTOKEN = "1292194572-da0babe66eb30fb99ca748210e6e26404ed65d11";
+var IMGDIR_MISC = "http://www.iphonedevsdk.com/forum/sdk/misc";
+var vb_disable_ajax = parseInt("0", 10);
+// -->
+</script>
+<script type="text/javascript" src="http://www.iphonedevsdk.com/forum/clientscript/vbulletin_global.js?v=380"></script>
+<script type="text/javascript" src="http://www.iphonedevsdk.com/forum/clientscript/vbulletin_menu.js?v=380"></script>
+
+
+	<link rel="alternate" type="application/rss+xml" title="iPhone Dev SDK Forum RSS Feed" href="http://www.iphonedevsdk.com/forum/external.php?type=RSS2" />
+	
+		<link rel="alternate" type="application/rss+xml" title="iPhone Dev SDK Forum - iPhone SDK Development - RSS Feed" href="http://www.iphonedevsdk.com/forum/external.php?type=RSS2&amp;forumids=19" />
+	
+<script type="text/javascript">
+<!--
+function vba_attach_win(threadid)
+{
+	openWindow('http://www.iphonedevsdk.com/forum/misc.php?do=showattachments&t=' + threadid, 480, 300);
+}
+-->
+</script><!-- Editor CSS automatically added by functions_editor.php at line 680 -->
+<!-- Editor Styles -->
+<style type="text/css" id="vbulletin_editor_css_dynamic">
+<!--
+@import url("clientscript/vbulletin_editor.css?v=380");
+
+.vBulletin_editor {
+	background: #E1E1E2;
+	padding: 6px;
+}
+.imagebutton {
+	background: #E1E1E2;
+	color: #000000;
+	padding: 1px;
+	border: none;
+}
+.ocolor, .ofont, .osize, .osmilie, .osyscoloar, .smilietitle {
+	background: #FFFFFF;
+	color: #000000;
+	border: 1px solid #FFFFFF;
+}
+.popup_pickbutton {
+	border: 1px solid #FFFFFF;
+}
+.popup_feedback {
+	background: #FFFFFF;
+	color: #000000;
+	border-right: 1px solid #FFFFFF;
+}
+.popupwindow {
+	background: #FFFFFF;
+}
+#fontOut, #sizeOut, .popup_feedback div {
+	background: #FFFFFF;
+	color: #000000;
+}
+.alt_pickbutton {
+	border-left: 1px solid #E1E1E2;
+}
+.popup_feedback input, .popup_feedback div
+{
+	border: 0px solid;
+	padding: 0px 2px 0px 2px;
+	cursor: default;
+	font: 11px tahoma;
+	overflow: hidden;
+}
+-->
+</style>
+<!-- / Editor Styles -->
+	<title> Unique text randomization - iPhone Dev SDK Forum</title>
+	<script type="text/javascript" src="http://www.iphonedevsdk.com/forum/clientscript/vbulletin_post_loader.js?v=380"></script>
+	<style type="text/css" id="vbulletin_showthread_css">
+	<!--
+	
+	#links div { white-space: nowrap; }
+	#links img { vertical-align: middle; }
+	-->
+	</style>
+</head>
+<body onload="">
+
+<!-- logo -->
+<a name="top"></a>
+<div style="width:95%; margin-left:auto; margin-right:auto;">
+<table border="0" width="100%">
+<tr>
+<td align="left">
+<a href="http://www.iphonedevsdk.com"><img src="http://www.iphonedevsdk.com/forum/sdk/misc/iphonedev.png" border="0" /></a>
+</td>
+<td align="right">
+
+<!--/* isocket Javascript Tag v2.0 */-->
+<script type='text/javascript'><!--//<![CDATA[
+   var m3_u = (location.protocol=='https:'?'https://ds.adsbyisocket.com/ajs.php':'http://d.adsbyisocket.com/ajs.php');
+   var m3_r = Math.floor(Math.random()*99999999999);
+   if (!document.MAX_used) document.MAX_used = ',';
+   document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+   document.write ("?zoneid=561&block=1");
+   document.write ('&cb=' + m3_r);
+   if (document.MAX_used != ',') document.write ("&exclude=" + document.MAX_used);
+   document.write (document.charset ? '&charset='+document.charset : (document.characterSet ? '&charset='+document.characterSet : ''));
+   document.write ("&loc=" + escape(window.location));
+   if (document.referrer) document.write ("&referer=" + escape(document.referrer));
+   if (document.context) document.write ("&context=" + escape(document.context));
+   if (document.mmm_fo) document.write ("&mmm_fo=1");
+   document.write ("'><\/scr"+"ipt>");
+//]]>--></script><noscript><a onclick="pageTracker._trackPageview ('/outgoing/http_d_adsbyisocket_com_ck_php_n_ac242297_cb_87969876875475647');" href='http://d.adsbyisocket.com/ck.php?n=ac242297&cb=87969876875475647' target='_blank'><img src='http://d.adsbyisocket.com/avw.php?zoneid=561&cb=87969876875475647&n=ac242297' border='0' alt='' /></a></noscript>
+
+
+
+</td>
+</tr>
+</table>
+</div>
+<!-- /logo -->
+
+<div class="nbg">
+<div style="float:right;"><img src="http://www.iphonedevsdk.com/forum/sdk/misc/nr.png" alt="" border="0" /></div>
+<div style="float:left;"><img src="http://www.iphonedevsdk.com/forum/sdk/misc/nl.png" alt="" border="0" /></div>
+<div style="float:left;">
+
+<a rel="nofollow" class="whitext" href="http://www.iphonedevsdk.com/index.php?p=advertise"> Advertise</a><img class="inlineimg" src="http://www.iphonedevsdk.com/forum/sdk/misc/splt.png" alt="" border="0" />
+<a rel="nofollow" class="whitext" href="http://www.iphonedevsdk.com/index.php?p=books"> Books</a><img class="inlineimg" src="http://www.iphonedevsdk.com/forum/sdk/misc/splt.png" alt="" border="0" />
+<a rel="nofollow" class="whitext" href="http://www.iphonedevsdk.com/index.php?p=events"> Events</a><img class="inlineimg" src="http://www.iphonedevsdk.com/forum/sdk/misc/splt.png" alt="" border="0" />
+<a class="whitext" href="http://www.iphonedevsdk.com/forum/"> Forum</a><img class="inlineimg" src="http://www.iphonedevsdk.com/forum/sdk/misc/splt.png" alt="" border="0" />
+<a rel="nofollow" class="whitext" href="http://www.iphonedevsdk.com/index.php?p=news"> News</a><img class="inlineimg" src="http://www.iphonedevsdk.com/forum/sdk/misc/splt.png" alt="" border="0" />
+<a rel="nofollow" class="whitext" href="http://www.iphonedevsdk.com/index.php?p=social-networking"> Social Networking</a><img class="inlineimg" src="http://www.iphonedevsdk.com/forum/sdk/misc/splt.png" alt="" border="0" />
+<a rel="nofollow" class="whitext" href="http://www.iphonedevsdk.com/index.php?p=support-iphone-dev-sdk"> Support Us</a><img class="inlineimg" src="http://www.iphonedevsdk.com/forum/sdk/misc/splt.png" alt="" border="0" />
+
+</div>
+<div style="float: right; padding-top: 7px;">
+<a onclick="pageTracker._trackPageview ('/outgoing/http_twitter_com_iphonedevsdk');" href="http://twitter.com/iphonedevsdk"><img src="/forum/images/icon-twitter.gif" width="30" height="30" alt="Follow @iphonedevsdk on Twitter" border="0" /></a>
+</div>
+</div>
+
+<div class="appbg">
+<table class="tborder" cellpadding="5" cellspacing="1" border="0" width="100%" align="center">
+<tr>
+<td class="alt1" align="center">
+		
+<table align="left" width="100%"><tr>
+
+<td align="center" valign="top" width="14%">
+<a onclick="pageTracker._trackPageview ('/outgoing/http_www_iphonecodetutorials_com_');" href="http://www.iphonecodetutorials.com/" rel="nofollow" target="_new"><img src="http://www.iphonedevsdk.com/forum/images/appads/yourfirstiphoneapp.png" border="0" /></a>
+<p style="font-size: 10px">Your First iPhone App<br />($1.99)</p>
+</td>
+
+<td align="center" valign="top" width="14%">
+<a onclick="pageTracker._trackPageview ('/outgoing/http_bit_ly_cBFBAW');" href="http://bit.ly/cBFBAW" rel="nofollow" target="_new"><img src="http://www.iphonedevsdk.com/forum/images/appads/DappIconVersion2_57x57.png" border="0" /></a>
+<p style="font-size: 10px">iPhone Code Generator<br />($9.99)</p>
+</td>
+
+<td align="center" valign="top" width="14%">
+<a onclick="pageTracker._trackPageview ('/outgoing/http_lesscode_co_nz_interface_ref_devsdk');" href="http://lesscode.co.nz/interface?ref=devsdk" rel="nofollow" target="_new"><img src="http://www.iphonedevsdk.com/forum/images/appads/SDKDev_AD.png" height="57" width="57" border="0" /></a>
+<p style="font-size: 10px">Mockup & CodeGen,<br />iPhone & iPad<br />($9.99)</p>
+</td>
+
+<td align="center" valign="top" width="14%">
+<a onclick="pageTracker._trackPageview ('/outgoing/http_developertoy_com_');" href="http://developertoy.com/" rel="nofollow" target="_new"><img src="http://www.iphonedevsdk.com/forum/images/appads/developer_toy.png" height="57" width="57" border="0" /></a>
+<p style="font-size: 10px">Best Mockup &<br />CodeGenerator for iPhone<br />($9.99)</p>
+</td>
+
+<td align="center" valign="top" width="14%">
+<a onclick="pageTracker._trackPageview ('/outgoing/http_click_linksynergy_com_fs_bin_click_id_KEmRFwU0WKY_subid_0_offerid_146261_1_type_10_tmpid_1827_RD_PARM1_http_253A_252F_252Fphobos_apple_com_252FWebObjects_252FMZStore_woa_252Fwa_252FviewSoftware_253Fid_253D389733994_2526mt_253D8');" href="http://click.linksynergy.com/fs-bin/click?id=KEmRFwU0WKY&subid=0&offerid=146261.1&type=10&tmpid=1827&RD_PARM1=http%253A%252F%252Fphobos.apple.com%252FWebObjects%252FMZStore.woa%252Fwa%252FviewSoftware%253Fid%253D389733994%2526mt%253D8" rel="nofollow" target="_new"><img src="http://www.iphonedevsdk.com/forum/images/appads/yreader.jpg" height="57" width="57" border="0" /></a>
+<p style="font-size: 10px">yReader<br />($1.99)</p>
+</td>
+
+<td align="center" valign="top" width="14%">
+<a onclick="pageTracker._trackPageview ('/outgoing/http_bit_ly_cyberspaceapp');" href="http://bit.ly/cyberspaceapp" rel="nofollow" target="_new"><img src="http://www.iphonedevsdk.com/forum/images/appads/qad.png" height="57" width="57" border="0" /></a>
+<p style="font-size: 10px">Cyberspace<br />($1.99)</p>
+</td>
+
+</tr></table>
+
+</td>
+</tr>
+</table>
+</div>
+
+<div class="apbg"><div class="adtext" style="padding-top:4px; color:#FFF; padding-left:15px; "><a rel="nofollow" href="http://www.iphonedevsdk.com/index.php?p=advertise">Want your application or service advertised on iPhone Dev SDK?</a></div>
+
+</div>
+<!-- content table -->
+
+<!-- open content container -->
+
+<div align="center">
+	<div class="page" style="width:95%; text-align:left">
+		<div style="padding:0px 15px 0px 15px" align="left">
+
+
+
+<br />
+
+<!-- breadcrumb, login, pm info -->
+<table class="tborder" cellpadding="6" cellspacing="1" border="0" width="100%" align="center">
+<tr>
+	<td class="alt1" width="100%">
+		
+			<table cellpadding="0" cellspacing="0" border="0">
+			<tr valign="bottom">
+				<td><a href="http://www.iphonedevsdk.com/forum/iphone-sdk-development/45633-unique-text-randomization.html#" onclick="history.back(1); return false;"><img src="http://www.iphonedevsdk.com/forum/sdk/misc/navbits_start.gif" alt="Go Back" border="0" /></a></td>
+				<td>&nbsp;</td>
+				<td width="100%"><span class="navbar"><a href="http://www.iphonedevsdk.com/forum/" accesskey="1">iPhone Dev SDK Forum</a></span> 
+	<span class="navbar">&gt; <a href="http://www.iphonedevsdk.com/forum/iphone-sdk-development-forums/">iPhone SDK Development Forums</a></span>
+
+
+	<span class="navbar">&gt; <a href="http://www.iphonedevsdk.com/forum/iphone-sdk-development/">iPhone SDK Development</a></span>
+
+</td>
+			</tr>
+			<tr>
+				<td class="navbar" style="font-size:10pt; padding-top:1px" colspan="3"><a href="http://www.iphonedevsdk.com/forum/iphone-sdk-development/45633-unique-text-randomization.html"><img class="inlineimg" src="http://www.iphonedevsdk.com/forum/sdk/misc/navbits_finallink_ltr.gif" alt="Reload this Page" border="0" /></a> <strong>
+	 Unique text randomization
+
+</strong></td>
+			</tr>
+			</table>
+		
+	</td>
+
+	<td class="alt2" nowrap="nowrap">
+	<div class="smallfont">
+		<strong>Welcome, <a rel="nofollow" href="http://www.iphonedevsdk.com/forum/members/deaglan7.html">deaglan7</a>.</strong><br />
+		You last visited: Today at <span class="time">10:16 PM</span>
+
+		
+			<div><a href="http://www.iphonedevsdk.com/forum/private.php">Private Messages</a>: Unread 0, Total 0.</div>
+		
+
+		
+	</div>
+	</td>
+
+</tr>
+</table>
+<!-- / breadcrumb, login, pm info -->
+
+<!-- nav buttons bar -->
+<div class="tborder" style="padding:1px; border-top-width:0px">
+	<table cellpadding="0" cellspacing="0" border="0" width="100%" align="center">
+	<tr align="center">
+		
+			<td class="vbmenu_control"><a href="http://www.iphonedevsdk.com/forum/usercp.php">User CP</a></td>
+		
+		
+		
+		<td class="vbmenu_control"><a rel="help" href="http://www.iphonedevsdk.com/forum/faq.php" accesskey="5">FAQ</a></td>
+		
+			
+				<td class="vbmenu_control"><a href="http://www.iphonedevsdk.com/forum/members/list/">Members List</a></td>
+			
+			
+		
+		<td class="vbmenu_control"><a href="http://www.iphonedevsdk.com/forum/calendar.php">Calendar</a></td>
+		
+			
+				
+				<td class="vbmenu_control"><a rel="nofollow" href="http://www.iphonedevsdk.com/forum/search.php?do=getnew" accesskey="2">New Posts</a></td>
+				
+				<td class="vbmenu_control"><a id="navbar_search" href="http://www.iphonedevsdk.com/forum/search.php" accesskey="4" rel="nofollow">Search</a> <script type="text/javascript"> vbmenu_register("navbar_search"); </script></td>
+			
+			
+				<td class="vbmenu_control"><a rel="nofollow" id="usercptools" href="http://www.iphonedevsdk.com/forum/iphone-sdk-development/45633-unique-text-randomization.html?nojs=1#usercptools" accesskey="3">Quick Links</a> <script type="text/javascript"> vbmenu_register("usercptools"); </script></td>
+			
+		
+		
+		
+			<td class="vbmenu_control"><a rel="nofollow" href="http://www.iphonedevsdk.com/forum/login.php?do=logout&amp;logouthash=1292194572-da0babe66eb30fb99ca748210e6e26404ed65d11" onclick="return log_out('Are you sure you want to log out?')">Log Out</a></td>
+		
+		</tr>
+	</table>
+</div>
+<!-- / nav buttons bar -->
+
+<br />
+
+
+
+
+
+
+<!-- NAVBAR POPUP MENUS -->
+
+	
+	
+	
+	<!-- header quick search form -->
+	<div class="vbmenu_popup" id="navbar_search_menu" style="display:none;margin-top:3px" align="left">
+		<table cellpadding="4" cellspacing="1" border="0">
+		<tr>
+			<td class="thead">Search Forums</td>
+		</tr>
+		<tr>
+			<td class="vbmenu_option" title="nohilite">
+				<form action="http://www.iphonedevsdk.com/forum/search.php?do=process" method="post">
+
+					<input type="hidden" name="do" value="process" />
+					<input type="hidden" name="quicksearch" value="1" />
+					<input type="hidden" name="childforums" value="1" />
+					<input type="hidden" name="exactname" value="1" />
+					<input type="hidden" name="s" value="" />
+					<input type="hidden" name="securitytoken" value="1292194572-da0babe66eb30fb99ca748210e6e26404ed65d11" />
+					<div><input type="text" class="bginput" name="query" size="25" tabindex="1001" /><input type="submit" class="button" value="Go" tabindex="1004" /></div>
+					<div style="margin-top:6px">
+						<label for="rb_nb_sp0"><input type="radio" name="showposts" value="0" id="rb_nb_sp0" tabindex="1002" checked="checked" />Show Threads</label>
+						&nbsp;
+						<label for="rb_nb_sp1"><input type="radio" name="showposts" value="1" id="rb_nb_sp1" tabindex="1003" />Show Posts</label>
+					</div>
+				</form>
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="vbmenu_option"><a href="http://www.iphonedevsdk.com/forum/tags/" rel="nofollow">Tag Search</a></td>
+		</tr>
+		
+		<tr>
+			<td class="vbmenu_option"><a href="http://www.iphonedevsdk.com/forum/search.php" accesskey="4" rel="nofollow">Advanced Search</a></td>
+		</tr>
+		
+		</table>
+	</div>
+	<!-- / header quick search form -->
+	
+	
+	
+	<!-- user cp tools menu -->
+	<div class="vbmenu_popup" id="usercptools_menu" style="display:none;margin-top:3px" align="left">
+		<table cellpadding="4" cellspacing="1" border="0">
+
+		<tr><td class="thead">Quick Links</td></tr>
+		<tr><td class="vbmenu_option"><a href="http://www.iphonedevsdk.com/forum/search.php?do=getdaily">Today's Posts</a></td></tr>
+		<tr><td class="vbmenu_option"><a rel="nofollow" href="http://www.iphonedevsdk.com/forum/forumdisplay.php?do=markread">Mark Forums Read</a></td></tr>
+		<tr><td class="vbmenu_option"><a href="http://www.iphonedevsdk.com/forum/iphone-sdk-development/45633-unique-text-randomization.html#" onclick="window.open('misc.php?do=buddylist&amp;focus=1','buddylist','statusbar=no,menubar=no,toolbar=no,scrollbars=yes,resizable=yes,width=250,height=300'); return false;">Open Contacts Popup</a></td></tr>
+		
+		
+
+		<tr><td class="thead"><a href="http://www.iphonedevsdk.com/forum/usercp.php">User Control Panel</a></td></tr>
+		<tr><td class="vbmenu_option"><a rel="nofollow" href="http://www.iphonedevsdk.com/forum/profile.php?do=editsignature">Edit Signature</a></td></tr>
+		<!--<tr><td class="vbmenu_option"><a rel="nofollow" href="http://www.iphonedevsdk.com/forum/profile.php?do=editavatar">Edit Avatar</a></td></tr>-->
+		<tr><td class="vbmenu_option"><a rel="nofollow" href="http://www.iphonedevsdk.com/forum/profile.php?do=editprofile">Edit Your Details</a></td></tr>
+		<tr><td class="vbmenu_option"><a rel="nofollow" href="http://www.iphonedevsdk.com/forum/profile.php?do=editoptions">Edit Options</a></td></tr>
+		
+
+		<tr><td class="thead">Miscellaneous</td></tr>
+		<tr><td class="vbmenu_option"><a href="http://www.iphonedevsdk.com/forum/private.php" rel="nofollow">Private Messages</a></td></tr>
+		<tr><td class="vbmenu_option"><a href="http://www.iphonedevsdk.com/forum/subscription.php" rel="nofollow">Subscribed Threads</a></td></tr>
+		<tr><td class="vbmenu_option"><a rel="nofollow" href="http://www.iphonedevsdk.com/forum/members/deaglan7.html">Your Profile</a></td></tr>
+		<tr><td class="vbmenu_option"><a href="http://www.iphonedevsdk.com/forum/online.php">Who's Online</a></td></tr>
+		
+
+		</table>
+	</div>
+	<!-- / user cp tools menu -->
+
+	
+<!-- / NAVBAR POPUP MENUS -->
+
+<!-- PAGENAV POPUP -->
+	<div class="vbmenu_popup" id="pagenav_menu" style="display:none">
+		<table cellpadding="4" cellspacing="1" border="0">
+		<tr>
+			<td class="thead" nowrap="nowrap">Go to Page...</td>
+		</tr>
+		<tr>
+			<td class="vbmenu_option" title="nohilite">
+			<form action="http://www.iphonedevsdk.com/forum/" method="get" onsubmit="return this.gotopage()" id="pagenav_form">
+				<input type="text" class="bginput" id="pagenav_itxt" style="font-size:11px" size="4" />
+				<input type="button" class="button" id="pagenav_ibtn" value="Go" />
+			</form>
+			</td>
+		</tr>
+		</table>
+	</div>
+<!-- / PAGENAV POPUP -->
+
+
+
+
+
+
+
+<table align="center" class="page" cellspacing="0" cellpadding="0" width="100%">
+	<tr valign="top">
+		
+		
+			<td valign="top">
+				
+
+
+
+
+
+
+
+<a name="poststop" id="poststop"></a>
+
+<!-- controls above postbits -->
+<table cellpadding="0" cellspacing="0" border="0" width="100%" style="margin-bottom:3px">
+<tr valign="bottom">
+	
+		<td class="smallfont"><a href="http://www.iphonedevsdk.com/forum/newreply.php?do=newreply&amp;noquote=1&amp;p=193128" rel="nofollow"><img src="http://www.iphonedevsdk.com/forum/sdk/buttons/reply.gif" alt="Reply" border="0" /></a></td>
+	
+	
+</tr>
+</table>
+<!-- / controls above postbits -->
+
+<!-- toolbar -->
+<table cellpadding="0" cellspacing="0" border="0" width="100%" align="center" style="border-bottom-width:0px">
+<tr>
+	<td width="12"><img src="http://www.iphonedevsdk.com/forum/sdk/misc/catleft.png" alt="" border="0" /></td>
+	<td class="tcat" width="100%">
+		<div class="smallfont">
+		
+		&nbsp;
+		</div>
+	</td>
+	
+<td class="vbmenu_control" id="linkbacktools" nowrap="nowrap">
+	<a rel="nofollow" href="http://www.iphonedevsdk.com/forum/iphone-sdk-development/45633-unique-text-randomization.html?nojs=1#links">LinkBack</a>
+	<script type="text/javascript"> vbmenu_register("linkbacktools"); </script>
+</td>
+<td class="vbmenu_control" id="threadtools" nowrap="nowrap">
+		<a rel="nofollow" href="http://www.iphonedevsdk.com/forum/iphone-sdk-development/45633-unique-text-randomization.html?nojs=1#goto_threadtools">Thread Tools</a>
+		<script type="text/javascript"> vbmenu_register("threadtools"); </script>
+	</td>
+	
+		<td class="vbmenu_control" id="threadsearch" nowrap="nowrap">
+			<a rel="nofollow" href="http://www.iphonedevsdk.com/forum/iphone-sdk-development/45633-unique-text-randomization.html?nojs=1#goto_threadsearch">Search this Thread</a>
+			<script type="text/javascript"> vbmenu_register("threadsearch"); </script>
+		</td>
+	
+	
+		<td class="vbmenu_control" id="threadrating" nowrap="nowrap">
+			<a rel="nofollow" href="http://www.iphonedevsdk.com/forum/iphone-sdk-development/45633-unique-text-randomization.html?nojs=1#goto_threadrating"><span id="threadrating_current">Rate Thread</span></a>
+			<script type="text/javascript"> vbmenu_register("threadrating"); </script>
+		</td>
+	
+	
+	<td class="vbmenu_control" id="displaymodes" nowrap="nowrap">
+		<a rel="nofollow" href="http://www.iphonedevsdk.com/forum/iphone-sdk-development/45633-unique-text-randomization.html?nojs=1#goto_displaymodes">Display Modes</a>
+		<script type="text/javascript"> vbmenu_register("displaymodes"); </script>
+	</td>
+	
+
+	
+<td align="right"><img src="http://www.iphonedevsdk.com/forum/sdk/misc/catright.png" alt="" border="0" /></td>
+</tr>
+</table>
+<!-- / toolbar -->
+
+
+
+<!-- end content table -->
+
+<!-- / end content table -->
+
+
+
+
+
+<div id="posts"><!-- post #193128 -->
+
+	
+	<div id="edit193128" style="padding:0px 0px 6px 0px">
+	<!-- this is not the last post shown on the page -->
+
+
+
+<table id="post193128" class="tborder" cellpadding="6" cellspacing="0" border="0" width="100%" align="center">
+<tr>
+	
+		<td class="thead" style="font-weight:normal; border: 1px solid #d4d4d4; border-right: 0px" >
+			<!-- status icon and date -->
+			<a name="post193128"><img class="inlineimg" src="http://www.iphonedevsdk.com/forum/sdk/statusicon/post_old.gif" alt="Old" border="0" /></a>
+			04-14-2010, 11:26 PM
+			
+			<!-- / status icon and date -->
+		</td>
+		<td class="thead" style="font-weight:normal; border: 1px solid #d4d4d4; border-left: 0px" align="right">
+			&nbsp;
+			#<a href="http://www.iphonedevsdk.com/forum/193128-post1.html" target="new"  id="postcount193128" name="1"><strong>1</strong></a> (<b><a href="http://www.iphonedevsdk.com/forum/iphone-sdk-development/45633-unique-text-randomization.html#post193128" title="Link to this Post">permalink</a></b>)
+			
+		</td>
+	
+</tr>
+<tr valign="top">
+	<td class="alt2" width="175" style="border: 1px solid #d4d4d4; border-top: 0px; border-bottom: 0px">
+
+			<div id="postmenu_193128">
+				
+				<a rel="nofollow" class="bigusername" href="http://www.iphonedevsdk.com/forum/members/vund0.html">vund0</a>
+				<script type="text/javascript"> vbmenu_register("postmenu_193128", true); </script>
+				
+			</div>
+
+			<div class="smallfont">Registered Member</div>
+			
+			
+
+			
+
+			<div class="smallfont">
+				&nbsp;<br />
+				<div>Join Date: Apr 2010</div>
+				
+				
+				<div>
+					Posts: 55
+				</div>
+				
+				
+				
+				
+				<div>    </div>
+			</div>
+
+	</td>
+	
+	<td class="alt1" id="td_post_193128" style="border-right: 1px solid #d4d4d4">
+	
+		
+		
+			<!-- icon and title -->
+			<div class="smallfont">
+				<img class="inlineimg" src="http://www.iphonedevsdk.com/forum/images/icons/icon1.gif" alt="Default" border="0" />
+				<strong>Unique text randomization</strong>
+			</div>
+			<hr size="1" style="color:#d4d4d4; background-color:#d4d4d4" />
+			<!-- / icon and title -->
+		
+
+		<!-- message -->
+		<div id="post_message_193128">
+			
+			I'm just beginning iPhone development and I'm working on an app that will display text randomly without any repeats. So far I have the <span class="highlight">random</span> part down but I can't seem to figure out a way to not have any repeats.  Any help would be appreciated.<br />
+<br />
+<div style="margin:20px; margin-top:5px">
+	<div class="smallfont" style="margin-bottom:2px">Code:</div>
+	<pre class="alt2" dir="ltr" style="
+		margin: 0px;
+		padding: 6px;
+		border: 1px inset;
+		width: 640px;
+		height: 498px;
+		text-align: left;
+		overflow: auto">- (IBAction)goto10Again {
+	int text9 = rand() % 10;
+	switch (text9) {
+		case 0:
+			textview9.text = @&quot;Line #9_1&quot;;
+			break;
+		case 1:
+			textview9.text = @&quot;Line #9_2&quot;;
+			break;
+		case 2:
+			textview9.text = @&quot;Line #9_3&quot;;
+			break;
+		case 3:
+			textview9.text = @&quot;Line #9_4&quot;;
+			break;
+		case 4:
+			textview9.text = @&quot;Line #9_5&quot;;
+			break;
+		case 5:
+			textview9.text = @&quot;Line #9_6&quot;;
+			break;
+		case 6:
+			textview9.text = @&quot;Line #9_7&quot;;
+			break;
+		case 7:
+			textview9.text = @&quot;Line #9_8&quot;;
+			break;
+		case 8:
+			textview9.text = @&quot;Line #9_9&quot;;
+			break;
+		case 9:
+			textview9.text = @&quot;Line #9_10&quot;;
+			break;
+		default:
+			break;
+	}
+}</pre>
+</div>
+		</div>
+		<!-- / message -->
+
+		
+
+		
+		
+
+		
+
+		
+
+		
+
+	</td>
+</tr>
+<tr>
+	<td class="alt2" style="border: 1px solid #d4d4d4; border-top: 0px">
+		<img class="inlineimg" src="http://www.iphonedevsdk.com/forum/sdk/statusicon/user_offline.gif" alt="vund0 is offline" border="0" />
+
+
+		
+		
+		<a href="http://www.iphonedevsdk.com/forum/report.php?p=193128" rel="nofollow"><img class="inlineimg" src="http://www.iphonedevsdk.com/forum/sdk/buttons/report.gif" alt="Report Post" border="0" /></a>
+		
+		&nbsp;
+	</td>
+	
+	<td class="alt1" align="right" style="border: 1px solid #d4d4d4; border-left: 0px; border-top: 0px">
+	
+		<!-- controls -->
+		
+		
+		
+			<a href="http://www.iphonedevsdk.com/forum/newreply.php?do=newreply&amp;p=193128" rel="nofollow"><img src="http://www.iphonedevsdk.com/forum/sdk/buttons/quote.gif" alt="Reply With Quote" border="0" /></a>
+		
+		
+			<a href="http://www.iphonedevsdk.com/forum/newreply.php?do=newreply&amp;p=193128" rel="nofollow" onclick="return false"><img src="http://www.iphonedevsdk.com/forum/sdk/buttons/multiquote_off.gif" alt="Multi-Quote This Message" border="0" id="mq_193128" /></a>
+		
+		
+			<a href="http://www.iphonedevsdk.com/forum/newreply.php?do=newreply&amp;p=193128" rel="nofollow" id="qr_193128" onclick="return false"><img src="http://www.iphonedevsdk.com/forum/sdk/buttons/quickreply.gif" alt="Quick reply to this message" border="0" /></a>
+		
+		
+		
+		
+		
+			
+		
+		
+		<!-- / controls -->
+	</td>
+</tr>
+</table>
+
+
+<!-- post 193128 popup menu -->
+<div class="vbmenu_popup" id="postmenu_193128_menu" style="display:none">
+	<table cellpadding="4" cellspacing="1" border="0">
+	<tr>
+		<td class="thead">vund0</td>
+	</tr>
+	
+		<tr><td class="vbmenu_option"><a rel="nofollow" href="http://www.iphonedevsdk.com/forum/members/vund0.html">View Public Profile</a></td></tr>
+	
+	
+		<tr><td class="vbmenu_option"><a href="http://www.iphonedevsdk.com/forum/private.php?do=newpm&amp;u=34911" rel="nofollow">Send a private message to vund0</a></td></tr>
+	
+	
+	
+	
+		<tr><td class="vbmenu_option"><a href="http://www.iphonedevsdk.com/forum/search.php?do=finduser&amp;u=34911" rel="nofollow">Find More Posts by vund0</a></td></tr>
+	
+	
+	<tr><td class="vbmenu_option"><a rel="nofollow" href="http://www.iphonedevsdk.com/forum/profile.php?do=addlist&amp;userlist=buddy&amp;u=34911">Add vund0 to Your Contacts</a></td></tr>
+	
+	
+	</table>
+</div>
+<!-- / post 193128 popup menu -->
+
+
+	</div>
+	
+
+<!-- / post #193128 --><!-- post #193142 -->
+
+	
+	<div id="edit193142" style="padding:0px 0px 6px 0px">
+	<!-- this is not the last post shown on the page -->
+
+
+
+<table id="post193142" class="tborder" cellpadding="6" cellspacing="0" border="0" width="100%" align="center">
+<tr>
+	
+		<td class="thead" style="font-weight:normal; border: 1px solid #d4d4d4; border-right: 0px" >
+			<!-- status icon and date -->
+			<a name="post193142"><img class="inlineimg" src="http://www.iphonedevsdk.com/forum/sdk/statusicon/post_old.gif" alt="Old" border="0" /></a>
+			04-15-2010, 12:19 AM
+			
+			<!-- / status icon and date -->
+		</td>
+		<td class="thead" style="font-weight:normal; border: 1px solid #d4d4d4; border-left: 0px" align="right">
+			&nbsp;
+			#<a href="http://www.iphonedevsdk.com/forum/193142-post2.html" target="new"  id="postcount193142" name="2"><strong>2</strong></a> (<b><a href="http://www.iphonedevsdk.com/forum/iphone-sdk-development/45633-unique-text-randomization.html#post193142" title="Link to this Post">permalink</a></b>)
+			
+		</td>
+	
+</tr>
+<tr valign="top">
+	<td class="alt2" width="175" style="border: 1px solid #d4d4d4; border-top: 0px; border-bottom: 0px">
+
+			<div id="postmenu_193142">
+				
+				<a rel="nofollow" class="bigusername" href="http://www.iphonedevsdk.com/forum/members/smasher.html"><span style="color: green;"><strong>smasher</strong></span></a>
+				<script type="text/javascript"> vbmenu_register("postmenu_193142", true); </script>
+				
+			</div>
+
+			<div class="smallfont">Senior Member</div>
+			<div class="smallfont"><span style="color: green;">iPhone Dev SDK Supporter</span></div>
+			
+
+			
+				<div class="smallfont">
+					&nbsp;<br /><a rel="nofollow" href="http://www.iphonedevsdk.com/forum/members/smasher.html"><img src="http://www.iphonedevsdk.com/forum/avatars/smasher.gif?dateline=1217470024" width="48" height="48" alt="smasher's Avatar" border="0" /></a>
+				</div>
+			
+
+			<div class="smallfont">
+				&nbsp;<br />
+				<div>Join Date: Jul 2008</div>
+				<div>Location: San Mateo, CA (San Fran)</div>
+				
+				<div>
+					Posts: 3,401
+				</div>
+				
+				
+				
+				
+				<div>    </div>
+			</div>
+
+	</td>
+	
+	<td class="alt1" id="td_post_193142" style="border-right: 1px solid #d4d4d4">
+	
+		
+		
+			<!-- icon and title -->
+			<div class="smallfont">
+				<img class="inlineimg" src="http://www.iphonedevsdk.com/forum/images/icons/icon1.gif" alt="Default" border="0" />
+				
+			</div>
+			<hr size="1" style="color:#d4d4d4; background-color:#d4d4d4" />
+			<!-- / icon and title -->
+		
+
+		<!-- message -->
+		<div id="post_message_193142">
+			
+			You could put all of your strings in an NSMutableArray, and then remove them as you pick them at <span class="highlight">random</span>. <br />
+<br />
+<div style="margin:20px; margin-top:5px">
+	<div class="smallfont" style="margin-bottom:2px">Code:</div>
+	<pre class="alt2" dir="ltr" style="
+		margin: 0px;
+		padding: 6px;
+		border: 1px inset;
+		width: 640px;
+		height: 178px;
+		text-align: left;
+		overflow: auto">NSMutableArray *myLines;
+
+//load the strings from a <span class="highlight">plist</span> file into a mutable array.
+//only do this once at the start, and again when the array is empty
+myLines = [[NSMutableArray alloc] initWithContentsOfFile:path];
+
+//choose a number, get the line, remove the line
+int chosenNumber = arc4random() % [myLines count];
+NSString *chosenLine = [myLines objectAtIndex:chosenNumber];
+[myLines removeObjectAtIndex:chosenNumber];</pre>
+</div>I switched to arc4random so you'll get a different order every time; it seeds itself.
+		</div>
+		<!-- / message -->
+
+		
+
+		
+		
+
+		
+		<!-- sig -->
+			<div>
+				__________________<br />
+				<a onclick="pageTracker._trackPageview ('/outgoing/http_ax_itunes_apple_com_us_app_tiny_chef_id402093189_mt_8');" href="http://ax.itunes.apple.com/us/app/tiny-chef/id402093189?mt=8" target="_blank">Free Game:<br />
+<img src="http://a1.phobos.apple.com/us/r1000/029/Purple/42/41/70/mzi.hrfvjikg.75x75-65.jpg" border="0" alt="" /><br />
+Tiny Chef!</a>
+			</div>
+		<!-- / sig -->
+		
+
+		
+
+		
+
+	</td>
+</tr>
+<tr>
+	<td class="alt2" style="border: 1px solid #d4d4d4; border-top: 0px">
+		<img class="inlineimg" src="http://www.iphonedevsdk.com/forum/sdk/statusicon/user_offline.gif" alt="smasher is offline" border="0" />
+
+
+		
+		
+		<a href="http://www.iphonedevsdk.com/forum/report.php?p=193142" rel="nofollow"><img class="inlineimg" src="http://www.iphonedevsdk.com/forum/sdk/buttons/report.gif" alt="Report Post" border="0" /></a>
+		
+		&nbsp;
+	</td>
+	
+	<td class="alt1" align="right" style="border: 1px solid #d4d4d4; border-left: 0px; border-top: 0px">
+	
+		<!-- controls -->
+		
+		
+		
+			<a href="http://www.iphonedevsdk.com/forum/newreply.php?do=newreply&amp;p=193142" rel="nofollow"><img src="http://www.iphonedevsdk.com/forum/sdk/buttons/quote.gif" alt="Reply With Quote" border="0" /></a>
+		
+		
+			<a href="http://www.iphonedevsdk.com/forum/newreply.php?do=newreply&amp;p=193142" rel="nofollow" onclick="return false"><img src="http://www.iphonedevsdk.com/forum/sdk/buttons/multiquote_off.gif" alt="Multi-Quote This Message" border="0" id="mq_193142" /></a>
+		
+		
+			<a href="http://www.iphonedevsdk.com/forum/newreply.php?do=newreply&amp;p=193142" rel="nofollow" id="qr_193142" onclick="return false"><img src="http://www.iphonedevsdk.com/forum/sdk/buttons/quickreply.gif" alt="Quick reply to this message" border="0" /></a>
+		
+		
+		
+		
+		
+			
+		
+		
+		<!-- / controls -->
+	</td>
+</tr>
+</table>
+
+
+<!-- post 193142 popup menu -->
+<div class="vbmenu_popup" id="postmenu_193142_menu" style="display:none">
+	<table cellpadding="4" cellspacing="1" border="0">
+	<tr>
+		<td class="thead">smasher</td>
+	</tr>
+	
+		<tr><td class="vbmenu_option"><a rel="nofollow" href="http://www.iphonedevsdk.com/forum/members/smasher.html">View Public Profile</a></td></tr>
+	
+	
+		<tr><td class="vbmenu_option"><a href="http://www.iphonedevsdk.com/forum/private.php?do=newpm&amp;u=1650" rel="nofollow">Send a private message to smasher</a></td></tr>
+	
+	
+	
+	
+		<tr><td class="vbmenu_option"><a href="http://www.iphonedevsdk.com/forum/search.php?do=finduser&amp;u=1650" rel="nofollow">Find More Posts by smasher</a></td></tr>
+	
+	
+	<tr><td class="vbmenu_option"><a rel="nofollow" href="http://www.iphonedevsdk.com/forum/profile.php?do=addlist&amp;userlist=buddy&amp;u=1650">Add smasher to Your Contacts</a></td></tr>
+	
+	
+	</table>
+</div>
+<!-- / post 193142 popup menu -->
+
+
+	</div>
+	
+
+<!-- / post #193142 --><!-- post #193152 -->
+
+	
+	<div id="edit193152" style="padding:0px 0px 6px 0px">
+	<!-- this is not the last post shown on the page -->
+
+
+
+<table id="post193152" class="tborder" cellpadding="6" cellspacing="0" border="0" width="100%" align="center">
+<tr>
+	
+		<td class="thead" style="font-weight:normal; border: 1px solid #d4d4d4; border-right: 0px" >
+			<!-- status icon and date -->
+			<a name="post193152"><img class="inlineimg" src="http://www.iphonedevsdk.com/forum/sdk/statusicon/post_old.gif" alt="Old" border="0" /></a>
+			04-15-2010, 01:11 AM
+			
+			<!-- / status icon and date -->
+		</td>
+		<td class="thead" style="font-weight:normal; border: 1px solid #d4d4d4; border-left: 0px" align="right">
+			&nbsp;
+			#<a href="http://www.iphonedevsdk.com/forum/193152-post3.html" target="new"  id="postcount193152" name="3"><strong>3</strong></a> (<b><a href="http://www.iphonedevsdk.com/forum/iphone-sdk-development/45633-unique-text-randomization.html#post193152" title="Link to this Post">permalink</a></b>)
+			
+		</td>
+	
+</tr>
+<tr valign="top">
+	<td class="alt2" width="175" style="border: 1px solid #d4d4d4; border-top: 0px; border-bottom: 0px">
+
+			<div id="postmenu_193152">
+				
+				<a rel="nofollow" class="bigusername" href="http://www.iphonedevsdk.com/forum/members/vund0.html">vund0</a>
+				<script type="text/javascript"> vbmenu_register("postmenu_193152", true); </script>
+				
+			</div>
+
+			<div class="smallfont">Registered Member</div>
+			
+			
+
+			
+
+			<div class="smallfont">
+				&nbsp;<br />
+				<div>Join Date: Apr 2010</div>
+				
+				
+				<div>
+					Posts: 55
+				</div>
+				
+				
+				
+				
+				<div>    </div>
+			</div>
+
+	</td>
+	
+	<td class="alt1" id="td_post_193152" style="border-right: 1px solid #d4d4d4">
+	
+		
+		
+			<!-- icon and title -->
+			<div class="smallfont">
+				<img class="inlineimg" src="http://www.iphonedevsdk.com/forum/images/icons/icon1.gif" alt="Default" border="0" />
+				
+			</div>
+			<hr size="1" style="color:#d4d4d4; background-color:#d4d4d4" />
+			<!-- / icon and title -->
+		
+
+		<!-- message -->
+		<div id="post_message_193152">
+			
+			Thanks for the reply Smasher. So something like this?<br />
+<br />
+<span class="highlight">plist</span> file:<br />
+<div style="margin:20px; margin-top:5px">
+	<div class="smallfont" style="margin-bottom:2px">Code:</div>
+	<pre class="alt2" dir="ltr" style="
+		margin: 0px;
+		padding: 6px;
+		border: 1px inset;
+		width: 640px;
+		height: 274px;
+		text-align: left;
+		overflow: auto">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE <span class="highlight">plist</span> PUBLIC &quot;-//Apple//DTD <span class="highlight">PLIST</span> 1.0//EN&quot; &quot;http://www.apple.com/DTDs/PropertyList-1.0.dtd&quot;&gt;
+&lt;<span class="highlight">plist</span> version=&quot;1.0&quot;&gt;
+&lt;array&gt;
+	&lt;string&gt;line10_1&lt;/string&gt;
+	&lt;string&gt;line10_2&lt;/string&gt;
+	&lt;string&gt;line10_3&lt;/string&gt;
+	&lt;string&gt;line10_4&lt;/string&gt;
+	&lt;string&gt;line10_5&lt;/string&gt;
+	&lt;string&gt;line10_6&lt;/string&gt;
+	&lt;string&gt;line10_7&lt;/string&gt;
+	&lt;string&gt;line10_8&lt;/string&gt;
+	&lt;string&gt;line10_9&lt;/string&gt;
+	&lt;string&gt;line10_10&lt;/string&gt;
+&lt;/array&gt;
+&lt;/plist&gt;</pre>
+</div><div style="margin:20px; margin-top:5px">
+	<div class="smallfont" style="margin-bottom:2px">Code:</div>
+	<pre class="alt2" dir="ltr" style="
+		margin: 0px;
+		padding: 6px;
+		border: 1px inset;
+		width: 640px;
+		height: 178px;
+		text-align: left;
+		overflow: auto">- (IBAction)goto10Again {
+	// Path to the <span class="highlight">plist</span> (in the application bundle)
+	NSString *path = [[NSBundle mainBundle] pathForResource:@&quot;line10&quot; ofType:@&quot;<span class="highlight">plist</span>&quot;];
+	// Build the array from the <span class="highlight">plist</span>  
+	NSMutableArray *line10Array = [[NSMutableArray alloc] initWithContentsOfFile:path];
+	int chosenNumber = arc4random() % [line10Array count];
+	NSString *chosenLine = [line10Array objectAtIndex:chosenNumber];
+	[line10Array removeObjectAtIndex:chosenNumber];
+        [textview10 setText:chosenLine];
+}</pre>
+</div>
+		</div>
+		<!-- / message -->
+
+		
+
+		
+		
+
+		
+
+		
+
+		
+		<!-- edit note -->
+			<div class="smallfont">
+				<hr size="1" style="color:#d4d4d4; background-color:#d4d4d4" />
+				<em>
+					
+						Last edited by vund0; 04-15-2010 at <span class="time">01:32 AM</span>.
+					
+					
+				</em>
+			</div>
+		<!-- / edit note -->
+		
+
+	</td>
+</tr>
+<tr>
+	<td class="alt2" style="border: 1px solid #d4d4d4; border-top: 0px">
+		<img class="inlineimg" src="http://www.iphonedevsdk.com/forum/sdk/statusicon/user_offline.gif" alt="vund0 is offline" border="0" />
+
+
+		
+		
+		<a href="http://www.iphonedevsdk.com/forum/report.php?p=193152" rel="nofollow"><img class="inlineimg" src="http://www.iphonedevsdk.com/forum/sdk/buttons/report.gif" alt="Report Post" border="0" /></a>
+		
+		&nbsp;
+	</td>
+	
+	<td class="alt1" align="right" style="border: 1px solid #d4d4d4; border-left: 0px; border-top: 0px">
+	
+		<!-- controls -->
+		
+		
+		
+			<a href="http://www.iphonedevsdk.com/forum/newreply.php?do=newreply&amp;p=193152" rel="nofollow"><img src="http://www.iphonedevsdk.com/forum/sdk/buttons/quote.gif" alt="Reply With Quote" border="0" /></a>
+		
+		
+			<a href="http://www.iphonedevsdk.com/forum/newreply.php?do=newreply&amp;p=193152" rel="nofollow" onclick="return false"><img src="http://www.iphonedevsdk.com/forum/sdk/buttons/multiquote_off.gif" alt="Multi-Quote This Message" border="0" id="mq_193152" /></a>
+		
+		
+			<a href="http://www.iphonedevsdk.com/forum/newreply.php?do=newreply&amp;p=193152" rel="nofollow" id="qr_193152" onclick="return false"><img src="http://www.iphonedevsdk.com/forum/sdk/buttons/quickreply.gif" alt="Quick reply to this message" border="0" /></a>
+		
+		
+		
+		
+		
+			
+		
+		
+		<!-- / controls -->
+	</td>
+</tr>
+</table>
+
+
+<!-- post 193152 popup menu -->
+<div class="vbmenu_popup" id="postmenu_193152_menu" style="display:none">
+	<table cellpadding="4" cellspacing="1" border="0">
+	<tr>
+		<td class="thead">vund0</td>
+	</tr>
+	
+		<tr><td class="vbmenu_option"><a rel="nofollow" href="http://www.iphonedevsdk.com/forum/members/vund0.html">View Public Profile</a></td></tr>
+	
+	
+		<tr><td class="vbmenu_option"><a href="http://www.iphonedevsdk.com/forum/private.php?do=newpm&amp;u=34911" rel="nofollow">Send a private message to vund0</a></td></tr>
+	
+	
+	
+	
+		<tr><td class="vbmenu_option"><a href="http://www.iphonedevsdk.com/forum/search.php?do=finduser&amp;u=34911" rel="nofollow">Find More Posts by vund0</a></td></tr>
+	
+	
+	<tr><td class="vbmenu_option"><a rel="nofollow" href="http://www.iphonedevsdk.com/forum/profile.php?do=addlist&amp;userlist=buddy&amp;u=34911">Add vund0 to Your Contacts</a></td></tr>
+	
+	
+	</table>
+</div>
+<!-- / post 193152 popup menu -->
+
+
+	</div>
+	
+
+<!-- / post #193152 --><!-- post #193159 -->
+
+	
+	<div id="edit193159" style="padding:0px 0px 6px 0px">
+	<!-- this is not the last post shown on the page -->
+
+
+
+<table id="post193159" class="tborder" cellpadding="6" cellspacing="0" border="0" width="100%" align="center">
+<tr>
+	
+		<td class="thead" style="font-weight:normal; border: 1px solid #d4d4d4; border-right: 0px" >
+			<!-- status icon and date -->
+			<a name="post193159"><img class="inlineimg" src="http://www.iphonedevsdk.com/forum/sdk/statusicon/post_old.gif" alt="Old" border="0" /></a>
+			04-15-2010, 01:43 AM
+			
+			<!-- / status icon and date -->
+		</td>
+		<td class="thead" style="font-weight:normal; border: 1px solid #d4d4d4; border-left: 0px" align="right">
+			&nbsp;
+			#<a href="http://www.iphonedevsdk.com/forum/193159-post4.html" target="new"  id="postcount193159" name="4"><strong>4</strong></a> (<b><a href="http://www.iphonedevsdk.com/forum/iphone-sdk-development/45633-unique-text-randomization.html#post193159" title="Link to this Post">permalink</a></b>)
+			
+		</td>
+	
+</tr>
+<tr valign="top">
+	<td class="alt2" width="175" style="border: 1px solid #d4d4d4; border-top: 0px; border-bottom: 0px">
+
+			<div id="postmenu_193159">
+				
+				<a rel="nofollow" class="bigusername" href="http://www.iphonedevsdk.com/forum/members/smasher.html"><span style="color: green;"><strong>smasher</strong></span></a>
+				<script type="text/javascript"> vbmenu_register("postmenu_193159", true); </script>
+				
+			</div>
+
+			<div class="smallfont">Senior Member</div>
+			<div class="smallfont"><span style="color: green;">iPhone Dev SDK Supporter</span></div>
+			
+
+			
+				<div class="smallfont">
+					&nbsp;<br /><a rel="nofollow" href="http://www.iphonedevsdk.com/forum/members/smasher.html"><img src="http://www.iphonedevsdk.com/forum/avatars/smasher.gif?dateline=1217470024" width="48" height="48" alt="smasher's Avatar" border="0" /></a>
+				</div>
+			
+
+			<div class="smallfont">
+				&nbsp;<br />
+				<div>Join Date: Jul 2008</div>
+				<div>Location: San Mateo, CA (San Fran)</div>
+				
+				<div>
+					Posts: 3,401
+				</div>
+				
+				
+				
+				
+				<div>    </div>
+			</div>
+
+	</td>
+	
+	<td class="alt1" id="td_post_193159" style="border-right: 1px solid #d4d4d4">
+	
+		
+		
+			<!-- icon and title -->
+			<div class="smallfont">
+				<img class="inlineimg" src="http://www.iphonedevsdk.com/forum/images/icons/icon1.gif" alt="Default" border="0" />
+				
+			</div>
+			<hr size="1" style="color:#d4d4d4; background-color:#d4d4d4" />
+			<!-- / icon and title -->
+		
+
+		<!-- message -->
+		<div id="post_message_193159">
+			
+			That looks good - except that you're loading a new full array every time the method is called, so you're not getting the no-repeat effect you wanted. You need to declare line10Array outside of this method, and load the array only when the old array is empty.<br />
+<br />
+<div style="margin:20px; margin-top:5px">
+	<div class="smallfont" style="margin-bottom:2px">Code:</div>
+	<pre class="alt2" dir="ltr" style="
+		margin: 0px;
+		padding: 6px;
+		border: 1px inset;
+		width: 640px;
+		height: 338px;
+		text-align: left;
+		overflow: auto">//declare in the .h file
+NSMutableArray *line10Array;
+
+- (IBAction)goto10Again {
+
+	if ([line10Array count]==0){
+		
+		[line10Array release]; // release old array; it's empty		
+
+		// Path to the <span class="highlight">plist</span> (in the application bundle)
+		NSString *path = [[NSBundle mainBundle] pathForResource:@&quot;line10&quot; ofType:@&quot;<span class="highlight">plist</span>&quot;];
+		// Build the array from the <span class="highlight">plist</span>  
+		line10Array = [[NSMutableArray alloc] initWithContentsOfFile:path];
+	}
+
+	int chosenNumber = arc4random() % [line10Array count];
+	NSString *chosenLine = [line10Array objectAtIndex:chosenNumber];
+	[line10Array removeObjectAtIndex:chosenNumber];
+        [textview10 setText:chosenLine];
+}</pre>
+</div>
+		</div>
+		<!-- / message -->
+
+		
+
+		
+		
+
+		
+		<!-- sig -->
+			<div>
+				__________________<br />
+				<a onclick="pageTracker._trackPageview ('/outgoing/http_ax_itunes_apple_com_us_app_tiny_chef_id402093189_mt_8');" href="http://ax.itunes.apple.com/us/app/tiny-chef/id402093189?mt=8" target="_blank">Free Game:<br />
+<img src="http://a1.phobos.apple.com/us/r1000/029/Purple/42/41/70/mzi.hrfvjikg.75x75-65.jpg" border="0" alt="" /><br />
+Tiny Chef!</a>
+			</div>
+		<!-- / sig -->
+		
+
+		
+
+		
+
+	</td>
+</tr>
+<tr>
+	<td class="alt2" style="border: 1px solid #d4d4d4; border-top: 0px">
+		<img class="inlineimg" src="http://www.iphonedevsdk.com/forum/sdk/statusicon/user_offline.gif" alt="smasher is offline" border="0" />
+
+
+		
+		
+		<a href="http://www.iphonedevsdk.com/forum/report.php?p=193159" rel="nofollow"><img class="inlineimg" src="http://www.iphonedevsdk.com/forum/sdk/buttons/report.gif" alt="Report Post" border="0" /></a>
+		
+		&nbsp;
+	</td>
+	
+	<td class="alt1" align="right" style="border: 1px solid #d4d4d4; border-left: 0px; border-top: 0px">
+	
+		<!-- controls -->
+		
+		
+		
+			<a href="http://www.iphonedevsdk.com/forum/newreply.php?do=newreply&amp;p=193159" rel="nofollow"><img src="http://www.iphonedevsdk.com/forum/sdk/buttons/quote.gif" alt="Reply With Quote" border="0" /></a>
+		
+		
+			<a href="http://www.iphonedevsdk.com/forum/newreply.php?do=newreply&amp;p=193159" rel="nofollow" onclick="return false"><img src="http://www.iphonedevsdk.com/forum/sdk/buttons/multiquote_off.gif" alt="Multi-Quote This Message" border="0" id="mq_193159" /></a>
+		
+		
+			<a href="http://www.iphonedevsdk.com/forum/newreply.php?do=newreply&amp;p=193159" rel="nofollow" id="qr_193159" onclick="return false"><img src="http://www.iphonedevsdk.com/forum/sdk/buttons/quickreply.gif" alt="Quick reply to this message" border="0" /></a>
+		
+		
+		
+		
+		
+			
+		
+		
+		<!-- / controls -->
+	</td>
+</tr>
+</table>
+
+
+<!-- post 193159 popup menu -->
+<div class="vbmenu_popup" id="postmenu_193159_menu" style="display:none">
+	<table cellpadding="4" cellspacing="1" border="0">
+	<tr>
+		<td class="thead">smasher</td>
+	</tr>
+	
+		<tr><td class="vbmenu_option"><a rel="nofollow" href="http://www.iphonedevsdk.com/forum/members/smasher.html">View Public Profile</a></td></tr>
+	
+	
+		<tr><td class="vbmenu_option"><a href="http://www.iphonedevsdk.com/forum/private.php?do=newpm&amp;u=1650" rel="nofollow">Send a private message to smasher</a></td></tr>
+	
+	
+	
+	
+		<tr><td class="vbmenu_option"><a href="http://www.iphonedevsdk.com/forum/search.php?do=finduser&amp;u=1650" rel="nofollow">Find More Posts by smasher</a></td></tr>
+	
+	
+	<tr><td class="vbmenu_option"><a rel="nofollow" href="http://www.iphonedevsdk.com/forum/profile.php?do=addlist&amp;userlist=buddy&amp;u=1650">Add smasher to Your Contacts</a></td></tr>
+	
+	
+	</table>
+</div>
+<!-- / post 193159 popup menu -->
+
+
+	</div>
+	
+
+<!-- / post #193159 --><!-- post #193167 -->
+
+	
+	<div id="edit193167" style="padding:0px 0px 6px 0px">
+	<!-- this is not the last post shown on the page -->
+
+
+
+<table id="post193167" class="tborder" cellpadding="6" cellspacing="0" border="0" width="100%" align="center">
+<tr>
+	
+		<td class="thead" style="font-weight:normal; border: 1px solid #d4d4d4; border-right: 0px" >
+			<!-- status icon and date -->
+			<a name="post193167"><img class="inlineimg" src="http://www.iphonedevsdk.com/forum/sdk/statusicon/post_old.gif" alt="Old" border="0" /></a>
+			04-15-2010, 02:00 AM
+			
+			<!-- / status icon and date -->
+		</td>
+		<td class="thead" style="font-weight:normal; border: 1px solid #d4d4d4; border-left: 0px" align="right">
+			&nbsp;
+			#<a href="http://www.iphonedevsdk.com/forum/193167-post5.html" target="new"  id="postcount193167" name="5"><strong>5</strong></a> (<b><a href="http://www.iphonedevsdk.com/forum/iphone-sdk-development/45633-unique-text-randomization.html#post193167" title="Link to this Post">permalink</a></b>)
+			
+		</td>
+	
+</tr>
+<tr valign="top">
+	<td class="alt2" width="175" style="border: 1px solid #d4d4d4; border-top: 0px; border-bottom: 0px">
+
+			<div id="postmenu_193167">
+				
+				<a rel="nofollow" class="bigusername" href="http://www.iphonedevsdk.com/forum/members/vund0.html">vund0</a>
+				<script type="text/javascript"> vbmenu_register("postmenu_193167", true); </script>
+				
+			</div>
+
+			<div class="smallfont">Registered Member</div>
+			
+			
+
+			
+
+			<div class="smallfont">
+				&nbsp;<br />
+				<div>Join Date: Apr 2010</div>
+				
+				
+				<div>
+					Posts: 55
+				</div>
+				
+				
+				
+				
+				<div>    </div>
+			</div>
+
+	</td>
+	
+	<td class="alt1" id="td_post_193167" style="border-right: 1px solid #d4d4d4">
+	
+		
+		
+			<!-- icon and title -->
+			<div class="smallfont">
+				<img class="inlineimg" src="http://www.iphonedevsdk.com/forum/images/icons/icon1.gif" alt="Default" border="0" />
+				
+			</div>
+			<hr size="1" style="color:#d4d4d4; background-color:#d4d4d4" />
+			<!-- / icon and title -->
+		
+
+		<!-- message -->
+		<div id="post_message_193167">
+			
+			Hmm everything runs fine but when goto10Again button is pressed I get a &quot;Program received signal:  “EXC_BAD_ACCESS”.&quot; in the console (I did declare the line10Array in the .h file). I know that's some sort of memory error but it only happens with the new code.  Any ideas? Btw, thanks for all your help...
+		</div>
+		<!-- / message -->
+
+		
+
+		
+		
+
+		
+
+		
+
+		
+
+	</td>
+</tr>
+<tr>
+	<td class="alt2" style="border: 1px solid #d4d4d4; border-top: 0px">
+		<img class="inlineimg" src="http://www.iphonedevsdk.com/forum/sdk/statusicon/user_offline.gif" alt="vund0 is offline" border="0" />
+
+
+		
+		
+		<a href="http://www.iphonedevsdk.com/forum/report.php?p=193167" rel="nofollow"><img class="inlineimg" src="http://www.iphonedevsdk.com/forum/sdk/buttons/report.gif" alt="Report Post" border="0" /></a>
+		
+		&nbsp;
+	</td>
+	
+	<td class="alt1" align="right" style="border: 1px solid #d4d4d4; border-left: 0px; border-top: 0px">
+	
+		<!-- controls -->
+		
+		
+		
+			<a href="http://www.iphonedevsdk.com/forum/newreply.php?do=newreply&amp;p=193167" rel="nofollow"><img src="http://www.iphonedevsdk.com/forum/sdk/buttons/quote.gif" alt="Reply With Quote" border="0" /></a>
+		
+		
+			<a href="http://www.iphonedevsdk.com/forum/newreply.php?do=newreply&amp;p=193167" rel="nofollow" onclick="return false"><img src="http://www.iphonedevsdk.com/forum/sdk/buttons/multiquote_off.gif" alt="Multi-Quote This Message" border="0" id="mq_193167" /></a>
+		
+		
+			<a href="http://www.iphonedevsdk.com/forum/newreply.php?do=newreply&amp;p=193167" rel="nofollow" id="qr_193167" onclick="return false"><img src="http://www.iphonedevsdk.com/forum/sdk/buttons/quickreply.gif" alt="Quick reply to this message" border="0" /></a>
+		
+		
+		
+		
+		
+			
+		
+		
+		<!-- / controls -->
+	</td>
+</tr>
+</table>
+
+
+<!-- post 193167 popup menu -->
+<div class="vbmenu_popup" id="postmenu_193167_menu" style="display:none">
+	<table cellpadding="4" cellspacing="1" border="0">
+	<tr>
+		<td class="thead">vund0</td>
+	</tr>
+	
+		<tr><td class="vbmenu_option"><a rel="nofollow" href="http://www.iphonedevsdk.com/forum/members/vund0.html">View Public Profile</a></td></tr>
+	
+	
+		<tr><td class="vbmenu_option"><a href="http://www.iphonedevsdk.com/forum/private.php?do=newpm&amp;u=34911" rel="nofollow">Send a private message to vund0</a></td></tr>
+	
+	
+	
+	
+		<tr><td class="vbmenu_option"><a href="http://www.iphonedevsdk.com/forum/search.php?do=finduser&amp;u=34911" rel="nofollow">Find More Posts by vund0</a></td></tr>
+	
+	
+	<tr><td class="vbmenu_option"><a rel="nofollow" href="http://www.iphonedevsdk.com/forum/profile.php?do=addlist&amp;userlist=buddy&amp;u=34911">Add vund0 to Your Contacts</a></td></tr>
+	
+	
+	</table>
+</div>
+<!-- / post 193167 popup menu -->
+
+
+	</div>
+	
+
+<!-- / post #193167 --><!-- post #193172 -->
+
+	
+	<div id="edit193172" style="padding:0px 0px 6px 0px">
+	<!-- this is not the last post shown on the page -->
+
+
+
+<table id="post193172" class="tborder" cellpadding="6" cellspacing="0" border="0" width="100%" align="center">
+<tr>
+	
+		<td class="thead" style="font-weight:normal; border: 1px solid #d4d4d4; border-right: 0px" >
+			<!-- status icon and date -->
+			<a name="post193172"><img class="inlineimg" src="http://www.iphonedevsdk.com/forum/sdk/statusicon/post_old.gif" alt="Old" border="0" /></a>
+			04-15-2010, 02:45 AM
+			
+			<!-- / status icon and date -->
+		</td>
+		<td class="thead" style="font-weight:normal; border: 1px solid #d4d4d4; border-left: 0px" align="right">
+			&nbsp;
+			#<a href="http://www.iphonedevsdk.com/forum/193172-post6.html" target="new"  id="postcount193172" name="6"><strong>6</strong></a> (<b><a href="http://www.iphonedevsdk.com/forum/iphone-sdk-development/45633-unique-text-randomization.html#post193172" title="Link to this Post">permalink</a></b>)
+			
+		</td>
+	
+</tr>
+<tr valign="top">
+	<td class="alt2" width="175" style="border: 1px solid #d4d4d4; border-top: 0px; border-bottom: 0px">
+
+			<div id="postmenu_193172">
+				
+				<a rel="nofollow" class="bigusername" href="http://www.iphonedevsdk.com/forum/members/smasher.html"><span style="color: green;"><strong>smasher</strong></span></a>
+				<script type="text/javascript"> vbmenu_register("postmenu_193172", true); </script>
+				
+			</div>
+
+			<div class="smallfont">Senior Member</div>
+			<div class="smallfont"><span style="color: green;">iPhone Dev SDK Supporter</span></div>
+			
+
+			
+				<div class="smallfont">
+					&nbsp;<br /><a rel="nofollow" href="http://www.iphonedevsdk.com/forum/members/smasher.html"><img src="http://www.iphonedevsdk.com/forum/avatars/smasher.gif?dateline=1217470024" width="48" height="48" alt="smasher's Avatar" border="0" /></a>
+				</div>
+			
+
+			<div class="smallfont">
+				&nbsp;<br />
+				<div>Join Date: Jul 2008</div>
+				<div>Location: San Mateo, CA (San Fran)</div>
+				
+				<div>
+					Posts: 3,401
+				</div>
+				
+				
+				
+				
+				<div>    </div>
+			</div>
+
+	</td>
+	
+	<td class="alt1" id="td_post_193172" style="border-right: 1px solid #d4d4d4">
+	
+		
+		
+			<!-- icon and title -->
+			<div class="smallfont">
+				<img class="inlineimg" src="http://www.iphonedevsdk.com/forum/images/icons/icon1.gif" alt="Post" border="0" />
+				
+			</div>
+			<hr size="1" style="color:#d4d4d4; background-color:#d4d4d4" />
+			<!-- / icon and title -->
+		
+
+		<!-- message -->
+		<div id="post_message_193172">
+			
+			Yes, my mistake - no one is retaining the string when it is removed from the array, so it gets destroyed. Reverse the order of these two lines.<br />
+<br />
+<div style="margin:20px; margin-top:5px">
+	<div class="smallfont" style="margin-bottom:2px">Code:</div>
+	<pre class="alt2" dir="ltr" style="
+		margin: 0px;
+		padding: 6px;
+		border: 1px inset;
+		width: 640px;
+		height: 114px;
+		text-align: left;
+		overflow: auto">        //set the text of the textview first -  the textview will
+        //retain the string if it needs it.
+        [textview10 setText:chosenLine];
+
+        //we're done with the string, now we can remove it from the array.
+	[line10Array removeObjectAtIndex:chosenNumber];</pre>
+</div>
+		</div>
+		<!-- / message -->
+
+		
+
+		
+		
+
+		
+		<!-- sig -->
+			<div>
+				__________________<br />
+				<a onclick="pageTracker._trackPageview ('/outgoing/http_ax_itunes_apple_com_us_app_tiny_chef_id402093189_mt_8');" href="http://ax.itunes.apple.com/us/app/tiny-chef/id402093189?mt=8" target="_blank">Free Game:<br />
+<img src="http://a1.phobos.apple.com/us/r1000/029/Purple/42/41/70/mzi.hrfvjikg.75x75-65.jpg" border="0" alt="" /><br />
+Tiny Chef!</a>
+			</div>
+		<!-- / sig -->
+		
+
+		
+
+		
+
+	</td>
+</tr>
+<tr>
+	<td class="alt2" style="border: 1px solid #d4d4d4; border-top: 0px">
+		<img class="inlineimg" src="http://www.iphonedevsdk.com/forum/sdk/statusicon/user_offline.gif" alt="smasher is offline" border="0" />
+
+
+		
+		
+		<a href="http://www.iphonedevsdk.com/forum/report.php?p=193172" rel="nofollow"><img class="inlineimg" src="http://www.iphonedevsdk.com/forum/sdk/buttons/report.gif" alt="Report Post" border="0" /></a>
+		
+		&nbsp;
+	</td>
+	
+	<td class="alt1" align="right" style="border: 1px solid #d4d4d4; border-left: 0px; border-top: 0px">
+	
+		<!-- controls -->
+		
+		
+		
+			<a href="http://www.iphonedevsdk.com/forum/newreply.php?do=newreply&amp;p=193172" rel="nofollow"><img src="http://www.iphonedevsdk.com/forum/sdk/buttons/quote.gif" alt="Reply With Quote" border="0" /></a>
+		
+		
+			<a href="http://www.iphonedevsdk.com/forum/newreply.php?do=newreply&amp;p=193172" rel="nofollow" onclick="return false"><img src="http://www.iphonedevsdk.com/forum/sdk/buttons/multiquote_off.gif" alt="Multi-Quote This Message" border="0" id="mq_193172" /></a>
+		
+		
+			<a href="http://www.iphonedevsdk.com/forum/newreply.php?do=newreply&amp;p=193172" rel="nofollow" id="qr_193172" onclick="return false"><img src="http://www.iphonedevsdk.com/forum/sdk/buttons/quickreply.gif" alt="Quick reply to this message" border="0" /></a>
+		
+		
+		
+		
+		
+			
+		
+		
+		<!-- / controls -->
+	</td>
+</tr>
+</table>
+
+
+<!-- post 193172 popup menu -->
+<div class="vbmenu_popup" id="postmenu_193172_menu" style="display:none">
+	<table cellpadding="4" cellspacing="1" border="0">
+	<tr>
+		<td class="thead">smasher</td>
+	</tr>
+	
+		<tr><td class="vbmenu_option"><a rel="nofollow" href="http://www.iphonedevsdk.com/forum/members/smasher.html">View Public Profile</a></td></tr>
+	
+	
+		<tr><td class="vbmenu_option"><a href="http://www.iphonedevsdk.com/forum/private.php?do=newpm&amp;u=1650" rel="nofollow">Send a private message to smasher</a></td></tr>
+	
+	
+	
+	
+		<tr><td class="vbmenu_option"><a href="http://www.iphonedevsdk.com/forum/search.php?do=finduser&amp;u=1650" rel="nofollow">Find More Posts by smasher</a></td></tr>
+	
+	
+	<tr><td class="vbmenu_option"><a rel="nofollow" href="http://www.iphonedevsdk.com/forum/profile.php?do=addlist&amp;userlist=buddy&amp;u=1650">Add smasher to Your Contacts</a></td></tr>
+	
+	
+	</table>
+</div>
+<!-- / post 193172 popup menu -->
+
+
+	</div>
+	
+
+<!-- / post #193172 --><!-- post #193196 -->
+
+	
+	<div id="edit193196" style="padding:0px 0px 6px 0px">
+	
+
+
+
+<table id="post193196" class="tborder" cellpadding="6" cellspacing="0" border="0" width="100%" align="center">
+<tr>
+	
+		<td class="thead" style="font-weight:normal; border: 1px solid #d4d4d4; border-right: 0px" >
+			<!-- status icon and date -->
+			<a name="post193196"><img class="inlineimg" src="http://www.iphonedevsdk.com/forum/sdk/statusicon/post_old.gif" alt="Old" border="0" /></a>
+			04-15-2010, 05:12 AM
+			
+			<!-- / status icon and date -->
+		</td>
+		<td class="thead" style="font-weight:normal; border: 1px solid #d4d4d4; border-left: 0px" align="right">
+			&nbsp;
+			#<a href="http://www.iphonedevsdk.com/forum/193196-post7.html" target="new"  id="postcount193196" name="7"><strong>7</strong></a> (<b><a href="http://www.iphonedevsdk.com/forum/iphone-sdk-development/45633-unique-text-randomization.html#post193196" title="Link to this Post">permalink</a></b>)
+			
+		</td>
+	
+</tr>
+<tr valign="top">
+	<td class="alt2" width="175" style="border: 1px solid #d4d4d4; border-top: 0px; border-bottom: 0px">
+
+			<div id="postmenu_193196">
+				
+				<a rel="nofollow" class="bigusername" href="http://www.iphonedevsdk.com/forum/members/vund0.html">vund0</a>
+				<script type="text/javascript"> vbmenu_register("postmenu_193196", true); </script>
+				
+			</div>
+
+			<div class="smallfont">Registered Member</div>
+			
+			
+
+			
+
+			<div class="smallfont">
+				&nbsp;<br />
+				<div>Join Date: Apr 2010</div>
+				
+				
+				<div>
+					Posts: 55
+				</div>
+				
+				
+				
+				
+				<div>    </div>
+			</div>
+
+	</td>
+	
+	<td class="alt1" id="td_post_193196" style="border-right: 1px solid #d4d4d4">
+	
+		
+		
+			<!-- icon and title -->
+			<div class="smallfont">
+				<img class="inlineimg" src="http://www.iphonedevsdk.com/forum/images/icons/icon1.gif" alt="Default" border="0" />
+				
+			</div>
+			<hr size="1" style="color:#d4d4d4; background-color:#d4d4d4" />
+			<!-- / icon and title -->
+		
+
+		<!-- message -->
+		<div id="post_message_193196">
+			
+			Perfect. Thanks smash.
+		</div>
+		<!-- / message -->
+
+		
+
+		
+		
+
+		
+
+		
+
+		
+
+	</td>
+</tr>
+<tr>
+	<td class="alt2" style="border: 1px solid #d4d4d4; border-top: 0px">
+		<img class="inlineimg" src="http://www.iphonedevsdk.com/forum/sdk/statusicon/user_offline.gif" alt="vund0 is offline" border="0" />
+
+
+		
+		
+		<a href="http://www.iphonedevsdk.com/forum/report.php?p=193196" rel="nofollow"><img class="inlineimg" src="http://www.iphonedevsdk.com/forum/sdk/buttons/report.gif" alt="Report Post" border="0" /></a>
+		
+		&nbsp;
+	</td>
+	
+	<td class="alt1" align="right" style="border: 1px solid #d4d4d4; border-left: 0px; border-top: 0px">
+	
+		<!-- controls -->
+		
+		
+		
+			<a href="http://www.iphonedevsdk.com/forum/newreply.php?do=newreply&amp;p=193196" rel="nofollow"><img src="http://www.iphonedevsdk.com/forum/sdk/buttons/quote.gif" alt="Reply With Quote" border="0" /></a>
+		
+		
+			<a href="http://www.iphonedevsdk.com/forum/newreply.php?do=newreply&amp;p=193196" rel="nofollow" onclick="return false"><img src="http://www.iphonedevsdk.com/forum/sdk/buttons/multiquote_off.gif" alt="Multi-Quote This Message" border="0" id="mq_193196" /></a>
+		
+		
+			<a href="http://www.iphonedevsdk.com/forum/newreply.php?do=newreply&amp;p=193196" rel="nofollow" id="qr_193196" onclick="return false"><img src="http://www.iphonedevsdk.com/forum/sdk/buttons/quickreply.gif" alt="Quick reply to this message" border="0" /></a>
+		
+		
+		
+		
+		
+			
+		
+		
+		<!-- / controls -->
+	</td>
+</tr>
+</table>
+
+
+<!-- post 193196 popup menu -->
+<div class="vbmenu_popup" id="postmenu_193196_menu" style="display:none">
+	<table cellpadding="4" cellspacing="1" border="0">
+	<tr>
+		<td class="thead">vund0</td>
+	</tr>
+	
+		<tr><td class="vbmenu_option"><a rel="nofollow" href="http://www.iphonedevsdk.com/forum/members/vund0.html">View Public Profile</a></td></tr>
+	
+	
+		<tr><td class="vbmenu_option"><a href="http://www.iphonedevsdk.com/forum/private.php?do=newpm&amp;u=34911" rel="nofollow">Send a private message to vund0</a></td></tr>
+	
+	
+	
+	
+		<tr><td class="vbmenu_option"><a href="http://www.iphonedevsdk.com/forum/search.php?do=finduser&amp;u=34911" rel="nofollow">Find More Posts by vund0</a></td></tr>
+	
+	
+	<tr><td class="vbmenu_option"><a rel="nofollow" href="http://www.iphonedevsdk.com/forum/profile.php?do=addlist&amp;userlist=buddy&amp;u=34911">Add vund0 to Your Contacts</a></td></tr>
+	
+	
+	</table>
+</div>
+<!-- / post 193196 popup menu -->
+
+
+	</div>
+	
+
+<!-- / post #193196 --><div id="lastpost"></div></div>
+
+<!-- start content table -->
+
+<!-- / start content table -->
+
+<!-- controls below postbits -->
+<table cellpadding="0" cellspacing="0" border="0" width="100%" style="margin-top:-3px">
+<tr valign="top">
+	
+		<td class="smallfont"><a href="http://www.iphonedevsdk.com/forum/newreply.php?do=newreply&amp;noquote=1&amp;p=193196" rel="nofollow"><img src="http://www.iphonedevsdk.com/forum/sdk/buttons/reply.gif" alt="Reply" border="0" /></a></td>
+	
+	
+</tr>
+</table>
+<!-- / controls below postbits -->
+
+
+
+
+<!-- social bookmarking links -->
+	<br />
+	<table cellpadding="6" cellspacing="1" border="0" width="100%" class="tborder" align="center">
+	<tr>
+		<td class="thead">Bookmarks</td>
+	</tr>
+	<tr>
+		<td class="alt2" style="padding-top:0px"><div style="clear:both"></div><ul style="list-style-type:none; margin:0px; padding:0px"><li class="smallfont" style="width:25%; min-width:160px; float:left; margin-top:6px">
+	
+		<a rel="nofollow" href="http://digg.com/submit?phase=2&amp;url=http%3A%2F%2Fwww.iphonedevsdk.com%2Fforum%2Fshowthread.php%3Ft%3D45633&amp;title=Unique+text+randomization" target="socialbookmark"><img src="http://www.iphonedevsdk.com/forum/sdk/misc/bookmarksite_digg.gif" border="0" alt="Submit Thread to Digg" class="inlineimg" /></a>
+	
+	<a rel="nofollow" href="http://digg.com/submit?phase=2&amp;url=http%3A%2F%2Fwww.iphonedevsdk.com%2Fforum%2Fshowthread.php%3Ft%3D45633&amp;title=Unique+text+randomization" target="socialbookmark" style="text-decoration:none">Digg</a>
+</li><li class="smallfont" style="width:25%; min-width:160px; float:left; margin-top:6px">
+	
+		<a rel="nofollow" href="http://del.icio.us/post?url=http%3A%2F%2Fwww.iphonedevsdk.com%2Fforum%2Fshowthread.php%3Ft%3D45633&amp;title=Unique+text+randomization" target="socialbookmark"><img src="http://www.iphonedevsdk.com/forum/sdk/misc/bookmarksite_delicious.gif" border="0" alt="Submit Thread to del.icio.us" class="inlineimg" /></a>
+	
+	<a rel="nofollow" href="http://del.icio.us/post?url=http%3A%2F%2Fwww.iphonedevsdk.com%2Fforum%2Fshowthread.php%3Ft%3D45633&amp;title=Unique+text+randomization" target="socialbookmark" style="text-decoration:none">del.icio.us</a>
+</li><li class="smallfont" style="width:25%; min-width:160px; float:left; margin-top:6px">
+	
+		<a rel="nofollow" href="http://www.stumbleupon.com/submit?url=http%3A%2F%2Fwww.iphonedevsdk.com%2Fforum%2Fshowthread.php%3Ft%3D45633&amp;title=Unique+text+randomization" target="socialbookmark"><img src="http://www.iphonedevsdk.com/forum/sdk/misc/bookmarksite_stumbleupon.gif" border="0" alt="Submit Thread to StumbleUpon" class="inlineimg" /></a>
+	
+	<a rel="nofollow" href="http://www.stumbleupon.com/submit?url=http%3A%2F%2Fwww.iphonedevsdk.com%2Fforum%2Fshowthread.php%3Ft%3D45633&amp;title=Unique+text+randomization" target="socialbookmark" style="text-decoration:none">StumbleUpon</a>
+</li><li class="smallfont" style="width:25%; min-width:160px; float:left; margin-top:6px">
+	
+		<a rel="nofollow" href="http://www.google.com/bookmarks/mark?op=edit&amp;output=popup&amp;bkmk=http%3A%2F%2Fwww.iphonedevsdk.com%2Fforum%2Fshowthread.php%3Ft%3D45633&amp;title=Unique+text+randomization" target="socialbookmark"><img src="http://www.iphonedevsdk.com/forum/sdk/misc/bookmarksite_google.gif" border="0" alt="Submit Thread to Google" class="inlineimg" /></a>
+	
+	<a rel="nofollow" href="http://www.google.com/bookmarks/mark?op=edit&amp;output=popup&amp;bkmk=http%3A%2F%2Fwww.iphonedevsdk.com%2Fforum%2Fshowthread.php%3Ft%3D45633&amp;title=Unique+text+randomization" target="socialbookmark" style="text-decoration:none">Google</a>
+</li></ul><div style="clear:both"></div></td>
+	</tr>
+	</table>
+<!-- / social bookmarking links -->
+
+
+
+
+
+
+
+<!-- lightbox scripts -->
+	<script type="text/javascript" src="http://www.iphonedevsdk.com/forum/clientscript/vbulletin_lightbox.js?v=380"></script>
+	<script type="text/javascript">
+	<!--
+	vBulletin.register_control("vB_Lightbox_Container", "posts", 1);
+	//-->
+	</script>
+<!-- / lightbox scripts -->
+
+
+
+<!-- multiquote scripts -->
+	<script type="text/javascript" src="http://www.iphonedevsdk.com/forum/clientscript/vbulletin_multi_quote.js?v=380"></script>
+	<script type="text/javascript">
+	<!--
+	var mqlimit = 0;
+	//-->
+	</script>
+<!-- / multiquote scripts -->
+
+
+
+<!-- ajax errors table -->
+	<table class="tborder" cellpadding="6" cellspacing="1" border="0" style="display:none; position:absolute" id="ajax_post_errors">
+	<tr>
+		<td class="thead">
+			<span style="float:right"><input type="button" class="button" value=" X " onclick="vB_QuickEditor.hide_errors()" id="ajax_post_errors_closebtn" /></span>
+			vBulletin Message
+		</td>
+	</tr>
+	<tr>
+		<td class="alt2" colspan="2" id="ajax_post_errors_message">&nbsp;</td>
+	</tr>
+	<tr>
+		<td class="tfoot" colspan="2" align="center"><a href="http://www.iphonedevsdk.com/forum/iphone-sdk-development/45633-unique-text-randomization.html#" onclick="vB_QuickEditor.abort(); return false;">Cancel Changes</a></td>
+	</tr>
+	</table>
+<!-- / ajax errors table -->
+
+<!-- scripts for quick reply and quick edit -->
+	<!-- Editor Scripts -->
+<script type="text/javascript" src="http://www.iphonedevsdk.com/forum/clientscript/vbulletin_textedit.js?v=380"></script>
+<script type="text/javascript">
+<!--
+var fontoptions = new Array("Arial", "Arial Black", "Arial Narrow", "Book Antiqua", "Century Gothic", "Comic Sans MS", "Courier New", "Fixedsys", "Franklin Gothic Medium", "Garamond", "Georgia", "Impact", "Lucida Console", "Lucida Sans Unicode", "Microsoft Sans Serif", "Palatino Linotype", "System", "Tahoma", "Times New Roman", "Trebuchet MS", "Verdana");
+var sizeoptions = new Array(1, 2, 3, 4, 5, 6, 7);
+var smilieoptions = {  };
+
+var istyles = { "pi_button_down" : [ "#98B5E2", "#000000", "0px", "1px solid #316AC5" ], "pi_button_hover" : [ "#C1D2EE", "#000000", "0px", "1px solid #316AC5" ], "pi_button_normal" : [ "#E1E1E2", "#000000", "1px", "none" ], "pi_button_selected" : [ "#F1F6F8", "#000000", "0px", "1px solid #316AC5" ], "pi_menu_down" : [ "#98B5E2", "#316AC5", "0px", "1px solid #316AC5" ], "pi_menu_hover" : [ "#C1D2EE", "#316AC5", "0px", "1px solid #316AC5" ], "pi_menu_normal" : [ "#FFFFFF", "#000000", "0px", "1px solid #FFFFFF" ], "pi_popup_down" : [ "#98B5E2", "#000000", "0px", "1px solid #316AC5" ] };
+var ltr = 'left';
+
+var smiliewindow_x = 240;
+var smiliewindow_y = 280;
+
+var ignorequotechars = 1;
+var allowbasicbbcode = true;
+
+// vB Phrases
+vbphrase["wysiwyg_please_wait"]          = "Please wait for the WYSIWYG editor to finish loading...";
+vbphrase["wysiwyg_initialized"]          = "WYSIWYG Editor initialized for %1$s in %2$s seconds.";
+vbphrase["wysiwyg_command_invalid"]      = "This command is invalid or not implemented.";
+vbphrase["moz_must_select_text"]         = "Mozilla requires that you must select some text for this function to work";
+vbphrase["moz_edit_config_file"]         = "You need to edit your Mozilla config file to allow this action.";
+vbphrase["enter_tag_option"]             = "Please enter the option for your %1$s tag:";
+vbphrase["must_select_text_to_use"]      = "You must select some text to use this function.";
+vbphrase["browser_is_safari_no_wysiwyg"] = "The Safari browser does not support WYSIWYG mode.";
+vbphrase["enter_option_x_tag"]           = "Enter the option for the [%1$s] tag:";
+vbphrase["enter_text_to_be_formatted"]   = "Enter the text to be formatted";
+vbphrase["enter_link_text"]              = "Enter the text to be displayed for the link (optional):";
+vbphrase["enter_list_type"]              = "What type of list do you want? Enter '1' for a numbered list, enter 'a' for an alphabetical list, or leave blank for a list with bullet points:";
+vbphrase["enter_list_item"]              = "Enter a list item.\r\nLeave the box empty or press 'Cancel' to complete the list:";
+vbphrase["must_enter_subject"]           = "You must enter a title / subject!";
+vbphrase["message_too_short"]            = "The message you have entered is too short. Please lengthen your message to at least %1$s characters.";
+vbphrase["enter_link_url"]               = "Please enter the URL of your link:";
+vbphrase["enter_image_url"]              = "Please enter the URL of your image:";
+vbphrase["enter_email_link"]             = "Please enter the email address for the link:";
+vbphrase["complete_image_verification"]  = "You did not complete the Image Verification";
+vbphrase["iespell_not_installed"]        = "ieSpell is a spell-checking tool for Internet Explorer.\r\n\r\nIf you would like to download ieSpell, click OK; otherwise click Cancel.\r\n\r\nieSpell can be downloaded from http://www.iespell.com";
+vbphrase["click_quick_reply_icon"]       = "Please click one of the Quick Reply icons in the posts above to activate Quick Reply.";
+vbphrase["insert_all"]                   = "Insert All";
+
+//-->
+</script>
+<!-- / Editor Scripts -->
+	
+		<script type="text/javascript" src="http://www.iphonedevsdk.com/forum/clientscript/vbulletin_quick_edit.js?v=380"></script>
+		<script type="text/javascript">
+		<!--
+		vB_AJAX_QuickEdit_Init('posts');
+		//-->
+		</script>
+	
+<!-- / scripts for quick reply and quick edit -->
+
+
+
+
+<!-- quick reply -->
+	<br />
+	<script type="text/javascript" src="http://www.iphonedevsdk.com/forum/clientscript/vbulletin_quick_reply.js?v=380"></script>
+	<form action="http://www.iphonedevsdk.com/forum/newreply.php?do=postreply&amp;t=45633" method="post" name="vbform" onsubmit="return qr_prepare_submit(this, 0);" id="qrform">
+	<table class="tborder" cellpadding="6" cellspacing="1" border="0" width="100%" align="center">
+	<thead>
+		<tr>
+			<td class="tcat" colspan="2">
+				<a style="float:right" href="http://www.iphonedevsdk.com/forum/iphone-sdk-development/45633-unique-text-randomization.html#top" onclick="return toggle_collapse('quickreply');"><img id="collapseimg_quickreply" src="http://www.iphonedevsdk.com/forum/sdk/buttons/collapse_tcat.gif" alt="" border="0" /></a>
+				Quick Reply
+			</td>
+		</tr>
+	</thead>
+	<tbody id="qr_error_tbody" style="display:none">
+	<tr>
+		<td class="thead">The following errors occurred with your submission</td>
+	</tr>
+	<tr>
+		<td class="alt1" id="qr_error_td"></td>
+	</tr>
+	<tr>
+		<td class="tfoot" align="center"><span class="smallfont"><a href="http://www.iphonedevsdk.com/forum/iphone-sdk-development/45633-unique-text-randomization.html#" onclick="return qr_hide_errors()">Okay</a></span></td>
+	</tr>
+	</tbody>
+	<tbody id="collapseobj_quickreply" style="">
+	<tr>
+		<td class="panelsurround" align="center">
+			<div class="panel">
+				<div align="left" style="max-width:640px; width:auto !important; width:640px">
+					<div class="smallfont">Message:</div>
+					<div id="vB_Editor_QR" class="vBulletin_editor">
+		<script type="text/javascript">
+		<!--
+			var threaded_mode = 0;
+			var require_click = 1;
+			var is_last_page = 1; // leave for people with cached JS files
+			var allow_ajax_qr = 1;
+			var ajax_last_post = 1271304770;
+		// -->
+		</script>
+		
+<div id="vB_Editor_QR_controls" class="controlbar">
+	<table cellpadding="0" cellspacing="0" border="0" width="100%">
+	<tr>
+		<td><div class="imagebutton" id="vB_Editor_QR_cmd_removeformat"><img src="http://www.iphonedevsdk.com/forum/sdk/editor/removeformat.gif" width="21" height="20" alt="Remove Text Formatting" /></div></td>
+	
+		<td><img src="http://www.iphonedevsdk.com/forum/sdk/editor/separator.gif" width="6" height="20" alt="" /></td>
+		<td><div class="imagebutton" id="vB_Editor_QR_cmd_bold"><img src="http://www.iphonedevsdk.com/forum/sdk/editor/bold.gif" width="21" height="20" alt="Bold" /></div></td>
+		<td><div class="imagebutton" id="vB_Editor_QR_cmd_italic"><img src="http://www.iphonedevsdk.com/forum/sdk/editor/italic.gif" width="21" height="20" alt="Italic" /></div></td>
+		<td><div class="imagebutton" id="vB_Editor_QR_cmd_underline"><img src="http://www.iphonedevsdk.com/forum/sdk/editor/underline.gif" width="21" height="20" alt="Underline" /></div></td>
+	
+	
+		<td><img src="http://www.iphonedevsdk.com/forum/sdk/editor/separator.gif" width="6" height="20" alt="" /></td>
+		<td><div class="imagebutton" id="vB_Editor_QR_popup_forecolor" title="Colors">
+			<table cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td id="vB_Editor_QR_color_out"><img src="http://www.iphonedevsdk.com/forum/sdk/editor/color.gif" width="21" height="16" alt="" /><br /><img src="http://www.iphonedevsdk.com/forum/clear.gif" id="vB_Editor_QR_color_bar" alt="" style="background-color:black" width="21" height="4" /></td>
+				<td class="alt_pickbutton"><img src="http://www.iphonedevsdk.com/forum/sdk/editor/menupop.gif" alt="" width="11" height="16" /></td>
+			</tr>
+			</table>
+		</div></td>
+	
+	
+		<td><img src="http://www.iphonedevsdk.com/forum/sdk/editor/separator.gif" width="6" height="20" alt="" /></td>
+	
+	
+		<td><div class="imagebutton" id="vB_Editor_QR_cmd_createlink"><img src="http://www.iphonedevsdk.com/forum/sdk/editor/createlink.gif" width="21" height="20" alt="Insert Link" /></div></td>
+	
+	
+		<td><div class="imagebutton" id="vB_Editor_QR_cmd_insertimage"><img src="http://www.iphonedevsdk.com/forum/sdk/editor/insertimage.gif" width="21" height="20" alt="Insert Image" /></div></td>
+	
+	
+		<td><img src="http://www.iphonedevsdk.com/forum/sdk/editor/separator.gif" width="6" height="20" alt="" /></td>
+		<td><div class="imagebutton" id="vB_Editor_QR_cmd_wrap0_quote"><img src="http://www.iphonedevsdk.com/forum/sdk/editor/quote.gif" width="21" height="20" alt="Wrap [QUOTE] tags around selected text" /></div></td>
+	
+	<td width="100%">&nbsp;</td>
+	
+		<td>
+			<div class="imagebutton" id="vB_Editor_QR_cmd_resize_0_99"><img src="http://www.iphonedevsdk.com/forum/sdk/editor/resize_0.gif" width="21" height="9" alt="Decrease Size" /></div>
+			<div class="imagebutton" id="vB_Editor_QR_cmd_resize_1_99"><img src="http://www.iphonedevsdk.com/forum/sdk/editor/resize_1.gif" width="21" height="9" alt="Increase Size" /></div>
+		</td>
+	
+	</tr>
+	</table>
+</div>
+
+<div class="controlbar" style="padding-right:8px">
+	<fieldset style="border:0px; padding:0px; margin:0px">
+	
+	<textarea name="message" id="vB_Editor_QR_textarea" rows="10" cols="60" style="width:100%; height:100px" tabindex="1" dir="ltr" disabled="disabled">Please click one of the Quick Reply icons in the posts above to activate Quick Reply.</textarea>
+	
+	</fieldset>
+	<!--width:540px-->
+</div>
+
+<input type="hidden" name="wysiwyg" id="vB_Editor_QR_mode" value="0" />
+<input type="hidden" name="styleid" value="0" />
+
+<script type="text/javascript">
+<!--
+vB_Editor['vB_Editor_QR'] = new vB_Text_Editor('vB_Editor_QR', 0, '19', '1');
+var QR_EditorID = 'vB_Editor_QR';
+//-->
+</script>
+	</div>
+
+					<fieldset class="fieldset" style="margin:3px 0px 0px 0px">
+						<legend>Options</legend>
+						<div style="padding:3px">
+							
+							<label for="qr_quickreply"><input type="checkbox" name="quickreply" value="1" id="qr_quickreply" accesskey="w" tabindex="4" />Quote message in reply?</label>
+						</div>
+					</fieldset>
+				</div>
+			</div>
+
+			<div style="margin-top:6px">
+				<input type="hidden" name="fromquickreply" value="1" />
+				<input type="hidden" name="s" value="" />
+				<input type="hidden" name="securitytoken" value="1292194572-da0babe66eb30fb99ca748210e6e26404ed65d11" />
+				<input type="hidden" name="do" value="postreply" />
+				<input type="hidden" name="t" value="45633" id="qr_threadid" />
+				<input type="hidden" name="p" value="0" id="qr_postid" />
+				<input type="hidden" name="specifiedpost" value="0" id="qr_specifiedpost" />
+				<input type="hidden" name="parseurl" value="1" />
+				<input type="hidden" name="loggedinuser" value="63815" />
+				<input type="submit" class="button" value="Post Quick Reply" accesskey="s" title="(Alt + S)" name="sbutton" tabindex="2" id="qr_submit" onclick="clickedelm = this.value" />
+				<input type="submit" class="button" value="Go Advanced" accesskey="x" title="(Alt + X)" name="preview" tabindex="3" id="qr_preview" onclick="clickedelm = this.value" />
+			</div>
+
+			<div align="center" id="qr_posting_msg" style="display:none; margin-top:6px">
+				<img style="vertical-align: middle;" src="http://www.iphonedevsdk.com/forum/sdk/misc/progress.gif" alt="Posting Quick Reply - Please Wait" />&nbsp;<strong>Posting Quick Reply - Please Wait</strong>
+			</div>
+		</td>
+	</tr>
+	</tbody>
+	</table>
+	</form>
+
+	
+		<!-- Mozilla work around for focusing on QR in WYSIWYG mode -->
+		<div id="qr_scroll"></div>
+	
+
+	<script type="text/javascript">
+	<!--
+		// initialize quick reply
+		qr_init();
+	//-->
+	</script>
+<!-- / quick reply -->
+
+
+
+<!-- next / previous links -->
+	<br />
+	<div class="smallfont" align="center">
+		<strong>&laquo;</strong>
+			<a href="http://www.iphonedevsdk.com/forum/iphone-sdk-development/45633-unique-text-randomization-prev-thread.html" rel="nofollow">Previous Thread</a>
+			|
+			<a href="http://www.iphonedevsdk.com/forum/iphone-sdk-development/45633-unique-text-randomization-next-thread.html" rel="nofollow">Next Thread</a>
+		<strong>&raquo;</strong>
+	</div>
+<!-- / next / previous links -->
+
+
+
+
+
+
+
+<!-- popup menu contents -->
+<br />
+
+<!-- thread tools menu -->
+<div class="vbmenu_popup" id="threadtools_menu" style="display:none">
+<form action="http://www.iphonedevsdk.com/forum/postings.php?t=45633&amp;pollid=" method="post" name="threadadminform">
+	<table cellpadding="4" cellspacing="1" border="0">
+	<tr>
+		<td class="thead">Thread Tools<a name="goto_threadtools"></a></td>
+	</tr>
+	<tr>
+		<td class="vbmenu_option"><img class="inlineimg" src="http://www.iphonedevsdk.com/forum/sdk/buttons/printer.gif" alt="Show Printable Version" /> <a href="http://www.iphonedevsdk.com/forum/iphone-sdk-development/45633-unique-text-randomization-print.html" accesskey="3" rel="nofollow">Show Printable Version</a></td>
+	</tr>
+	
+	<tr>
+		<td class="vbmenu_option"><img class="inlineimg" src="http://www.iphonedevsdk.com/forum/sdk/buttons/sendtofriend.gif" alt="Email this Page" /> <a href="http://www.iphonedevsdk.com/forum/sendmessage.php?do=sendtofriend&amp;t=45633" rel="nofollow">Email this Page</a></td>
+	</tr>
+	
+	
+	<tr>
+		<td class="vbmenu_option"><img class="inlineimg" src="http://www.iphonedevsdk.com/forum/sdk/buttons/subscribe.gif" alt="Subscription" />
+		
+			<a href="http://www.iphonedevsdk.com/forum/subscription.php?do=addsubscription&amp;t=45633" rel="nofollow">Subscribe to this Thread</a>
+		
+		</td>
+	</tr>
+	
+	
+	
+	</table>
+</form>
+</div>
+<!-- / thread tools menu -->
+
+<!-- **************************************************** -->
+
+<!-- thread display mode menu -->
+<div class="vbmenu_popup" id="displaymodes_menu" style="display:none">
+	<table cellpadding="4" cellspacing="1" border="0">
+	<tr>
+		<td class="thead">Display Modes<a name="goto_displaymodes"></a></td>
+	</tr>
+	<tr>
+	
+		<td class="vbmenu_option" title="nohilite"><img class="inlineimg" src="http://www.iphonedevsdk.com/forum/sdk/buttons/mode_linear.gif" alt="Linear Mode" /> <strong>Linear Mode</strong></td>
+	
+	</tr>
+	<tr>
+	
+		<td class="vbmenu_option"><img class="inlineimg" src="http://www.iphonedevsdk.com/forum/sdk/buttons/mode_hybrid.gif" alt="Hybrid Mode" /> <a rel="nofollow" href="http://www.iphonedevsdk.com/forum/iphone-sdk-development/45633-unique-text-randomization.html?mode=hybrid&amp;highlight=random+plist">Switch to Hybrid Mode</a></td>
+	
+	</tr>
+	<tr>
+	
+		<td class="vbmenu_option"><img class="inlineimg" src="http://www.iphonedevsdk.com/forum/sdk/buttons/mode_threaded.gif" alt="Threaded Mode" /> <a rel="nofollow" href="http://www.iphonedevsdk.com/forum/iphone-sdk-development/45633-unique-text-randomization.html?mode=threaded&amp;highlight=random+plist#post193128">Switch to Threaded Mode</a></td>
+	
+	</tr>
+	</table>
+</div>
+<!-- / thread display mode menu -->
+
+<!-- **************************************************** -->
+
+
+<!-- thread search menu -->
+<div class="vbmenu_popup" id="threadsearch_menu" style="display:none">
+<form action="http://www.iphonedevsdk.com/forum/search.php?do=process&amp;searchthreadid=45633" method="post">
+	<table cellpadding="4" cellspacing="1" border="0">
+	<tr>
+		<td class="thead">Search this Thread<a name="goto_threadsearch"></a></td>
+	</tr>
+	<tr>
+		<td class="vbmenu_option" title="nohilite">
+			<input type="hidden" name="s" value="" />
+			<input type="hidden" name="securitytoken" value="1292194572-da0babe66eb30fb99ca748210e6e26404ed65d11" />
+			<input type="hidden" name="do" value="process" />
+			<input type="hidden" name="searchthreadid" value="45633" />
+			<input type="text" class="bginput" name="query" size="25" /><input type="submit" class="button" value="Go"  /><br />
+		</td>
+	</tr>
+	<tr>
+		<td class="vbmenu_option"><a rel="nofollow" href="http://www.iphonedevsdk.com/forum/search.php?searchthreadid=45633">Advanced Search</a></td>
+	</tr>
+	</table>
+</form>
+</div>
+<!-- / thread search menu -->
+
+
+<!-- **************************************************** -->
+
+
+	<!-- thread rating menu -->
+	<div class="vbmenu_popup" id="threadrating_menu" style="display:none">
+	<form action="http://www.iphonedevsdk.com/forum/threadrate.php?t=45633" method="post" id="showthread_threadrate_form">
+		<table cellpadding="4" cellspacing="1" border="0">
+		<tr>
+			<td class="thead">Rate This Thread<a name="goto_threadrating"></a></td>
+		</tr>
+		
+		<tr>
+			<td class="vbmenu_option" title="nohilite" id="threadrating_options">
+
+			<div><img class="inlineimg" src="http://www.iphonedevsdk.com/forum/sdk/rating/rating_5.gif" alt="Excellent" /><label for="vote5"><input type="radio" name="vote" id="vote5" value="5"  />Excellent</label></div>
+			<div><img class="inlineimg" src="http://www.iphonedevsdk.com/forum/sdk/rating/rating_4.gif" alt="Good" /><label for="vote4"><input type="radio" name="vote" id="vote4" value="4"  />Good</label></div>
+			<div><img class="inlineimg" src="http://www.iphonedevsdk.com/forum/sdk/rating/rating_3.gif" alt="Average" /><label for="vote3"><input type="radio" name="vote" id="vote3" value="3"  />Average</label></div>
+			<div><img class="inlineimg" src="http://www.iphonedevsdk.com/forum/sdk/rating/rating_2.gif" alt="Bad" /><label for="vote2"><input type="radio" name="vote" id="vote2" value="2"  />Bad</label></div>
+			<div><img class="inlineimg" src="http://www.iphonedevsdk.com/forum/sdk/rating/rating_1.gif" alt="Terrible" /><label for="vote1"><input type="radio" name="vote" id="vote1" value="1"  />Terrible</label></div>
+			</td>
+		</tr>
+		<tr id="threadrating_submit">
+			<td class="vbmenu_option" title="nohilite" align="center">
+				<input type="hidden" name="s" value="" />
+				<input type="hidden" name="securitytoken" value="1292194572-da0babe66eb30fb99ca748210e6e26404ed65d11" />
+				<input type="hidden" name="t" value="45633" />
+				<input type="hidden" name="pp" value="25" />
+				<input type="hidden" name="page" value="1" />
+				<input type="submit" class="button" value="Vote Now" />
+			</td>
+		</tr>
+		
+		</table>
+	</form>
+	</div>
+	<!-- / thread rating menu -->
+
+	<script type="text/javascript" src="http://www.iphonedevsdk.com/forum/clientscript/vbulletin_ajax_threadrate.js?v=380"></script>
+	<script type="text/javascript">
+	<!--
+	vB_AJAX_ThreadRate_Init('showthread_threadrate_form');
+	var threadid = 45633;
+	//-->
+	</script>
+
+
+<!-- / popup menu contents -->
+
+
+<!-- forum rules and admin links -->
+<table cellpadding="0" cellspacing="0" border="0" width="100%" align="center">
+<tr valign="bottom">
+	<td width="100%" valign="top">
+		<table class="tborder" cellpadding="6" cellspacing="1" border="0" width="210">
+<thead>
+<tr>
+	<td class="thead">
+		<a style="float:right" href="http://www.iphonedevsdk.com/forum/iphone-sdk-development/45633-unique-text-randomization.html#top" onclick="return toggle_collapse('forumrules')"><img id="collapseimg_forumrules" src="http://www.iphonedevsdk.com/forum/sdk/buttons/collapse_thead.gif" alt="" border="0" /></a>
+		Posting Rules
+	</td>
+</tr>
+</thead>
+<tbody id="collapseobj_forumrules" style="">
+<tr>
+	<td class="alt1" nowrap="nowrap"><div class="smallfont">
+		
+		<div>You <strong>may</strong> post new threads</div>
+		<div>You <strong>may</strong> post replies</div>
+		<div>You <strong>may</strong> post attachments</div>
+		<div>You <strong>may</strong> edit your posts</div>
+		<hr />
+		
+		<div><a rel="nofollow" href="http://www.iphonedevsdk.com/forum/misc.php?do=bbcode" target="_blank">BB code</a> is <strong>On</strong></div>
+		<div><a rel="nofollow" href="http://www.iphonedevsdk.com/forum/misc.php?do=showsmilies" target="_blank">Smilies</a> are <strong>On</strong></div>
+		<div><a rel="nofollow" href="http://www.iphonedevsdk.com/forum/misc.php?do=bbcode#imgcode" target="_blank">[IMG]</a> code is <strong>On</strong></div>
+		<div>HTML code is <strong>Off</strong></div><div><a rel="nofollow" href="http://www.iphonedevsdk.com/forum/misc.php?do=linkbacks#trackbacks" target="_blank">Trackbacks</a> are <strong>On</strong></div>
+<div><a rel="nofollow" href="http://www.iphonedevsdk.com/forum/misc.php?do=linkbacks#pingbacks" target="_blank">Pingbacks</a> are <strong>On</strong></div>
+<div><a rel="nofollow" href="http://www.iphonedevsdk.com/forum/misc.php?do=linkbacks#refbacks" target="_blank">Refbacks</a> are <strong>On</strong></div>
+		<hr />
+		<div><a rel="nofollow" href="http://www.iphonedevsdk.com/forum/misc.php?do=showrules" target="_blank">Forum Rules</a></div>
+	</div></td>
+</tr>
+</tbody>
+</table>
+	</td>
+	<td class="smallfont" align="right">
+		<table cellpadding="0" cellspacing="0" border="0">
+		
+		<tr>
+			<td>
+			<div class="smallfont" style="text-align:left; white-space:nowrap">
+	<form action="http://www.iphonedevsdk.com/forum/forumdisplay.php" method="get">
+	<input type="hidden" name="s" value="" />
+	<input type="hidden" name="daysprune" value="" />
+	<strong>Forum Jump</strong><br />
+	<select name="f" onchange="this.form.submit();">
+		<optgroup label="Site Areas">
+			<option value="cp" >User Control Panel</option>
+			<option value="pm" >Private Messages</option>
+			<option value="subs" >Subscriptions</option>
+			<option value="wol" >Who's Online</option>
+			<option value="search" >Search Forums</option>
+			<option value="home" >Forums Home</option>
+		</optgroup>
+		
+		<optgroup label="Forums">
+		<option value="17" class="fjdpth0" > News &amp; Announcements</option>
+<option value="33" class="fjdpth1" >&nbsp; &nbsp;  Site News &amp; Announcements</option>
+<option value="15" class="fjdpth0" > iPhone SDK Development Forums</option>
+<option value="19" class="fjsel" selected="selected">&nbsp; &nbsp;  iPhone SDK Development</option>
+<option value="64" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  iPhone SDK Development - Advanced Discussion</option>
+<option value="65" class="fjdpth1" >&nbsp; &nbsp;  iPhone SDK Tools &amp; Utilities</option>
+<option value="49" class="fjdpth1" >&nbsp; &nbsp;  iPhone SDK Game Development</option>
+<option value="31" class="fjdpth1" >&nbsp; &nbsp;  iPhone SDK Tutorials</option>
+<option value="35" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Tutorial Discussion</option>
+<option value="34" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Tutorial Requests</option>
+<option value="40" class="fjdpth0" > Business Forums</option>
+<option value="41" class="fjdpth1" >&nbsp; &nbsp;  Business, Legal, &amp; App Store</option>
+<option value="42" class="fjdpth1" >&nbsp; &nbsp;  Promotion Techniques</option>
+<option value="56" class="fjdpth0" > Mac OS X Development Forums</option>
+<option value="55" class="fjdpth1" >&nbsp; &nbsp;  Mac OS X Development</option>
+<option value="57" class="fjdpth1" >&nbsp; &nbsp;  Objective-C, Python, Ruby Development</option>
+<option value="52" class="fjdpth0" > Community Center</option>
+<option value="21" class="fjdpth1" >&nbsp; &nbsp;  Off Topic</option>
+<option value="67" class="fjdpth1" >&nbsp; &nbsp;  iPhone Promo Codes</option>
+<option value="68" class="fjdpth1" >&nbsp; &nbsp;  Shameless Advertising</option>
+<option value="51" class="fjdpth1" >&nbsp; &nbsp;  Ad Hoc Beta Testing</option>
+<option value="48" class="fjdpth1" >&nbsp; &nbsp;  iPhone SDK Development Jobs</option>
+
+		</optgroup>
+		
+	</select><input type="submit" class="button" value="Go"  />
+	</form>
+</div>
+			</td>
+		</tr>
+		</table>
+	</td>
+</tr>
+</table>
+<!-- /forum rules and admin links -->
+
+<br />
+
+
+
+
+
+
+<!-- temp -->
+<div style="display:none">
+	<!-- thread rate -->
+	
+		<!-- thread ratings form here -->
+	
+	<!-- / thread rate -->
+</div>
+
+
+<div class="vbmenu_popup" id="linkbacktools_menu" style="display:none">
+	<table cellpadding="4" cellspacing="1" border="0">
+	<tr>
+		<td class="thead">LinkBack<a name="goto_linkback"></a></td>
+	</tr>
+
+	<tr>
+		<td class="vbmenu_option"><img class="inlineimg" src="http://www.iphonedevsdk.com/forum/images/vbseo/linkback_url.gif" alt="LinkBack URL" /> <a href="http://www.iphonedevsdk.com/forum/iphone-sdk-development/45633-unique-text-randomization.html" onclick="prompt('Use the following URL when referencing this thread from another forum or blog.','http://www.iphonedevsdk.com/forum/iphone-sdk-development/45633-unique-text-randomization.html');return false;">LinkBack URL</a></td>
+	</tr>
+	<tr>
+		<td class="vbmenu_option"><img class="inlineimg" src="http://www.iphonedevsdk.com/forum/images/vbseo/linkback_about.gif" alt="About LinkBacks" /> <a rel="nofollow" href="http://www.iphonedevsdk.com/forum/misc.php?do=linkbacks">About LinkBacks</a></td>
+	</tr>
+
+	</table>
+</div>
+
+			</td>
+		
+		
+			<td valign="top" width="175" style="padding-left: 15px">
+				
+
+<div style="padding-bottom:15px">
+	<table align="center" border="0" cellpadding="6" cellspacing="1" class="tborder" width="100%">
+		<thead>
+			<tr>
+				<td class="tcat" colspan="0">
+				
+					<a href="http://www.iphonedevsdk.com/forum/iphone-sdk-development/45633-unique-text-randomization.html#top" onclick="return toggle_collapse('module_22')" style="float:right"><img alt="" border="0" id="collapseimg_module_22" src="http://www.iphonedevsdk.com/forum/sdk/buttons/collapse_tcat.gif" /></a>
+				
+				<span class="smallfont"><strong>&raquo; Advertisements </strong></span></td>
+			</tr>
+		</thead>
+		<tbody id="collapseobj_module_22" style="">
+			
+				<!--/* isocket Javascript Tag v2.0 */-->
+<script type='text/javascript'><!--//<![CDATA[
+   var m3_u = (location.protocol=='https:'?'https://ds.adsbyisocket.com/ajs.php':'http://d.adsbyisocket.com/ajs.php');
+   var m3_r = Math.floor(Math.random()*99999999999);
+   if (!document.MAX_used) document.MAX_used = ',';
+   document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+   document.write ("?zoneid=562&block=1");
+   document.write ('&cb=' + m3_r);
+   if (document.MAX_used != ',') document.write ("&exclude=" + document.MAX_used);
+   document.write (document.charset ? '&charset='+document.charset : (document.characterSet ? '&charset='+document.characterSet : ''));
+   document.write ("&loc=" + escape(window.location));
+   if (document.referrer) document.write ("&referer=" + escape(document.referrer));
+   if (document.context) document.write ("&context=" + escape(document.context));
+   if (document.mmm_fo) document.write ("&mmm_fo=1");
+   document.write ("'><\/scr"+"ipt>");
+//]]>--></script><noscript><a onclick="pageTracker._trackPageview ('/outgoing/http_d_adsbyisocket_com_ck_php_n_a1dfd452_cb_476476476547');" href='http://d.adsbyisocket.com/ck.php?n=a1dfd452&cb=476476476547' target='_blank'><img src='http://d.adsbyisocket.com/avw.php?zoneid=562&cb=476476476547&n=a1dfd452' border='0' alt='' /></a></noscript>
+
+			
+		</tbody>
+	</table>
+</div>
+<style type="text/css">
+a.tagcloudlink:link, a.tagcloudlink:visited { text-decoration:none; }
+a.tagcloudlink:hover, a.tagcloudlink:active { text-decoration:underline; }
+a.level1 { font-size: xx-small; }
+a.level2 { font-size: small; }
+a.level3 { font-size: medium; }
+a.level4 { font-size: large; }
+a.level5 { font-size: xx-large; }
+</style>
+
+<div style="padding-bottom:15px">
+	<table align="center" border="0" cellpadding="6" cellspacing="1" class="tborder" width="100%">
+		<thead>
+			<tr>
+				<td class="tcat" colspan="0">
+				
+					<a href="http://www.iphonedevsdk.com/forum/iphone-sdk-development/45633-unique-text-randomization.html#top" onclick="return toggle_collapse('module_15')" style="float:right"><img alt="" border="0" id="collapseimg_module_15" src="http://www.iphonedevsdk.com/forum/sdk/buttons/collapse_tcat.gif" /></a>
+				
+				<span class="smallfont"><strong>&raquo; <a href="http://www.iphonedevsdk.com/forum/tags/">Popular Tags</a></strong></span></td>
+			</tr>
+		</thead>
+		<tbody id="collapseobj_module_15" style="">
+			
+				<tr>
+					<td class="alt1">
+						<a href="http://www.iphonedevsdk.com/forum/tags/animation.html" class="tagcloudlink level1">animation</a> <a href="http://www.iphonedevsdk.com/forum/tags/api.html" class="tagcloudlink level1">api</a> <a href="http://www.iphonedevsdk.com/forum/tags/app.html" class="tagcloudlink level2">app</a> <a href="http://www.iphonedevsdk.com/forum/tags/apple.html" class="tagcloudlink level1">apple</a> <a href="http://www.iphonedevsdk.com/forum/tags/appstore.html" class="tagcloudlink level1">appstore</a> <a href="http://www.iphonedevsdk.com/forum/tags/app%20store.html" class="tagcloudlink level1">app store</a> <a href="http://www.iphonedevsdk.com/forum/tags/array.html" class="tagcloudlink level1">array</a> <a href="http://www.iphonedevsdk.com/forum/tags/audio.html" class="tagcloudlink level1">audio</a> <a href="http://www.iphonedevsdk.com/forum/tags/background.html" class="tagcloudlink level1">background</a> <a href="http://www.iphonedevsdk.com/forum/tags/button.html" class="tagcloudlink level1">button</a> <a href="http://www.iphonedevsdk.com/forum/tags/camera.html" class="tagcloudlink level1">camera</a> <a href="http://www.iphonedevsdk.com/forum/tags/cocos2d.html" class="tagcloudlink level1">cocos2d</a> <a href="http://www.iphonedevsdk.com/forum/tags/code.html" class="tagcloudlink level1">code</a> <a href="http://www.iphonedevsdk.com/forum/tags/core%20data.html" class="tagcloudlink level1">core data</a> <a href="http://www.iphonedevsdk.com/forum/tags/crash.html" class="tagcloudlink level1">crash</a> <a href="http://www.iphonedevsdk.com/forum/tags/data.html" class="tagcloudlink level1">data</a> <a href="http://www.iphonedevsdk.com/forum/tags/database.html" class="tagcloudlink level1">database</a> <a href="http://www.iphonedevsdk.com/forum/tags/developer.html" class="tagcloudlink level1">developer</a> <a href="http://www.iphonedevsdk.com/forum/tags/development.html" class="tagcloudlink level1">development</a> <a href="http://www.iphonedevsdk.com/forum/tags/error.html" class="tagcloudlink level1">error</a> <a href="http://www.iphonedevsdk.com/forum/tags/facebook.html" class="tagcloudlink level1">facebook</a> <a href="http://www.iphonedevsdk.com/forum/tags/free.html" class="tagcloudlink level1">free</a> <a href="http://www.iphonedevsdk.com/forum/tags/game.html" class="tagcloudlink level2">game</a> <a href="http://www.iphonedevsdk.com/forum/tags/image.html" class="tagcloudlink level1">image</a> <a href="http://www.iphonedevsdk.com/forum/tags/images.html" class="tagcloudlink level1">images</a> <a href="http://www.iphonedevsdk.com/forum/tags/ios.html" class="tagcloudlink level1">ios</a> <a href="http://www.iphonedevsdk.com/forum/tags/ipad.html" class="tagcloudlink level2">ipad</a> <a href="http://www.iphonedevsdk.com/forum/tags/iphone.html" class="tagcloudlink level5">iphone</a> <a href="http://www.iphonedevsdk.com/forum/tags/iphone%20%26%20ipod%20touch%20apps.html" class="tagcloudlink level1">iphone &amp; ipod touch apps</a> <a href="http://www.iphonedevsdk.com/forum/tags/iphone%20app.html" class="tagcloudlink level1">iphone app</a> <a href="http://www.iphonedevsdk.com/forum/tags/iphone%20sdk.html" class="tagcloudlink level1">iphone sdk</a> <a href="http://www.iphonedevsdk.com/forum/tags/itunes.html" class="tagcloudlink level1">itunes</a> <a href="http://www.iphonedevsdk.com/forum/tags/job.html" class="tagcloudlink level1">job</a> <a href="http://www.iphonedevsdk.com/forum/tags/keyboard.html" class="tagcloudlink level1">keyboard</a> <a href="http://www.iphonedevsdk.com/forum/tags/memory.html" class="tagcloudlink level1">memory</a> <a href="http://www.iphonedevsdk.com/forum/tags/music.html" class="tagcloudlink level1">music</a> <a href="http://www.iphonedevsdk.com/forum/tags/nsarray.html" class="tagcloudlink level1">nsarray</a> <a href="http://www.iphonedevsdk.com/forum/tags/nsmutablearray.html" class="tagcloudlink level1">nsmutablearray</a> <a href="http://www.iphonedevsdk.com/forum/tags/nsstring.html" class="tagcloudlink level1">nsstring</a> <a href="http://www.iphonedevsdk.com/forum/tags/nsuserdefaults.html" class="tagcloudlink level1">nsuserdefaults</a> <a href="http://www.iphonedevsdk.com/forum/tags/objective-c.html" class="tagcloudlink level1">objective-c</a> <a href="http://www.iphonedevsdk.com/forum/tags/objective%20c.html" class="tagcloudlink level1">objective c</a> <a href="http://www.iphonedevsdk.com/forum/tags/opengl.html" class="tagcloudlink level1">opengl</a> <a href="http://www.iphonedevsdk.com/forum/tags/orientation.html" class="tagcloudlink level1">orientation</a> <a href="http://www.iphonedevsdk.com/forum/tags/pdf.html" class="tagcloudlink level1">pdf</a> <a href="http://www.iphonedevsdk.com/forum/tags/plist.html" class="tagcloudlink level1">plist</a> <a href="http://www.iphonedevsdk.com/forum/tags/promo.html" class="tagcloudlink level1">promo</a> <a href="http://www.iphonedevsdk.com/forum/tags/promo%20codes.html" class="tagcloudlink level1">promo codes</a> <a href="http://www.iphonedevsdk.com/forum/tags/puzzle.html" class="tagcloudlink level1">puzzle</a> <a href="http://www.iphonedevsdk.com/forum/tags/sdk.html" class="tagcloudlink level1">sdk</a> <a href="http://www.iphonedevsdk.com/forum/tags/sound.html" class="tagcloudlink level1">sound</a> <a href="http://www.iphonedevsdk.com/forum/tags/sqlite.html" class="tagcloudlink level1">sqlite</a> <a href="http://www.iphonedevsdk.com/forum/tags/tableview.html" class="tagcloudlink level1">tableview</a> <a href="http://www.iphonedevsdk.com/forum/tags/text.html" class="tagcloudlink level1">text</a> <a href="http://www.iphonedevsdk.com/forum/tags/twitter.html" class="tagcloudlink level1">twitter</a> <a href="http://www.iphonedevsdk.com/forum/tags/uibutton.html" class="tagcloudlink level1">uibutton</a> <a href="http://www.iphonedevsdk.com/forum/tags/uiimage.html" class="tagcloudlink level1">uiimage</a> <a href="http://www.iphonedevsdk.com/forum/tags/uiimageview.html" class="tagcloudlink level1">uiimageview</a> <a href="http://www.iphonedevsdk.com/forum/tags/uiscrollview.html" class="tagcloudlink level1">uiscrollview</a> <a href="http://www.iphonedevsdk.com/forum/tags/uitableview.html" class="tagcloudlink level2">uitableview</a> <a href="http://www.iphonedevsdk.com/forum/tags/uitableviewcell.html" class="tagcloudlink level1">uitableviewcell</a> <a href="http://www.iphonedevsdk.com/forum/tags/uitextfield.html" class="tagcloudlink level1">uitextfield</a> <a href="http://www.iphonedevsdk.com/forum/tags/uitextview.html" class="tagcloudlink level1">uitextview</a> <a href="http://www.iphonedevsdk.com/forum/tags/uiview.html" class="tagcloudlink level1">uiview</a> <a href="http://www.iphonedevsdk.com/forum/tags/uiviewcontroller.html" class="tagcloudlink level1">uiviewcontroller</a> <a href="http://www.iphonedevsdk.com/forum/tags/uiwebview.html" class="tagcloudlink level1">uiwebview</a> <a href="http://www.iphonedevsdk.com/forum/tags/video.html" class="tagcloudlink level1">video</a> <a href="http://www.iphonedevsdk.com/forum/tags/view.html" class="tagcloudlink level1">view</a> <a href="http://www.iphonedevsdk.com/forum/tags/xcode.html" class="tagcloudlink level1">xcode</a> <a href="http://www.iphonedevsdk.com/forum/tags/xml.html" class="tagcloudlink level1">xml</a> 
+					</td>
+				</tr>
+			
+		</tbody>
+	</table>
+</div>
+</form>
+
+<div style="padding-bottom:15px">
+	<table align="center" border="0" cellpadding="6" cellspacing="1" class="tborder" width="100%">
+		<thead>
+			<tr>
+				<td class="tcat" colspan="0">
+				
+					<a href="http://www.iphonedevsdk.com/forum/iphone-sdk-development/45633-unique-text-randomization.html#top" onclick="return toggle_collapse('module_1')" style="float:right"><img alt="" border="0" id="collapseimg_module_1" src="http://www.iphonedevsdk.com/forum/sdk/buttons/collapse_tcat.gif" /></a>
+				
+				<span class="smallfont"><strong>&raquo; <a href="http://www.iphonedevsdk.com/forum/online.php">Online Users: 512</a></strong></span></td>
+			</tr>
+		</thead>
+		<tbody id="collapseobj_module_1" style="">
+			
+				<tr>
+<td class="thead"><span class="smallfont">35 members and 477 guests</span></td>
+	</tr>
+	<tr>
+		<td class="alt1"><span class="smallfont"> <a rel="nofollow" href="http://www.iphonedevsdk.com/forum/members/deaglan7.html">deaglan7</a>,  <a rel="nofollow" href="http://www.iphonedevsdk.com/forum/members/agungbd.html">agungbd</a>,  <a rel="nofollow" href="http://www.iphonedevsdk.com/forum/members/alexandresoli.html">alexandresoli</a>,  <a rel="nofollow" href="http://www.iphonedevsdk.com/forum/members/bebus77.html">bebus77</a>,  <a rel="nofollow" href="http://www.iphonedevsdk.com/forum/members/chilibird.html">Chilibird</a>,  <a rel="nofollow" href="http://www.iphonedevsdk.com/forum/members/conquistadore.html">Conquistadore</a>,  <a rel="nofollow" href="http://www.iphonedevsdk.com/forum/members/crunkstar.html">crunkstar</a>,  <a rel="nofollow" href="http://www.iphonedevsdk.com/forum/members/dany88.html">dany88</a>,  <a rel="nofollow" href="http://www.iphonedevsdk.com/forum/members/donomagames.html">DonomaGames</a>,  <a rel="nofollow" href="http://www.iphonedevsdk.com/forum/members/ed-welch.html">Ed Welch</a>,  <a rel="nofollow" href="http://www.iphonedevsdk.com/forum/members/egaal.html">egaal</a>,  <a rel="nofollow" href="http://www.iphonedevsdk.com/forum/members/freakyalarm.html">freakyalarm</a>,  <a rel="nofollow" href="http://www.iphonedevsdk.com/forum/members/georgeburns.html">georgeburns</a>,  <a rel="nofollow" href="http://www.iphonedevsdk.com/forum/members/imclean.html">imclean</a>,  <a rel="nofollow" href="http://www.iphonedevsdk.com/forum/members/isdk.html">iSDK</a>,  <a rel="nofollow" href="http://www.iphonedevsdk.com/forum/members/jeremy1026.html">Jeremy1026</a>,  <a rel="nofollow" href="http://www.iphonedevsdk.com/forum/members/kalygraphix.html">kalygraphix</a>,  <a rel="nofollow" href="http://www.iphonedevsdk.com/forum/members/kidcudi10.html">KidCudi10</a>,  <a rel="nofollow" href="http://www.iphonedevsdk.com/forum/members/kikko088.html">kikko088</a>,  <a rel="nofollow" href="http://www.iphonedevsdk.com/forum/members/mehtaapplications.html">mehtaapplications</a>,  <a rel="nofollow" href="http://www.iphonedevsdk.com/forum/members/musicwind95.html">musicwind95</a>,  <a rel="nofollow" href="http://www.iphonedevsdk.com/forum/members/newdev.html">newDev</a>,  <a rel="nofollow" href="http://www.iphonedevsdk.com/forum/members/pufftissue.html">pufftissue</a>,  <a rel="nofollow" href="http://www.iphonedevsdk.com/forum/members/raisecredit3.html">raisecredit3</a>,  <a rel="nofollow" href="http://www.iphonedevsdk.com/forum/members/ramiro4baker.html">ramiro4baker</a>,  <a rel="nofollow" href="http://www.iphonedevsdk.com/forum/members/roko.html">roko</a>,  <a rel="nofollow" href="http://www.iphonedevsdk.com/forum/members/sandm.html">sandm</a>,  <a rel="nofollow" href="http://www.iphonedevsdk.com/forum/members/skydive12.html">skydive12</a>,  <a rel="nofollow" href="http://www.iphonedevsdk.com/forum/members/suksmo.html">suksmo</a>,  <a rel="nofollow" href="http://www.iphonedevsdk.com/forum/members/taylor202.html">taylor202</a>,  <a rel="nofollow" href="http://www.iphonedevsdk.com/forum/members/tcarte04.html">tcarte04</a>,  <a rel="nofollow" href="http://www.iphonedevsdk.com/forum/members/tigi75.html">tigi75</a>,  <a rel="nofollow" href="http://www.iphonedevsdk.com/forum/members/tsai0507.html">tsai0507</a>,  <a rel="nofollow" href="http://www.iphonedevsdk.com/forum/members/winstonyang.html">winstonyang</a>,  <a rel="nofollow" href="http://www.iphonedevsdk.com/forum/members/zarboov.html">zarboov</a></span></td>
+	</tr>
+
+	<tr>
+		<td class="alt2"><span class="smallfont">Most users ever online was 974, 10-05-2010 at 03:27 PM.</span></td>
+</tr>
+			
+		</tbody>
+	</table>
+</div>
+
+
+<div style="padding-bottom:15px">
+	<table align="center" border="0" cellpadding="6" cellspacing="1" class="tborder" width="100%">
+		<thead>
+			<tr>
+				<td class="tcat" colspan="0">
+				
+					<a href="http://www.iphonedevsdk.com/forum/iphone-sdk-development/45633-unique-text-randomization.html#top" onclick="return toggle_collapse('module_6')" style="float:right"><img alt="" border="0" id="collapseimg_module_6" src="http://www.iphonedevsdk.com/forum/sdk/buttons/collapse_tcat.gif" /></a>
+				
+				<span class="smallfont"><strong>&raquo; Stats</strong></span></td>
+			</tr>
+		</thead>
+		<tbody id="collapseobj_module_6" style="">
+			
+				<tr>
+	<td class="alt1">
+		<span class="smallfont">
+			Members: 83,207<br />
+			Threads: 60,820<br />
+			Posts: 257,128<br />
+			Top Poster: <a rel="nofollow" href="http://www.iphonedevsdk.com/forum/members/brianslick.html">BrianSlick</a> (4,032)<br />
+			
+		</span>
+	</td>
+</tr>
+
+	<tr>
+		<td class="alt2"><span class="smallfont">Welcome to our newest member, <a rel="nofollow" href="http://www.iphonedevsdk.com/forum/members/raisecredit3.html">raisecredit3</a></span></td>
+	</tr>
+
+			
+		</tbody>
+	</table>
+</div>
+
+			</td>
+		
+	</tr>
+</table>
+
+<!-- Do NOT remove this copyright notice. Doing so is a violation of your user agreement! -->
+
+<div align="center" class="smallfont">Powered by <a onclick="pageTracker._trackPageview ('/outgoing/http_www_vbadvanced_com_');" href="http://www.vbadvanced.com/" target="_blank">vBadvanced</a> CMPS v3.1.0</div>
+
+<br />
+<div class="smallfont" align="center">All times are GMT. The time now is <span class="time">10:56 PM</span>.<div align="center">
+	<div class="smallfont" align="center">
+	<!-- Do not remove this copyright notice -->
+	Powered by vBulletin&reg; Version 3.8.0<br />Copyright &copy;2000 - 2010, Jelsoft Enterprises Ltd.
+<br />Search Engine Friendly URLs by <a onclick="pageTracker._trackPageview ('/outgoing/http_www_crawlability_com_vbseo_');" rel="nofollow" href="http://www.crawlability.com/vbseo/">vBSEO</a> 3.3.0
+	<!-- Do not remove this copyright notice -->
+	</div>
+
+	<div class="smallfont" align="center">
+	<!-- Do not remove  or your scheduled tasks will cease to function -->
+	
+	<!-- Do not remove  or your scheduled tasks will cease to function -->
+
+	
+	</div><div>Custom <a onclick="pageTracker._trackPageview ('/outgoing/http_www_relivo_com');" href="http://www.relivo.com" title="vBulletin Skins" target="_blank">vBulletin Skins</a> by: <a onclick="pageTracker._trackPageview ('/outgoing/http_www_relivo_com');" href="http://www.relivo.com" title="vBulletin Skins" target="_blank">Relivo Media</a></div>
+</div></div>
+<br />
+
+
+		</div>
+	</div>
+</div>
+
+<!-- / close content container -->
+<!-- /content area table -->
+
+<form action="http://www.iphonedevsdk.com/forum/" method="get" style="clear:left">
+
+<table cellpadding="6" cellspacing="0" style="height:50px;" border="0" width="95%" align="center">
+<tr>
+	
+	
+	<td class="tfoot" align="right" width="100%">
+		<div class="smallfont">
+			<strong>
+				<a href="http://www.iphonedevsdk.com/forum/sendmessage.php" rel="nofollow" accesskey="9">Contact Us</a> -
+				<a href="http://www.iphonedevsdk.com">iPhone Dev SDK</a> -
+				
+				
+				<a href="http://www.iphonedevsdk.com/forum/archive/index.php/">Archive</a> -
+				
+				
+				
+				<a href="http://www.iphonedevsdk.com/forum/iphone-sdk-development/45633-unique-text-randomization.html#top" onclick="self.scrollTo(0, 0); return false;">Top</a>
+			</strong>
+		</div>
+	</td>
+</tr>
+</table>
+
+</form>
+
+
+
+
+<script type="text/javascript">
+<!--
+	// Main vBulletin Javascript Initialization
+	vBulletin_init();
+//-->
+</script>
+
+<!-- Start Quantcast tag -->
+<script type="text/javascript">
+_qoptions={
+qacct:"p-2631Wd-0GJZf6"
+};
+</script>
+<script type="text/javascript" src="//secure.quantserve.com/quant.js"></script>
+<noscript>
+<img src="//secure.quantserve.com/pixel/p-2631Wd-0GJZf6.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/>
+</noscript>
+<!-- End Quantcast tag -->
+
+
+<!-- vBadvanced 8-8-4-6-8 -->
+
+
+<script type="text/javascript"><!--
+window.google_analytics_uacct = "UA-11294186-1";
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+//-->
+</script>
+<script type="text/javascript"><!--
+try {
+var pageTracker = _gat._getTracker("UA-11294186-1");
+pageTracker._trackPageview();
+} catch(err) {}
+//-->
+</script>
+
+<script type="text/javascript"><!--
+
+window.orig_onload = window.onload;
+window.onload = function() {
+var cpost=document.location.hash;if(cpost){ if(cobj = fetch_object(cpost.substring(1,cpost.length)))cobj.scrollIntoView(true);else {cpostno = cpost.substring(5,cpost.length);if(parseInt(cpostno)>0){document.location.href='showthread.php?p='+cpostno;};} }
+
+if(typeof window.orig_onload == "function") window.orig_onload();
+}
+
+//-->
+</script>
+</body>
+</html>

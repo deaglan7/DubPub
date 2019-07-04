@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>WiFiAddress</key>
+		<string>Mespil Road, Dublin 4</string>
+		<key>WiFiLat</key>
+		<real>53.333775</real>
+		<key>WiFiLong</key>
+		<real>-6.246028</real>
+		<key>WiFiName</key>
+		<string>Mespil Hotel</string>
+	</dict>
+	<dict>
+		<key>WiFiAddress</key>
+		<string>30 Westland Row, Dublin 2</string>
+		<key>WiFiLat</key>
+		<real>53.342552</real>
+		<key>WiFiLong</key>
+		<real>-6.250523</real>
+		<key>WiFiName</key>
+		<string>Trinity Taverns</string>
+	</dict>
+	<dict>
+		<key>WiFiAddress</key>
+		<string>22 Ely Place, Dublin 2</string>
+		<key>WiFiLat</key>
+		<real>53.337991</real>
+		<key>WiFiLong</key>
+		<real>-6.253763</real>
+		<key>WiFiName</key>
+		<string>Ely Wine Bar</string>
+	</dict>
+	<dict>
+		<key>WiFiAddress</key>
+		<string>39-44 Dawson Street, Dublin 2</string>
+		<key>WiFiLat</key>
+		<real>53.340463</real>
+		<key>WiFiLong</key>
+		<real>-6.258516</real>
+		<key>WiFiName</key>
+		<string>Café En Seine</string>
+	</dict>
+	<dict>
+		<key>WiFiAddress</key>
+		<string>2-3 Chatham Row, Dublin 2</string>
+		<key>WiFiLat</key>
+		<real>53.34113</real>
+		<key>WiFiLong</key>
+		<real>-6.262872</real>
+		<key>WiFiName</key>
+		<string>Café Mao</string>
+	</dict>
+	<dict>
+		<key>WiFiAddress</key>
+		<string>Lower George&apos;s Street, Dublin 2</string>
+		<key>WiFiLat</key>
+		<real>53.343628</real>
+		<key>WiFiLong</key>
+		<real>-6.264567</real>
+		<key>WiFiName</key>
+		<string>The Dragon</string>
+	</dict>
+	<dict>
+		<key>WiFiAddress</key>
+		<string>34-35 Essex Street, Temple Bar, Dublin 2</string>
+		<key>WiFiLat</key>
+		<real>53.34513</real>
+		<key>WiFiLong</key>
+		<real>-6.265994</real>
+		<key>WiFiName</key>
+		<string>Purty Kitchen</string>
+	</dict>
+	<dict>
+		<key>WiFiAddress</key>
+		<string>42 Temple Bar Square, Temple Bar, Dublin 2</string>
+		<key>WiFiLat</key>
+		<real>53.345498</real>
+		<key>WiFiLong</key>
+		<real>-6.263484</real>
+		<key>WiFiName</key>
+		<string>Frankies Steakhouse</string>
+	</dict>
+	<dict>
+		<key>WiFiAddress</key>
+		<string>28 Dame Street, Dublin 2</string>
+		<key>WiFiLat</key>
+		<real>53.344255</real>
+		<key>WiFiLong</key>
+		<real>-6.264031</real>
+		<key>WiFiName</key>
+		<string>The Mercantile</string>
+	</dict>
+	<dict>
+		<key>WiFiAddress</key>
+		<string>3-4 Cork Hill, Dublin 2</string>
+		<key>WiFiLat</key>
+		<real>53.344108</real>
+		<key>WiFiLong</key>
+		<real>-6.267582</real>
+		<key>WiFiName</key>
+		<string>Dublin City Library</string>
+	</dict>
+	<dict>
+		<key>WiFiAddress</key>
+		<string>54 Middle Abbey Street, Dublin 1</string>
+		<key>WiFiLat</key>
+		<real>53.348105</real>
+		<key>WiFiLong</key>
+		<real>-6.262357</real>
+		<key>WiFiName</key>
+		<string>Third Floor Espresso</string>
+	</dict>
+	<dict>
+		<key>WiFiAddress</key>
+		<string>6 Eustace Street, Temple Bar, Dublin 2</string>
+		<key>WiFiLat</key>
+		<real>53.344755</real>
+		<key>WiFiLong</key>
+		<real>-6.264868</real>
+		<key>WiFiName</key>
+		<string>Irish Film Institute</string>
+	</dict>
+	<dict>
+		<key>WiFiAddress</key>
+		<string>George&apos;s Street, Dublin 2</string>
+		<key>WiFiLat</key>
+		<real>53.342385</real>
+		<key>WiFiLong</key>
+		<real>-6.264696</real>
+		<key>WiFiName</key>
+		<string>Havana</string>
+	</dict>
+	<dict>
+		<key>WiFiAddress</key>
+		<string>Dawson Street, Dublin 2</string>
+		<key>WiFiLat</key>
+		<real>53.341322</real>
+		<key>WiFiLong</key>
+		<real>-6.258302</real>
+		<key>WiFiName</key>
+		<string>Fixx Coffee House</string>
+	</dict>
+	<dict>
+		<key>WiFiAddress</key>
+		<string>26 Wexford Street, Dublin 2</string>
+		<key>WiFiLat</key>
+		<real>53.336674</real>
+		<key>WiFiLong</key>
+		<real>-6.26556</real>
+		<key>WiFiName</key>
+		<string>The Village</string>
+	</dict>
+	<dict>
+		<key>WiFiAddress</key>
+		<string>18 Camden Street Lower, Dublin 2</string>
+		<key>WiFiLat</key>
+		<real>53.336351</real>
+		<key>WiFiLong</key>
+		<real>-6.265265</real>
+		<key>WiFiName</key>
+		<string>Anseo</string>
+	</dict>
+	<dict>
+		<key>WiFiAddress</key>
+		<string>79 Queen Street, Dublin 7</string>
+		<key>WiFiLat</key>
+		<real>53.347125</real>
+		<key>WiFiLong</key>
+		<real>-6.280296</real>
+		<key>WiFiName</key>
+		<string>Dice Bar</string>
+	</dict>
+	<dict>
+		<key>WiFiAddress</key>
+		<string>38-39 Lower Ormond Quay, Dublin 1</string>
+		<key>WiFiLat</key>
+		<real>53.346273</real>
+		<key>WiFiLong</key>
+		<real>-6.265576</real>
+		<key>WiFiName</key>
+		<string>Yamamori Sushi</string>
+	</dict>
+	<dict>
+		<key>WiFiAddress</key>
+		<string>Old Harcourt Street Railway Station, Dublin 2</string>
+		<key>WiFiLat</key>
+		<real>53.33423</real>
+		<key>WiFiLong</key>
+		<real>-6.262658</real>
+		<key>WiFiName</key>
+		<string>The Odeon</string>
+	</dict>
+	<dict>
+		<key>WiFiAddress</key>
+		<string>9-10 Jervis Street, Dublin 1</string>
+		<key>WiFiLat</key>
+		<real>53.348156</real>
+		<key>WiFiLong</key>
+		<real>-6.266434</real>
+		<key>WiFiName</key>
+		<string>TP Smiths</string>
+	</dict>
+	<dict>
+		<key>WiFiAddress</key>
+		<string>11-12 Richmond Street, Dublin 2</string>
+		<key>WiFiLat</key>
+		<real>53.33186</real>
+		<key>WiFiLong</key>
+		<real>-6.264696</real>
+		<key>WiFiName</key>
+		<string>The Bernard Shaw</string>
+	</dict>
+	<dict>
+		<key>WiFiAddress</key>
+		<string>21-25 Harcourt Street, Dublin 2</string>
+		<key>WiFiLat</key>
+		<real>53.335781</real>
+		<key>WiFiLong</key>
+		<real>-6.263344</real>
+		<key>WiFiName</key>
+		<string>Russel Court Hotel</string>
+	</dict>
+	<dict>
+		<key>WiFiAddress</key>
+		<string>45 Merrion Square, Dublin 2</string>
+		<key>WiFiLat</key>
+		<real>53.339009</real>
+		<key>WiFiLong</key>
+		<real>-6.246951</real>
+		<key>WiFiName</key>
+		<string>Irish Architectural Archive</string>
+	</dict>
+	<dict>
+		<key>WiFiAddress</key>
+		<string>Unit 10A, Trinity Enterprise Centre, Pearse Street, Dublin 2</string>
+		<key>WiFiLat</key>
+		<string>53.342135</string>
+		<key>WiFiLong</key>
+		<string>-6.24002</string>
+		<key>WiFiName</key>
+		<string>KC Peaches</string>
+	</dict>
+	<dict>
+		<key>WiFiAddress</key>
+		<string>17-19 Sir John Rogerson Quay</string>
+		<key>WiFiLat</key>
+		<string>53.346324</string>
+		<key>WiFiLong</key>
+		<string>-6.243753</string>
+		<key>WiFiName</key>
+		<string>Caffe Parigi</string>
+	</dict>
+	<dict>
+		<key>WiFiAddress</key>
+		<string>Dolier Street, Dublin 2</string>
+		<key>WiFiLat</key>
+		<real>53.346372</real>
+		<key>WiFiLong</key>
+		<real>-6.257717</real>
+		<key>WiFiName</key>
+		<string>West Coast Coffee</string>
+	</dict>
+	<dict>
+		<key>WiFiAddress</key>
+		<string>Duke Street, Dublin 2</string>
+		<key>WiFiLat</key>
+		<real>53.341937</real>
+		<key>WiFiLong</key>
+		<real>-6.259074</real>
+		<key>WiFiName</key>
+		<string>The Bailey Bar</string>
+	</dict>
+	<dict>
+		<key>WiFiAddress</key>
+		<string>First floor, St Stephen&apos;s Green Shopping Centre, Dublin 2</string>
+		<key>WiFiLat</key>
+		<real>53.339913</real>
+		<key>WiFiLong</key>
+		<real>-6.261359</real>
+		<key>WiFiName</key>
+		<string>Café Kylemore</string>
+	</dict>
+	<dict>
+		<key>WiFiAddress</key>
+		<string>St Stephen&apos;s Green, Dublin 2</string>
+		<key>WiFiLat</key>
+		<real>53.339551</real>
+		<key>WiFiLong</key>
+		<real>-6.261064</real>
+		<key>WiFiName</key>
+		<string>Dandelion Café Bar</string>
+	</dict>
+	<dict>
+		<key>WiFiAddress</key>
+		<string>49 Clarendon Street, Dublin 2</string>
+		<key>WiFiLat</key>
+		<real>53.34202</real>
+		<key>WiFiLong</key>
+		<real>-6.261354</real>
+		<key>WiFiName</key>
+		<string>AYA Food Bar</string>
+	</dict>
+	<dict>
+		<key>WiFiAddress</key>
+		<string>Lower Mayor Street, Dublin 1</string>
+		<key>WiFiLat</key>
+		<string>53.349161</string>
+		<key>WiFiLong</key>
+		<string>-6.243281</string>
+		<key>WiFiName</key>
+		<string>Subway</string>
+	</dict>
+	<dict>
+		<key>WiFiAddress</key>
+		<string>1-10 Oriel Hall, Dublin 1</string>
+		<key>WiFiLat</key>
+		<real>53.352056</real>
+		<key>WiFiLong</key>
+		<real>-6.243968</real>
+		<key>WiFiName</key>
+		<string>Matthew&apos;s Free Wifi</string>
+	</dict>
+	<dict>
+		<key>WiFiAddress</key>
+		<string>85 Lower Gardener Street, Dublin 1</string>
+		<key>WiFiLat</key>
+		<real>53.351492</real>
+		<key>WiFiLong</key>
+		<real>-6.255169</real>
+		<key>WiFiName</key>
+		<string>World Link E</string>
+	</dict>
+	<dict>
+		<key>WiFiAddress</key>
+		<string>94-95 Talbot Street, Dublin 1</string>
+		<key>WiFiLat</key>
+		<real>53.350288</real>
+		<key>WiFiLong</key>
+		<real>-6.257186</real>
+		<key>WiFiName</key>
+		<string>Days Inn Talbot Street</string>
+	</dict>
+	<dict>
+		<key>WiFiAddress</key>
+		<string>168 Capel Street, Dublin 1</string>
+		<key>WiFiLat</key>
+		<real>53.346779</real>
+		<key>WiFiLong</key>
+		<real>-6.268258</real>
+		<key>WiFiName</key>
+		<string>Slatterys</string>
+	</dict>
+	<dict>
+		<key>WiFiAddress</key>
+		<string>40 Lower Ormond Quay, Dublin 1</string>
+		<key>WiFiLat</key>
+		<real>53.346551</real>
+		<key>WiFiLong</key>
+		<real>-6.263773</real>
+		<key>WiFiName</key>
+		<string>Winding Stair Bookshop &amp; Café</string>
+	</dict>
+	<dict>
+		<key>WiFiAddress</key>
+		<string>75-68 Jervis Street, Dublin 1</string>
+		<key>WiFiLat</key>
+		<real>53.348652</real>
+		<key>WiFiLong</key>
+		<real>-6.266456</real>
+		<key>WiFiName</key>
+		<string>The Church Pub</string>
+	</dict>
+	<dict>
+		<key>WiFiAddress</key>
+		<string>Ilac Centre, Dublin 1</string>
+		<key>WiFiLat</key>
+		<real>53.348665</real>
+		<key>WiFiLong</key>
+		<real>-6.262636</real>
+		<key>WiFiName</key>
+		<string>Dublin Central Library</string>
+	</dict>
+	<dict>
+		<key>WiFiAddress</key>
+		<string>Cavendish Row Upper, Dublin 1</string>
+		<key>WiFiLat</key>
+		<real>53.3527</real>
+		<key>WiFiLong</key>
+		<real>-6.261349</real>
+		<key>WiFiName</key>
+		<string>Cassidy&apos;s Hotel</string>
+	</dict>
+	<dict>
+		<key>WiFiAddress</key>
+		<string>Talbot Place, Dublin 1</string>
+		<key>WiFiLat</key>
+		<real>53.35042</real>
+		<key>WiFiLong</key>
+		<real>-6.25195</real>
+		<key>WiFiName</key>
+		<string>Isaac&apos;s Hostel</string>
+	</dict>
+	<dict>
+		<key>WiFiAddress</key>
+		<string>10-12 Westmoreland Street, Dublin 2</string>
+		<key>WiFiLat</key>
+		<real>53.34609</real>
+		<key>WiFiLong</key>
+		<real>-6.258988</real>
+		<key>WiFiName</key>
+		<string>Dublin School of English</string>
+	</dict>
+	<dict>
+		<key>WiFiAddress</key>
+		<string>10-14 Findlater Place, Dublin 1</string>
+		<key>WiFiLat</key>
+		<real>53.352471</real>
+		<key>WiFiLong</key>
+		<real>-6.259793</real>
+		<key>WiFiName</key>
+		<string>Best Western Academy Plaza</string>
+	</dict>
+	<dict>
+		<key>WiFiAddress</key>
+		<string>3 Dawson Street, Dublin 2</string>
+		<key>WiFiLat</key>
+		<real>53.34262</real>
+		<key>WiFiLong</key>
+		<real>-6.25769</real>
+		<key>WiFiName</key>
+		<string>Farm Food Emporium</string>
+	</dict>
+	<dict>
+		<key>WiFiAddress</key>
+		<string>Balfe Street, Dublin 2</string>
+		<key>WiFiLat</key>
+		<real>53.341435</real>
+		<key>WiFiLong</key>
+		<real>-6.261284</real>
+		<key>WiFiName</key>
+		<string>Westbury Hotel</string>
+	</dict>
+	<dict>
+		<key>WiFiAddress</key>
+		<string>16 Fitzwilliam Lane, Dublin 2</string>
+		<key>WiFiLat</key>
+		<real>53.338546</real>
+		<key>WiFiLong</key>
+		<real>-6.251682</real>
+		<key>WiFiName</key>
+		<string>Itsa Bagel</string>
+	</dict>
+	<dict>
+		<key>WiFiAddress</key>
+		<string>Upper Merrion Street, Dublin 2</string>
+		<key>WiFiLat</key>
+		<real>53.33886</real>
+		<key>WiFiLong</key>
+		<real>-6.25268</real>
+		<key>WiFiName</key>
+		<string>Merrion Hotel</string>
+	</dict>
+	<dict>
+		<key>WiFiAddress</key>
+		<string>60 Harcourt Street, Dublin 2</string>
+		<key>WiFiLat</key>
+		<real>53.334203</real>
+		<key>WiFiLong</key>
+		<real>-6.262872</real>
+		<key>WiFiName</key>
+		<string>Harcourt Hotel</string>
+	</dict>
+	<dict>
+		<key>WiFiAddress</key>
+		<string>68 Aungier Street, Dublin 2</string>
+		<key>WiFiLat</key>
+		<real>53.340603</real>
+		<key>WiFiLong</key>
+		<real>-6.265812</real>
+		<key>WiFiName</key>
+		<string>Milk &amp; Honey</string>
+	</dict>
+	<dict>
+		<key>WiFiAddress</key>
+		<string>32 Clarendon Street, Dublin 2</string>
+		<key>WiFiLat</key>
+		<real>53.342006</real>
+		<key>WiFiLong</key>
+		<real>-6.261445</real>
+		<key>WiFiName</key>
+		<string>The Clarendon Hotel</string>
+	</dict>
+	<dict>
+		<key>WiFiAddress</key>
+		<string>13 Dame Court, Dublin 2</string>
+		<key>WiFiLat</key>
+		<real>53.343094</real>
+		<key>WiFiLong</key>
+		<real>-6.263709</real>
+		<key>WiFiName</key>
+		<string>Odessa Club</string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>pubAddress</key>
+		<string>24 Upper Camden Street, Dublin 2</string>
+		<key>pubBlurb</key>
+		<string>The Bleeding Horse follows an age-old formula - friendly staff, warm atmosphere and stout of epic quality. Established in 1649, this pub has hosted such literary greats as Joyce, Gogarty and Dunleavy. Late openings on weekends.</string>
+		<key>pubLat</key>
+		<string>53.333590</string>
+		<key>pubLong</key>
+		<string>-6.2649</string>
+		<key>pubName</key>
+		<string>Bleeding Horse</string>
+		<key>pubPhoto</key>
+		<string>bleeding horse.png</string>
+	</dict>
+	<dict>
+		<key>pubAddress</key>
+		<string>75 Dame Street, Dublin 2</string>
+		<key>pubBlurb</key>
+		<string>Brogan&apos;s is a great little family pub with a local crowd and a warm atmosphere. A cosy little bar, located in the heart of the city, with authenticity at its core, and staff that are always willing to engage in banter.</string>
+		<key>pubLat</key>
+		<string>53.344243</string>
+		<key>pubLong</key>
+		<string>-6.266445</string>
+		<key>pubName</key>
+		<string>Brogan&apos;s</string>
+		<key>pubPhoto</key>
+		<string>brogans.png</string>
+	</dict>
+	<dict>
+		<key>pubAddress</key>
+		<string>18 Dame Court, Dublin 2</string>
+		<key>pubBlurb</key>
+		<string>A great place to hide from the big bad city for a few hours, this is a small pub that&apos;s often overlooked, but is bursting with authentic charm. Sunday afternoons means trad music sessions.</string>
+		<key>pubLat</key>
+		<string>53.343833</string>
+		<key>pubLong</key>
+		<string>-6.263634</string>
+		<key>pubName</key>
+		<string>Dame Tavern</string>
+		<key>pubPhoto</key>
+		<string>dame_tav.jpg</string>
+	</dict>
+	<dict>
+		<key>pubAddress</key>
+		<string>11 Wexford Street, Dublin 2</string>
+		<key>pubBlurb</key>
+		<string>Another great little bar to support Wexford Street&apos;s bid to beat Temple Bar for a great night out, Against the Grain offers a wide selection of craft beers from around the world. The atmosphere is laid back and loads of fun - the perfect place to unwind over a specialist beer.</string>
+		<key>pubLat</key>
+		<string>53.337318</string>
+		<key>pubLong</key>
+		<string>-6.265558</string>
+		<key>pubName</key>
+		<string>Against the Grain</string>
+		<key>pubPhoto</key>
+		<string>againstthegrain.jpg</string>
+	</dict>
+	<dict>
+		<key>pubAddress</key>
+		<string>51 South Great George&apos;s Street, Dublin 2</string>
+		<key>pubBlurb</key>
+		<string>A genuine old man&apos;s bar, the sort of place that hasn&apos;t changed much since the introduction of indoor latrines and electric lighting. When the atmosphere is this good, you can only hope it will never find need to change.</string>
+		<key>pubLat</key>
+		<string>53.341732</string>
+		<key>pubLong</key>
+		<string>-6.265254</string>
+		<key>pubName</key>
+		<string>Long Hall</string>
+		<key>pubPhoto</key>
+		<string>long hall.png</string>
+	</dict>
+	<dict>
+		<key>pubAddress</key>
+		<string>3 Harry Street, Dublin 2</string>
+		<key>pubBlurb</key>
+		<string>A fine little pub in the heart of the shopping district, the perfect venue for some respite from the hustle and bustle of the city. The distinctive Victorian exterior offers an insight into the time-honoured tradition available inside. Once inside, it&apos;s entirely possible to forget about the world outside to such an extent that you may not emerge with much of the day left.</string>
+		<key>pubLat</key>
+		<string>53.341251</string>
+		<key>pubLong</key>
+		<string>-6.260914</string>
+		<key>pubName</key>
+		<string>McDaids</string>
+		<key>pubPhoto</key>
+		<string>mcdaids.png</string>
+	</dict>
+	<dict>
+		<key>pubAddress</key>
+		<string>9 Anne Street South, Dublin 2</string>
+		<key>pubBlurb</key>
+		<string>Kehoe&apos;s enjoys a first rate reputation amoung locals and tourists alike. This is probably down to the excellent pint of &quot;plain&quot; served here, and the very traditional, cosy feel doesn&apos;t hurt either. The pub offers the same basic formula all day and late into the night, and attracts a bubbly mixed crowd.</string>
+		<key>pubLat</key>
+		<string>53.341213</string>
+		<key>pubLong</key>
+		<string>-6.259439</string>
+		<key>pubName</key>
+		<string>Kehoe&apos;s</string>
+		<key>pubPhoto</key>
+		<string>kehoes.png</string>
+	</dict>
+	<dict>
+		<key>pubAddress</key>
+		<string>Fleet Street, Temple Bar, Dublin 2</string>
+		<key>pubBlurb</key>
+		<string>The Palace Bar is one of the best kept secrets of Temple Bar. While the unassuming front may not give much away, inside is a genuine traditional pub in every sense. The location means it does fill up on weekend nights, but if you&apos;re early and get a seat, you won&apos;t need to leave for a long time.</string>
+		<key>pubLat</key>
+		<string>53.34587</string>
+		<key>pubLong</key>
+		<string>-6.259621</string>
+		<key>pubName</key>
+		<string>Palace Bar</string>
+		<key>pubPhoto</key>
+		<string>palace.png</string>
+	</dict>
+	<dict>
+		<key>pubAddress</key>
+		<string>16 Parliament Street, Temple Bar, Dublin 2</string>
+		<key>pubBlurb</key>
+		<string>The Porter House offers many different pubs in one. During the afternoon and early evening, this is a great spot to stop in for a break from the sight-seeing, while in the evening it attracts a great blend of local and international patrons. Over 100 beers brewed on site in their own micro-brewery.</string>
+		<key>pubLat</key>
+		<string>53.345053</string>
+		<key>pubLong</key>
+		<string>-6.267378</string>
+		<key>pubName</key>
+		<string>PorterHouse</string>
+		<key>pubPhoto</key>
+		<string>phlogo.png</string>
+	</dict>
+	<dict>
+		<key>pubAddress</key>
+		<string>9 Duke Street, Dublin 2</string>
+		<key>pubBlurb</key>
+		<string>The Duke is a great kick-off point for an evening&apos;s adventure. A rambling expanse inside, frequented by some of Dublin&apos;s literary greats, and many modern folk in search of genuine atmosphere, cosy spaces and fine stout.</string>
+		<key>pubLat</key>
+		<string>53.34194</string>
+		<key>pubLong</key>
+		<string>-6.258785</string>
+		<key>pubName</key>
+		<string>The Duke</string>
+		<key>pubPhoto</key>
+		<string>theduke.png</string>
+	</dict>
+</array>
+</plist>

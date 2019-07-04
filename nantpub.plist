@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>pubName</key>
+		<string>The Black Lion</string>
+		<key>pubAddress</key>
+		<string>29 Welsh Row, Nantwich</string>
+		<key>pubPhoto</key>
+		<string>blacklion.jpg</string>
+		<key>pubLat</key>
+		<real>53.067735</real>
+		<key>pubLong</key>
+		<real>-2.525909</real>
+		<key>pubBlurb</key>
+		<string>The Black Lion is a quaint old pub, built on a fine english tradition. Inside you&apos;ll find a roaring fire, good honest food, a warm social atmosphere and a wide variety of beers. Upstairs offers a secluded atmosphere for those after a more intimate concourse</string>
+	</dict>
+	<dict>
+		<key>pubName</key>
+		<string>OddFellows</string>
+		<key>pubAddress</key>
+		<string>97 Welsh Row, Nantwich</string>
+		<key>pubPhoto</key>
+		<string>oddfellows.jpg</string>
+		<key>pubLat</key>
+		<real>53.067708</real>
+		<key>pubLong</key>
+		<real>-2.52937</real>
+		<key>pubBlurb</key>
+		<string>OddFellows is a nice old world pub, with a large selection of traditional cask ales, and an odd selection of traditional board games. One reason to visit this pub on a sunny day is the beautiful garden to the rear</string>
+	</dict>
+	<dict>
+		<key>pubName</key>
+		<string>The Residence</string>
+		<key>pubAddress</key>
+		<string>9 Mill Street, Nantwich</string>
+		<key>pubPhoto</key>
+		<string>residence.jpg</string>
+		<key>pubLat</key>
+		<real>53.066441</real>
+		<key>pubLong</key>
+		<real>-2.52302</real>
+		<key>pubBlurb</key>
+		<string>The Residence is where to go if you desire a bit of genuine sophistication, and a good cocktail. The bar is attached to a restaurant, but both are kept suitably seperate. The weekend music offering is usually more intelligent than most.</string>
+	</dict>
+	<dict>
+		<key>pubName</key>
+		<string>The Bowling Green</string>
+		<key>pubAddress</key>
+		<string>The Gullet, Nantwich</string>
+		<key>pubPhoto</key>
+		<string>bowlinggreen.jpg</string>
+		<key>pubLat</key>
+		<real>53.066801</real>
+		<key>pubLong</key>
+		<real>-2.519195</real>
+		<key>pubBlurb</key>
+		<string>The Bowling Green is the unofficial student pub of the area. In the summer, the large gardens offer alot of shade and space. In the winter, the pool table and wide juke box selection mean you should be easily kept entertained</string>
+	</dict>
+	<dict>
+		<key>pubName</key>
+		<string>The Boot and Shoe</string>
+		<key>pubAddress</key>
+		<string>82 Hospital Street, Nantwich</string>
+		<key>pubPhoto</key>
+		<string>bootandshoe.jpg</string>
+		<key>pubLat</key>
+		<real>53.066029</real>
+		<key>pubLong</key>
+		<real>-2.518423</real>
+		<key>pubBlurb</key>
+		<string>The Boot and Shoe is a traditional english pub, complete with slot machines, large screen tvs and traditional pub grub menu. The layout is busy, but offers many corners for small groups, making the overall experience a touch more intitmate</string>
+	</dict>
+	<dict>
+		<key>pubName</key>
+		<string>Nakatcha</string>
+		<key>pubAddress</key>
+		<string>20 Welsh Row, Nantwich</string>
+		<key>pubPhoto</key>
+		<string>nakatcha.jpg</string>
+		<key>pubLat</key>
+		<real>53.067743</real>
+		<key>pubLong</key>
+		<real>-2.525485</real>
+		<key>pubBlurb</key>
+		<string>The &quot;Rat Catcher&quot; is a decent late night bar, offering a contemporary menu during the day and djs and late bars through the night. The large front bar doubles as a restaurant, there&apos;s an exclusive private bar upstairs and a reasonable size patio area.</string>
+	</dict>
+	<dict>
+		<key>pubName</key>
+		<string>Curshaws</string>
+		<key>pubAddress</key>
+		<string>26 Welsh Row, Nantwich</string>
+		<key>pubPhoto</key>
+		<string>curshaws.jpg</string>
+		<key>pubLat</key>
+		<real>53.067791</real>
+		<key>pubLong</key>
+		<real>-2.525761</real>
+		<key>pubBlurb</key>
+		<string>Curshaws is also widely known as the Cat, mainly because even the owners can&apos;t decide on what to call it, regularly branding it as either or both at various intervals. The building is a fine old building, complete with low beams and ceilings, open fires and sloping walls. The decor compliments this with modern fittings and a whole lot of glass. Upstairs is a restuarant that&apos;s best avoided on a weeknight</string>
+	</dict>
+	<dict>
+		<key>pubName</key>
+		<string>The Malbank Hotel</string>
+		<key>pubAddress</key>
+		<string>14 Beam Street, Nantwich</string>
+		<key>pubPhoto</key>
+		<string>malbank.jpg</string>
+		<key>pubLat</key>
+		<real>53.068323</real>
+		<key>pubLong</key>
+		<real>-2.522183</real>
+		<key>pubBlurb</key>
+		<string>The Malbank is a nice alternative to start the evening, but the crowd seems to peak about 10pm, before people move on to other pubs in search of later fun and games. The pub itself is pretty run of the mill, but don&apos;t go asking about the hotel, it&apos;s long since closed</string>
+	</dict>
+	<dict>
+		<key>pubName</key>
+		<string>The Union Vaults</string>
+		<key>pubAddress</key>
+		<string>Oatmarket, Nantwich</string>
+		<key>pubPhoto</key>
+		<string>union.jpg</string>
+		<key>pubLat</key>
+		<real>53.067881</real>
+		<key>pubLong</key>
+		<real>-2.522754</real>
+		<key>pubBlurb</key>
+		<string>The Union is located in the heart of the town, and offers large screen sports. Apart from that, you can keep yourself amused with slot machines and music videos which sometimes match the actual music in the pub. Why?</string>
+	</dict>
+	<dict>
+		<key>pubName</key>
+		<string>The Rifleman</string>
+		<key>pubAddress</key>
+		<string>68 James Hall Street, Nantwich</string>
+		<key>pubPhoto</key>
+		<string>rifleman.jpg</string>
+		<key>pubLat</key>
+		<real>53.072083</real>
+		<key>pubLong</key>
+		<real>-2.517886</real>
+		<key>pubBlurb</key>
+		<string>The Rifleman is not as scary as the name might suggest. It has a large garden plot out front, some parking, and a pool table. Very much a neighbourhood local in the first instance, it does warrant attention for the various live music acts and homely atmosphere, which is nice, if you like that sort of thing</string>
+	</dict>
+</array>
+</plist>

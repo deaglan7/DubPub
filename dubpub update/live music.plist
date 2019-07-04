@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>pubAddress</key>
+		<string>47-48 Temple Bar, Dublin 2</string>
+		<key>pubBlurb</key>
+		<string>This great pub is the focal point of the Temple Bar area. A truly historic pub with live traditional music daily, excellent oysters and whiskies, loads of old world style snugs and crannies, superb heated beer garden and excellent atmosphere and service.</string>
+		<key>pubLat</key>
+		<string>53.345485</string>
+		<key>pubLong</key>
+		<string>-6.26416</string>
+		<key>pubName</key>
+		<string>The Temple Bar</string>
+		<key>pubPhoto</key>
+		<string>templebar.png</string>
+	</dict>
+	<dict>
+		<key>pubAddress</key>
+		<string>10 Wellington Quay, Dublin 2</string>
+		<key>pubBlurb</key>
+		<string>The Workman's Club is a buzzing live music venue, with five distinct spaces, including a venue space and associated bar, two bars upstairs, and a rooftop bar. The musical offerings are varied and mostly free, with ticketed events every few weeks in the venue. Easily the loudest night out that Dublin can offer. </string>
+		<key>pubLat</key>
+		<string>53.345504</string>
+		<key>pubLong</key>
+		<string>-6.266450</string>
+		<key>pubName</key>
+		<string>The Workman's Club</string>
+		<key>pubPhoto</key>
+		<string>the_workmans_club.gif</string>
+	</dict>
+	<dict>
+		<key>pubAddress</key>
+		<string>1 Upper Fownes Street, Dublin 2</string>
+		<key>pubBlurb</key>
+		<string>The Foggy Dew was made famous by the Dubliners, and many a dubliner will attest to it&apos;s enduring attraction. Live music on a saturday night, with DJs seeing out the night Thursday thru Sunday. Go there for the jingle and the jangle.</string>
+		<key>pubLat</key>
+		<string>53.344313</string>
+		<key>pubLong</key>
+		<string>-6.263441</string>
+		<key>pubName</key>
+		<string>Foggy Dew</string>
+		<key>pubPhoto</key>
+		<string>foggydew.png</string>
+	</dict>
+	<dict>
+		<key>pubAddress</key>
+		<string>23 Wicklow Street, Dublin 2</string>
+		<key>pubBlurb</key>
+		<string>The International Bar is a lot of things to a lot of people. There is live comedy seven nights a week, live music ranging from R&amp;B to trad on a Sunday afternoon, along with live theatre and occasional poetry and songwriting.</string>
+		<key>pubLat</key>
+		<string>53.343128</string>
+		<key>pubLong</key>
+		<string>-6.262132</string>
+		<key>pubName</key>
+		<string>International Bar</string>
+		<key>pubPhoto</key>
+		<string>InternationalBarStreetShot.png</string>
+	</dict>
+	<dict>
+		<key>pubAddress</key>
+		<string>12 Aungier Street, Dublin 2</string>
+		<key>pubBlurb</key>
+		<string>JJ Smyths is the place to go for live jazz and blues. The upstairs venue hosts live music 6 nights a week. One for the discerning client.</string>
+		<key>pubLat</key>
+		<string>53.34072</string>
+		<key>pubLong</key>
+		<string>-6.265619</string>
+		<key>pubName</key>
+		<string>JJ Smyths</string>
+		<key>pubPhoto</key>
+		<string>jjsmyths.png</string>
+	</dict>
+	<dict>
+		<key>pubAddress</key>
+		<string>23 Eustace Street, Temple Bar, Dublin 2</string>
+		<key>pubBlurb</key>
+		<string>A great live music venue in the heart of Temple Bar. There is a rock focus in the bar, with no cover, cheap drink and an energetic crowd. Weekends are always busy, and the atmosphere can get heated!</string>
+		<key>pubLat</key>
+		<string>53.344723</string>
+		<key>pubLong</key>
+		<string>-6.264728</string>
+		<key>pubName</key>
+		<string>Mezz</string>
+		<key>pubPhoto</key>
+		<string>mezz.png</string>
+	</dict>
+	<dict>
+		<key>pubAddress</key>
+		<string>35 Lower Liffey Street, Dublin 1</string>
+		<key>pubBlurb</key>
+		<string>A dedicated new music hub, this recent addition to the Dublin live music circut also boasts DJs, comedy, local art exhibitions and even a flea market on a Saturday afternoon.</string>
+		<key>pubLat</key>
+		<string>53.346914</string>
+		<key>pubLong</key>
+		<string>-6.263419</string>
+		<key>pubName</key>
+		<string>The Grand Social</string>
+		<key>pubPhoto</key>
+		<string>grandsocial.png</string>
+	</dict>
+	<dict>
+		<key>pubAddress</key>
+		<string>8 Lower Lesson Street, Dublin 2</string>
+		<key>pubBlurb</key>
+		<string>A distinct cultural space, the Sugar Club exists to give voice to the overflowing creative talents of the city, hosting comedy, film, design, animation, theatre and of course live music. Eclectic selection, never fails to entertain.</string>
+		<key>pubLat</key>
+		<string>53.335652</string>
+		<key>pubLong</key>
+		<string>-6.256714</string>
+		<key>pubName</key>
+		<string>Sugar Club</string>
+		<key>pubPhoto</key>
+		<string>sugarclub.png</string>
+	</dict>
+	<dict>
+		<key>pubAddress</key>
+		<string>80 Parnell Street, Dublin 1</string>
+		<key>pubBlurb</key>
+		<string>A veritable rock institution, Fibber's has been proudly serving up heavy metal and alternative music in dark and sweaty surroundings since before most of us were born! Music on every night, and late opening.</string>
+		<key>pubLat</key>
+		<string>53.352767</string>
+		<key>pubLong</key>
+		<string>-6.260952</string>
+		<key>pubName</key>
+		<string>Fibber Magees</string>
+		<key>pubPhoto</key>
+		<string>fibbers.jpg</string>
+	</dict>
+	<dict>
+		<key>pubAddress</key>
+		<string>26 Wexford Street, Dublin 2</string>
+		<key>pubBlurb</key>
+		<string>The Village is one of the heavy hitters on the live music circuit, and never fails to keep the locals interested with the program. The venue has grown over the years, in line with its reputation, and now offers a trad music venue front of house, and a concert venue which turns into a night club at the rear of house.</string>
+		<key>pubLat</key>
+		<string>53.336658</string>
+		<key>pubLong</key>
+		<string>-6.265662</string>
+		<key>pubName</key>
+		<string>Village @ Whelans</string>
+		<key>pubPhoto</key>
+		<string>thevillage.png</string>
+	</dict>
+</array>
+</plist>

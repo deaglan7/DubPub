@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>pubAddress</key>
+		<string>47 Nassau Street, Dublin 2</string>
+		<key>pubBlurb</key>
+		<string>The PorterHouse Central is a sister pub of the original PorterHouse in Temple Bar. Central offers the same unique range of beers brewed by the company, with occasional guest beers as well. Unlike the original, Central offers wide-open spaces, all on the same floor, which means the atmosphere is more charged once the music picks up. DJs and late openings all weekend. </string>
+		<key>pubLat</key>
+		<string>53.343083</string>
+		<key>pubLong</key>
+		<string>-6.258881</string>
+		<key>pubName</key>
+		<string>PorterHouse Central</string>
+		<key>pubPhoto</key>
+		<string>portercentral</string>
+	</dict>
+	<dict>
+		<key>pubAddress</key>
+		<string>9 Duke Street, Dublin 2</string>
+		<key>pubBlurb</key>
+		<string>The Duke is a great kick-off point for an evening&apos;s adventure. A rambling expanse inside, frequented by some of Dublin&apos;s literary greats, and many modern folk in search of genuine atmosphere, cosy spaces and fine stout.</string>
+		<key>pubLat</key>
+		<string>53.34194</string>
+		<key>pubLong</key>
+		<string>-6.258785</string>
+		<key>pubName</key>
+		<string>The Duke</string>
+		<key>pubPhoto</key>
+		<string>theduke.png</string>
+	</dict>
+	<dict>
+		<key>pubAddress</key>
+		<string>26 Wexford Street, Dublin 2</string>
+		<key>pubBlurb</key>
+		<string>The Village is one of the heavy hitters on the live music circuit, and never fails to keep the locals interested with the program. The venue has grown over the years, in line with its reputation, and now offers a trad music venue front of house, and a concert venue which turns into a night club at the rear of house.</string>
+		<key>pubLat</key>
+		<string>53.336658</string>
+		<key>pubLong</key>
+		<string>-6.265662</string>
+		<key>pubName</key>
+		<string>Village @ Whelans</string>
+		<key>pubPhoto</key>
+		<string>thevillage.png</string>
+	</dict>
+	<dict>
+		<key>pubAddress</key>
+		<string>South Great Georges Street, Dublin 2</string>
+		<key>pubBlurb</key>
+		<string>Hogans is a lively pub playing alternative music to a burgeoning crowd of hipsters and generation Xs. The basement offers a genuine club atmosphere, and upstairs is a lively pub. Late opening all weekend.</string>
+		<key>pubLat</key>
+		<string>53.341911</string>
+		<key>pubLong</key>
+		<string>-6.264836</string>
+		<key>pubName</key>
+		<string>Hogans</string>
+		<key>pubPhoto</key>
+		<string>hogansnight.jpg</string>
+	</dict>
+	<dict>
+		<key>pubAddress</key>
+		<string>77 King Street North, Smithfield, Dublin 7</string>
+		<key>pubBlurb</key>
+		<string>The Cobblestone might be a little off the beaten track, but that only adds to its authentic charm. A hidden gem, combining the best trad in the city with a great local flavour.</string>
+		<key>pubLat</key>
+		<string>53.349786</string>
+		<key>pubLong</key>
+		<string>-6.277823</string>
+		<key>pubName</key>
+		<string>Cobblestone</string>
+		<key>pubPhoto</key>
+		<string>cobblestone.png</string>
+	</dict>
+</array>
+</plist>

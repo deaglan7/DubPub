@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>pubAddress</key>
+		<string>20 Bridge Street Lower, Dublin 8</string>
+		<key>pubBlurb</key>
+		<string>The Brazen Head is known as the oldest pub in Dublin. Situated on the western edge of the city centre, the pub is well known amoung tourists and locals alike for its warm atmosphere and excellent food.</string>
+		<key>pubLat</key>
+		<string>53.345197</string>
+		<key>pubLong</key>
+		<string>-6.276133</string>
+		<key>pubName</key>
+		<string>Brazen Head</string>
+		<key>pubPhoto</key>
+		<string>brazen head.png</string>
+	</dict>
+	<dict>
+		<key>pubAddress</key>
+		<string>2 Upper Camden Street, Dublin 2</string>
+		<key>pubBlurb</key>
+		<string>Devitts is simply a great old man&apos;s pub, where toasted sandwiches are the food of choice, and decor straight from the 80s.</string>
+		<key>pubLat</key>
+		<string>53.335577</string>
+		<key>pubLong</key>
+		<string>-6.265388</string>
+		<key>pubName</key>
+		<string>Devitts</string>
+		<key>pubPhoto</key>
+		<string>devitts.png</string>
+	</dict>
+	<dict>
+		<key>pubAddress</key>
+		<string>77 King Street North, Smithfield, Dublin 7</string>
+		<key>pubBlurb</key>
+		<string>The Cobblestone might be a little off the beaten track, but that only adds to its authentic charm. A hidden gem, combining the best trad in the city with a great local flavour.</string>
+		<key>pubLat</key>
+		<string>53.349786</string>
+		<key>pubLong</key>
+		<string>-6.277823</string>
+		<key>pubName</key>
+		<string>Cobblestone</string>
+		<key>pubPhoto</key>
+		<string>cobblestone.png</string>
+	</dict>
+	<dict>
+		<key>pubAddress</key>
+		<string>17 Angelsea St. Dublin 2</string>
+		<key>pubBlurb</key>
+		<string>The Auld Dubliner is located right in the heart of Temple Bar, offering an ideal location and great atmosphere.</string>
+		<key>pubLat</key>
+		<string>53.345556</string>
+		<key>pubLong</key>
+		<string>-6.261896</string>
+		<key>pubName</key>
+		<string>Auld Dubliner</string>
+		<key>pubPhoto</key>
+		<string>aulddubliner.png</string>
+	</dict>
+	<dict>
+		<key>pubAddress</key>
+		<string>21-22 Wellington Quay, Temple Bar, Dublin 2</string>
+		<key>pubBlurb</key>
+		<string>Fitzsimons is located right in the heart of Temple Bar, and offers live music every night. The pub is attached to a hotel, which also includes a popular tourist night spot in the basement.</string>
+		<key>pubLat</key>
+		<string>53.345639</string>
+		<key>pubLong</key>
+		<string>-6.265147</string>
+		<key>pubName</key>
+		<string>Fitzsimons</string>
+		<key>pubPhoto</key>
+		<string>fitzsimons.png</string>
+	</dict>
+	<dict>
+		<key>pubAddress</key>
+		<string>5 Queen Street, Smithfield, Dublin 7</string>
+		<key>pubBlurb</key>
+		<string>One for the intrepid fan, another hidden gem. Located away from the main tourist trails, what this pub lacks in convenient location, it makes up for in spades with its renowned sessions. This is definietly worth the trip.</string>
+		<key>pubLat</key>
+		<string>53.347022</string>
+		<key>pubLong</key>
+		<string>-6.280124</string>
+		<key>pubName</key>
+		<string>Frank Ryans</string>
+		<key>pubPhoto</key>
+		<string>frankryans.png</string>
+	</dict>
+	<dict>
+		<key>pubAddress</key>
+		<string>20 Fleet Street, Temple Bar, Dublin 2</string>
+		<key>pubBlurb</key>
+		<string>Oliver St John Gogarty&apos;s is another popular destination for tourists, owning to its prime location in the heart of Temple Bar, and its welcoming atmosphere. While the paintwork on the outside may alarm, inside this is every bit the authentic Irish pub, albeit with a mix of international clientele beyond the reach of most of its competitors!</string>
+		<key>pubLat</key>
+		<string>53.345581</string>
+		<key>pubLong</key>
+		<string>-6.261681</string>
+		<key>pubName</key>
+		<string>Oliver St John Gogarty&apos;s</string>
+		<key>pubPhoto</key>
+		<string>gogartys.png</string>
+	</dict>
+	<dict>
+		<key>pubAddress</key>
+		<string>15 Merrion Row, Dublin 2</string>
+		<key>pubBlurb</key>
+		<string>O&apos;Donoghues is another example of the genuine article. In fact, it may well be the master sample! Regardless, one thing for sure is this pub has a proud position at the top of the city&apos;s trad music circuit, and attracts many famous faces.</string>
+		<key>pubLat</key>
+		<string>53.338433</string>
+		<key>pubLong</key>
+		<string>-6.255147</string>
+		<key>pubName</key>
+		<string>O&apos;Donoghue&apos;s</string>
+		<key>pubPhoto</key>
+		<string>odonoghues.png</string>
+	</dict>
+	<dict>
+		<key>pubAddress</key>
+		<string>12 Bridge Street, Dublin 8</string>
+		<key>pubBlurb</key>
+		<string>O&apos;Sheas is a venue with something to offer almost everyone. Its cavernous interior and wide selection of beverages means you&apos;re sure to have a different experience every time you visit. Also a great place to go on a Sunday afternoon, for the excellent carvery lunch.</string>
+		<key>pubLat</key>
+		<string>53.345104</string>
+		<key>pubLong</key>
+		<string>-6.275715</string>
+		<key>pubName</key>
+		<string>O&apos;Shea&apos;s</string>
+		<key>pubPhoto</key>
+		<string>oheas.png</string>
+	</dict>
+	<dict>
+		<key>pubAddress</key>
+		<string>25 Wexford street, Dublin 2</string>
+		<key>pubBlurb</key>
+		<string>Whelans has built itself up over the years to be one of the premier venues for live music in the city. While the pub remains true to its roots of trad music, the same venue will offer live concerts for promenent mainstream Irish artists, and the nightclub plays host to some of the funkiest nights in town.</string>
+		<key>pubLat</key>
+		<string>53.336767</string>
+		<key>pubLong</key>
+		<string>-6.265726</string>
+		<key>pubName</key>
+		<string>Whelans</string>
+		<key>pubPhoto</key>
+		<string>whelans.png</string>
+	</dict>
+</array>
+</plist>
